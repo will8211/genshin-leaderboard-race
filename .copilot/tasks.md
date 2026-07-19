@@ -19,6 +19,9 @@
 3. Preserve stage boundaries: manifest, HTML cache, extraction, CSV.
 4. Emit diagnostics for all unresolved or failed units.
 5. Use `uv run ...` for Python command execution; do not manually create or activate virtualenvs.
+6. At the end of every phase, update all relevant README files before marking the phase complete.
+7. At the end of every phase, add or update unit tests for changed behavior before marking the phase complete.
+8. At the end of every phase, run the full test suite (including existing tests) and record pass/fail status.
 
 ## Phase 1: Project foundation and contracts
 1. Create root uv project scaffold and shared tool config.
@@ -148,6 +151,9 @@
 1. All phase exit criteria are met.
 2. Diagnostics are available for unresolved or failed versions.
 3. CSV output is validated and usable for intended Flourish visualization.
+4. Root and folder-level README files are updated to reflect final state of each completed phase.
+5. Unit tests for new or changed behavior are present.
+6. Full test suite has been run successfully at final phase completion.
 
 ## Acceptance checklist for Milestone 3
 1. Task ordering and dependencies are clear.

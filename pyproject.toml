@@ -24,3 +24,8 @@ packages = [
   "archive_tooling",
   "extract_transform",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

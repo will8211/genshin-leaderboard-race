@@ -1,34 +1,29 @@
 # genshin-leaderboard-race
 
-Tooling workspace for extracting historical Game8 Genshin rankings from Wayback snapshots and transforming them into Flourish line chart race CSV files.
+Tooling workspace for working with historical Game8 Genshin rankings from Wayback snapshots.
 
-## Project goal
-Build a repeatable pipeline with clear stage boundaries:
+## Current scope
 1. Parse release ticks from `releases_genshin.md`.
 2. Select one canonical Wayback snapshot per release version.
-3. Cache raw archived HTML for stable, iterative parser development.
-4. Extract normalized rankings JSON.
+3. Cache raw archived HTML and metadata.
+4. Inspect and diff cached HTML structure.
+5. Validate completed artifact layers.
 
 ## Environment model
 - Use `uv` as the environment and command runner.
 - Do not manually create or activate a virtual environment.
 - Run Python tooling through `uv run ...`.
 
-## Current implementation status
-1. Phase 1 complete: root project scaffold, schemas, and CLI entrypoints.
-2. Phase 2 complete: release tick parser, CDX fetch/cache, manifest selector, and candidate inspection.
-3. Phase 3 complete: canonical HTML fetch/cache, checksum metadata, structural inspection, structure diff, and missing-cache reporting.
-4. Completed-work validation closeout complete: timeline/manifest/cache validation and run-summary reporting.
-5. Phase 4 in progress: extraction strategy implementation.
-6. Forward planning is tracked in `TO_DO.md` while exploratory extraction spikes are underway.
+## Planning policy
+1. `TO_DO.md` is the only document that tracks future work.
+2. Repository READMEs and `.copilot` docs describe the current baseline only.
 
 ## Quick start
 1. Install dependencies: `uv sync`
 2. Show archive CLI help: `uv run genshin-archive --help`
-3. Show extract CLI help: `uv run genshin-extract --help`
-4. Run tests: `uv run pytest`
+3. Run tests: `uv run pytest`
 
-## Typical Phase 2 workflow
+## Typical workflow
 1. Build release ticks:
 ```bash
 uv run genshin-archive build-release-ticks
@@ -57,7 +52,6 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - `genshin-archive list-missing-canonical-html` reports manifest versions not yet cached locally.
 - `genshin-archive validate-completed-work` validates completed layers (release ticks, manifest semantics, cache/no-data coverage).
 - `genshin-archive run-summary` reports manifest unresolved counts and cache coverage metrics for completed layers.
-- `genshin-extract extract-rankings [--version V | --start-version A --end-version B] [--failed-only]` placeholder extraction command.
 
 ## Artifacts and folders
 - `releases_genshin.md`: source timeline headings and release dates.
@@ -68,17 +62,10 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - `data/html_cache/`: canonical cached HTML plus checksum metadata per version/timestamp.
 - `archive_tooling/`: timeline/CDX/manifest/validation code.
 - `archive_tooling/acquire_html/`: HTML fetch/cache and structure inspection utilities.
-- `extract_transform/`: extraction and transformation layer.
 
 ## Folder-level docs
 - `archive_tooling/README.md`
 - `archive_tooling/acquire_html/README.md`
-- `extract_transform/README.md`
-
-## Checkpoint status
-- Checkpoint A (first complete manifest produced): complete.
-- Checkpoint B (first stable HTML cache for sample version range): complete.
-- Checkpoint C (first two extractor strategies validated on fixtures): pending.
 
 ## Notes
 - Early versions may have no snapshot at or before a strict end-date cutoff.

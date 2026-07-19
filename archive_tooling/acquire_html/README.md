@@ -8,7 +8,6 @@ HTML acquisition boundary inside `archive_tooling`.
 - Provide the stable fixture layer for parser iteration.
 
 ## Status
-- Implemented in Milestone 4 Phase 3.
 - Commands are available through `genshin-archive`.
 
 ## Current capabilities

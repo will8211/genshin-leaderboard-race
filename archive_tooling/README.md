@@ -2,6 +2,10 @@
 
 Tools for timeline parsing, Wayback capture discovery, and canonical snapshot manifest generation.
 
+## Planning policy
+1. Future work is tracked only in `TO_DO.md` at repository root.
+2. This document describes current behavior only.
+
 ## Responsibilities
 - Parse release ticks from `releases_genshin.md` into `data/release_ticks.json`.
 - Fetch and cache Wayback CDX captures for the Game8 tier page.

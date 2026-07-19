@@ -10,7 +10,6 @@ dependencies = [
 
 [project.scripts]
 genshin-archive = "archive_tooling.cli:main"
-genshin-extract = "extract_transform.cli:main"
 
 [build-system]
 requires = ["hatchling>=1.25.0"]
@@ -22,7 +21,6 @@ package = true
 [tool.hatch.build.targets.wheel]
 packages = [
   "archive_tooling",
-  "extract_transform",
 ]
 
 [dependency-groups]

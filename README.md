@@ -16,7 +16,7 @@ Tooling workspace for working with historical Game8 Genshin rankings from Waybac
 
 ## Planning policy
 1. `TO_DO.md` is the only document that tracks future work.
-2. Repository READMEs and `.copilot` docs describe the current baseline only.
+2. Repository READMEs describe the current baseline only.
 
 ## Quick start
 1. Install dependencies: `uv sync`

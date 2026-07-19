@@ -1,0 +1,714 @@
+[
+  {
+    "version_id": "1.0A",
+    "target_end_date": "2020-10-19",
+    "selected_timestamp": null,
+    "archive_url": null,
+    "selection_reason": "none_found_before_end_date",
+    "quality_flags": [
+      "unresolved"
+    ],
+    "override": null,
+    "unresolved_reason": "no_capture_leq_version_end"
+  },
+  {
+    "version_id": "1.0B",
+    "target_end_date": "2020-11-10",
+    "selected_timestamp": "20201101014348",
+    "archive_url": "https://web.archive.org/web/20201101014348/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.1A",
+    "target_end_date": "2020-11-30",
+    "selected_timestamp": "20201101014348",
+    "archive_url": "https://web.archive.org/web/20201101014348/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.1B",
+    "target_end_date": "2020-12-22",
+    "selected_timestamp": "20201202033735",
+    "archive_url": "https://web.archive.org/web/20201202033735/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.2A",
+    "target_end_date": "2021-01-11",
+    "selected_timestamp": "20201230032659",
+    "archive_url": "https://web.archive.org/web/20201230032659/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.2B",
+    "target_end_date": "2021-02-02",
+    "selected_timestamp": "20210127000927",
+    "archive_url": "https://web.archive.org/web/20210127000927/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.3A",
+    "target_end_date": "2021-03-01",
+    "selected_timestamp": "20210222062458",
+    "archive_url": "https://web.archive.org/web/20210222062458/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.3B",
+    "target_end_date": "2021-04-05",
+    "selected_timestamp": "20210404042226",
+    "archive_url": "https://web.archive.org/web/20210404042226/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.4B",
+    "target_end_date": "2021-04-27",
+    "selected_timestamp": "20210414044406",
+    "archive_url": "https://web.archive.org/web/20210414044406/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.5A",
+    "target_end_date": "2021-05-17",
+    "selected_timestamp": "20210429054907",
+    "archive_url": "https://web.archive.org/web/20210429054907/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.5B",
+    "target_end_date": "2021-06-28",
+    "selected_timestamp": "20210623143325",
+    "archive_url": "https://web.archive.org/web/20210623143325/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "1.6B",
+    "target_end_date": "2021-07-20",
+    "selected_timestamp": "20210716023712",
+    "archive_url": "https://web.archive.org/web/20210716023712/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.0A",
+    "target_end_date": "2021-08-09",
+    "selected_timestamp": "20210722011759",
+    "archive_url": "https://web.archive.org/web/20210722011759/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.0B",
+    "target_end_date": "2021-08-31",
+    "selected_timestamp": "20210824184055",
+    "archive_url": "https://web.archive.org/web/20210824184055/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.1A",
+    "target_end_date": "2021-09-20",
+    "selected_timestamp": "20210919193625",
+    "archive_url": "https://web.archive.org/web/20210919193625/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.1B",
+    "target_end_date": "2021-11-01",
+    "selected_timestamp": "20211023210616",
+    "archive_url": "https://web.archive.org/web/20211023210616/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.2B",
+    "target_end_date": "2021-12-13",
+    "selected_timestamp": "20211201224736",
+    "archive_url": "https://web.archive.org/web/20211201224736/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.3B",
+    "target_end_date": "2022-01-04",
+    "selected_timestamp": "20220101205653",
+    "archive_url": "https://web.archive.org/web/20220101205653/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.4A",
+    "target_end_date": "2022-02-15",
+    "selected_timestamp": "20220214095929",
+    "archive_url": "https://web.archive.org/web/20220214095929/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.5A",
+    "target_end_date": "2022-03-29",
+    "selected_timestamp": "20220324072544",
+    "archive_url": "https://web.archive.org/web/20220324072544/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.6A",
+    "target_end_date": "2022-05-30",
+    "selected_timestamp": "20220528201229",
+    "archive_url": "https://web.archive.org/web/20220528201229/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.7A",
+    "target_end_date": "2022-06-20",
+    "selected_timestamp": "20220601032957",
+    "archive_url": "https://web.archive.org/web/20220601032957/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.7B",
+    "target_end_date": "2022-07-12",
+    "selected_timestamp": "20220701182332",
+    "archive_url": "https://web.archive.org/web/20220701182332/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "2.8A",
+    "target_end_date": "2022-08-23",
+    "selected_timestamp": "20220819191446",
+    "archive_url": "https://web.archive.org/web/20220819191446/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.0A",
+    "target_end_date": "2022-09-08",
+    "selected_timestamp": "20220831200110",
+    "archive_url": "https://web.archive.org/web/20220831200110/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.0B",
+    "target_end_date": "2022-09-27",
+    "selected_timestamp": "20220924194313",
+    "archive_url": "https://web.archive.org/web/20220924194313/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.1A",
+    "target_end_date": "2022-10-13",
+    "selected_timestamp": "20221013095809",
+    "archive_url": "https://web.archive.org/web/20221013095809/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.1B",
+    "target_end_date": "2022-11-01",
+    "selected_timestamp": "20221018201145",
+    "archive_url": "https://web.archive.org/web/20221018201145/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.2A",
+    "target_end_date": "2022-11-17",
+    "selected_timestamp": "20221103184314",
+    "archive_url": "https://web.archive.org/web/20221103184314/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.2B",
+    "target_end_date": "2022-12-06",
+    "selected_timestamp": "20221103184314",
+    "archive_url": "https://web.archive.org/web/20221103184314/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.3A",
+    "target_end_date": "2023-01-17",
+    "selected_timestamp": "20230116052607",
+    "archive_url": "https://web.archive.org/web/20230116052607/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.4A",
+    "target_end_date": "2023-02-28",
+    "selected_timestamp": "20230209160459",
+    "archive_url": "https://web.archive.org/web/20230209160459/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.5A",
+    "target_end_date": "2023-03-20",
+    "selected_timestamp": "20230318165245",
+    "archive_url": "https://web.archive.org/web/20230318165245/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.5B",
+    "target_end_date": "2023-05-01",
+    "selected_timestamp": "20230428013942",
+    "archive_url": "https://web.archive.org/web/20230428013942/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.6B",
+    "target_end_date": "2023-05-23",
+    "selected_timestamp": "20230523144246",
+    "archive_url": "https://web.archive.org/web/20230523144246/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "3.7A",
+    "target_end_date": "2023-08-15",
+    "selected_timestamp": "20230812145941",
+    "archive_url": "https://web.archive.org/web/20230812145941/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.0A",
+    "target_end_date": "2023-09-05",
+    "selected_timestamp": "20230903040358",
+    "archive_url": "https://web.archive.org/web/20230903040358/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.0B",
+    "target_end_date": "2023-09-26",
+    "selected_timestamp": "20230912230958",
+    "archive_url": "https://web.archive.org/web/20230912230958/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.1A",
+    "target_end_date": "2023-10-16",
+    "selected_timestamp": "20231014054643",
+    "archive_url": "https://web.archive.org/web/20231014054643/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.1B",
+    "target_end_date": "2023-11-07",
+    "selected_timestamp": "20231107204855",
+    "archive_url": "https://web.archive.org/web/20231107204855/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.2A",
+    "target_end_date": "2023-12-19",
+    "selected_timestamp": "20231211065413",
+    "archive_url": "https://web.archive.org/web/20231211065413/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.3A",
+    "target_end_date": "2024-01-08",
+    "selected_timestamp": "20240108153002",
+    "archive_url": "https://web.archive.org/web/20240108153002/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.3B",
+    "target_end_date": "2024-01-30",
+    "selected_timestamp": "20240122233130",
+    "archive_url": "https://web.archive.org/web/20240122233130/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.4A",
+    "target_end_date": "2024-03-12",
+    "selected_timestamp": "20240307041129",
+    "archive_url": "https://web.archive.org/web/20240307041129/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.5A",
+    "target_end_date": "2024-04-23",
+    "selected_timestamp": "20240421022020",
+    "archive_url": "https://web.archive.org/web/20240421022020/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.6A",
+    "target_end_date": "2024-06-04",
+    "selected_timestamp": "20240603001320",
+    "archive_url": "https://web.archive.org/web/20240603001320/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.7A",
+    "target_end_date": "2024-06-24",
+    "selected_timestamp": "20240624164239",
+    "archive_url": "https://web.archive.org/web/20240624164239/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.7B",
+    "target_end_date": "2024-08-05",
+    "selected_timestamp": "20240801083157",
+    "archive_url": "https://web.archive.org/web/20240801083157/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "4.8B",
+    "target_end_date": "2024-08-27",
+    "selected_timestamp": "20240824025754",
+    "archive_url": "https://web.archive.org/web/20240824025754/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.0A",
+    "target_end_date": "2024-09-16",
+    "selected_timestamp": "20240905153720",
+    "archive_url": "https://web.archive.org/web/20240905153720/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.0B",
+    "target_end_date": "2024-10-08",
+    "selected_timestamp": "20241008224002",
+    "archive_url": "https://web.archive.org/web/20241008224002/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.1A",
+    "target_end_date": "2024-11-19",
+    "selected_timestamp": "20241115070136",
+    "archive_url": "https://web.archive.org/web/20241115070136/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.2A",
+    "target_end_date": "2024-12-31",
+    "selected_timestamp": "20241229220758",
+    "archive_url": "https://web.archive.org/web/20241229220758/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.3A",
+    "target_end_date": "2025-01-20",
+    "selected_timestamp": "20250114061039",
+    "archive_url": "https://web.archive.org/web/20250114061039/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.3B",
+    "target_end_date": "2025-02-11",
+    "selected_timestamp": "20250210220605",
+    "archive_url": "https://web.archive.org/web/20250210220605/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.4A",
+    "target_end_date": "2025-03-25",
+    "selected_timestamp": "20250325224533",
+    "archive_url": "https://web.archive.org/web/20250325224533/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.5A",
+    "target_end_date": "2025-05-06",
+    "selected_timestamp": "20250502183315",
+    "archive_url": "https://web.archive.org/web/20250502183315/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.6A",
+    "target_end_date": "2025-06-17",
+    "selected_timestamp": "20250607022631",
+    "archive_url": "https://web.archive.org/web/20250607022631/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.7A",
+    "target_end_date": "2025-07-29",
+    "selected_timestamp": "20250727070403",
+    "archive_url": "https://web.archive.org/web/20250727070403/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "5.8A",
+    "target_end_date": "2025-09-09",
+    "selected_timestamp": "20250902131016",
+    "archive_url": "https://web.archive.org/web/20250902131016/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.0A",
+    "target_end_date": "2025-09-29",
+    "selected_timestamp": "20250915002721",
+    "archive_url": "https://web.archive.org/web/20250915002721/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.0B",
+    "target_end_date": "2025-10-21",
+    "selected_timestamp": "20251018003738",
+    "archive_url": "https://web.archive.org/web/20251018003738/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.1A",
+    "target_end_date": "2025-12-02",
+    "selected_timestamp": "20251202231847",
+    "archive_url": "https://web.archive.org/web/20251202231847/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.2A",
+    "target_end_date": "2026-01-13",
+    "selected_timestamp": "20260112161052",
+    "archive_url": "https://web.archive.org/web/20260112161052/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.3A",
+    "target_end_date": "2026-02-02",
+    "selected_timestamp": "20260131061751",
+    "archive_url": "https://web.archive.org/web/20260131061751/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.3B",
+    "target_end_date": "2026-02-24",
+    "selected_timestamp": "20260215152142",
+    "archive_url": "https://web.archive.org/web/20260215152142/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.4A",
+    "target_end_date": "2026-04-07",
+    "selected_timestamp": "20260405071917",
+    "archive_url": "https://web.archive.org/web/20260405071917/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.5A",
+    "target_end_date": "2026-05-19",
+    "selected_timestamp": "20260519071640",
+    "archive_url": "https://web.archive.org/web/20260519071640/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.6A",
+    "target_end_date": "2026-06-08",
+    "selected_timestamp": "20260607013451",
+    "archive_url": "https://web.archive.org/web/20260607013451/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.6B",
+    "target_end_date": "2026-06-30",
+    "selected_timestamp": "20260629230359",
+    "archive_url": "https://web.archive.org/web/20260629230359/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  },
+  {
+    "version_id": "6.7A",
+    "target_end_date": "2026-07-01",
+    "selected_timestamp": "20260701060456",
+    "archive_url": "https://web.archive.org/web/20260701060456/https://game8.co/games/Genshin-Impact/archives/297465",
+    "selection_reason": "latest_leq_end_date",
+    "quality_flags": [],
+    "override": null,
+    "unresolved_reason": null
+  }
+]

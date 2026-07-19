@@ -1,0 +1,687 @@
+[
+  {
+    "version_id": "1.0A",
+    "release_date": "2020-09-28",
+    "next_release_date": "2020-10-20",
+    "version_end_date": "2020-10-19",
+    "introduced_characters": [
+      "Diluc",
+      "Jean",
+      "Keqing",
+      "Mona",
+      "Qiqi",
+      "Venti",
+      "Amber",
+      "Barbara",
+      "Beidou",
+      "Bennett",
+      "Chongyun",
+      "Fischl",
+      "Kaeya",
+      "Lisa",
+      "Ningguang",
+      "Noelle",
+      "Razor",
+      "Sucrose",
+      "Xiangling",
+      "Xingqiu"
+    ]
+  },
+  {
+    "version_id": "1.0B",
+    "release_date": "2020-10-20",
+    "next_release_date": "2020-11-11",
+    "version_end_date": "2020-11-10",
+    "introduced_characters": [
+      "Klee"
+    ]
+  },
+  {
+    "version_id": "1.1A",
+    "release_date": "2020-11-11",
+    "next_release_date": "2020-12-01",
+    "version_end_date": "2020-11-30",
+    "introduced_characters": [
+      "Tartaglia",
+      "Diona"
+    ]
+  },
+  {
+    "version_id": "1.1B",
+    "release_date": "2020-12-01",
+    "next_release_date": "2020-12-23",
+    "version_end_date": "2020-12-22",
+    "introduced_characters": [
+      "Zhongli",
+      "Xinyan"
+    ]
+  },
+  {
+    "version_id": "1.2A",
+    "release_date": "2020-12-23",
+    "next_release_date": "2021-01-12",
+    "version_end_date": "2021-01-11",
+    "introduced_characters": [
+      "Albedo"
+    ]
+  },
+  {
+    "version_id": "1.2B",
+    "release_date": "2021-01-12",
+    "next_release_date": "2021-02-03",
+    "version_end_date": "2021-02-02",
+    "introduced_characters": [
+      "Ganyu"
+    ]
+  },
+  {
+    "version_id": "1.3A",
+    "release_date": "2021-02-03",
+    "next_release_date": "2021-03-02",
+    "version_end_date": "2021-03-01",
+    "introduced_characters": [
+      "Xiao"
+    ]
+  },
+  {
+    "version_id": "1.3B",
+    "release_date": "2021-03-02",
+    "next_release_date": "2021-04-06",
+    "version_end_date": "2021-04-05",
+    "introduced_characters": [
+      "Hu Tao"
+    ]
+  },
+  {
+    "version_id": "1.4B",
+    "release_date": "2021-04-06",
+    "next_release_date": "2021-04-28",
+    "version_end_date": "2021-04-27",
+    "introduced_characters": [
+      "Rosaria"
+    ]
+  },
+  {
+    "version_id": "1.5A",
+    "release_date": "2021-04-28",
+    "next_release_date": "2021-05-18",
+    "version_end_date": "2021-05-17",
+    "introduced_characters": [
+      "Yanfei"
+    ]
+  },
+  {
+    "version_id": "1.5B",
+    "release_date": "2021-05-18",
+    "next_release_date": "2021-06-29",
+    "version_end_date": "2021-06-28",
+    "introduced_characters": [
+      "Eula"
+    ]
+  },
+  {
+    "version_id": "1.6B",
+    "release_date": "2021-06-29",
+    "next_release_date": "2021-07-21",
+    "version_end_date": "2021-07-20",
+    "introduced_characters": [
+      "Kaedehara Kazuha"
+    ]
+  },
+  {
+    "version_id": "2.0A",
+    "release_date": "2021-07-21",
+    "next_release_date": "2021-08-10",
+    "version_end_date": "2021-08-09",
+    "introduced_characters": [
+      "Kamisato Ayaka"
+    ]
+  },
+  {
+    "version_id": "2.0B",
+    "release_date": "2021-08-10",
+    "next_release_date": "2021-09-01",
+    "version_end_date": "2021-08-31",
+    "introduced_characters": [
+      "Yoimiya",
+      "Sayu"
+    ]
+  },
+  {
+    "version_id": "2.1A",
+    "release_date": "2021-09-01",
+    "next_release_date": "2021-09-21",
+    "version_end_date": "2021-09-20",
+    "introduced_characters": [
+      "Raiden Shogun",
+      "Aloy",
+      "Kujou Sara"
+    ]
+  },
+  {
+    "version_id": "2.1B",
+    "release_date": "2021-09-21",
+    "next_release_date": "2021-11-02",
+    "version_end_date": "2021-11-01",
+    "introduced_characters": [
+      "Sangonomiya Kokomi"
+    ]
+  },
+  {
+    "version_id": "2.2B",
+    "release_date": "2021-11-02",
+    "next_release_date": "2021-12-14",
+    "version_end_date": "2021-12-13",
+    "introduced_characters": [
+      "Thoma"
+    ]
+  },
+  {
+    "version_id": "2.3B",
+    "release_date": "2021-12-14",
+    "next_release_date": "2022-01-05",
+    "version_end_date": "2022-01-04",
+    "introduced_characters": [
+      "Arataki Itto",
+      "Gorou"
+    ]
+  },
+  {
+    "version_id": "2.4A",
+    "release_date": "2022-01-05",
+    "next_release_date": "2022-02-16",
+    "version_end_date": "2022-02-15",
+    "introduced_characters": [
+      "Shenhe",
+      "Yun Jin"
+    ]
+  },
+  {
+    "version_id": "2.5A",
+    "release_date": "2022-02-16",
+    "next_release_date": "2022-03-30",
+    "version_end_date": "2022-03-29",
+    "introduced_characters": [
+      "Yae Miko"
+    ]
+  },
+  {
+    "version_id": "2.6A",
+    "release_date": "2022-03-30",
+    "next_release_date": "2022-05-31",
+    "version_end_date": "2022-05-30",
+    "introduced_characters": [
+      "Kamisato Ayato"
+    ]
+  },
+  {
+    "version_id": "2.7A",
+    "release_date": "2022-05-31",
+    "next_release_date": "2022-06-21",
+    "version_end_date": "2022-06-20",
+    "introduced_characters": [
+      "Yelan"
+    ]
+  },
+  {
+    "version_id": "2.7B",
+    "release_date": "2022-06-21",
+    "next_release_date": "2022-07-13",
+    "version_end_date": "2022-07-12",
+    "introduced_characters": [
+      "Kuki Shinobu"
+    ]
+  },
+  {
+    "version_id": "2.8A",
+    "release_date": "2022-07-13",
+    "next_release_date": "2022-08-24",
+    "version_end_date": "2022-08-23",
+    "introduced_characters": [
+      "Shikanoin Heizou"
+    ]
+  },
+  {
+    "version_id": "3.0A",
+    "release_date": "2022-08-24",
+    "next_release_date": "2022-09-09",
+    "version_end_date": "2022-09-08",
+    "introduced_characters": [
+      "Tighnari",
+      "Collei"
+    ]
+  },
+  {
+    "version_id": "3.0B",
+    "release_date": "2022-09-09",
+    "next_release_date": "2022-09-28",
+    "version_end_date": "2022-09-27",
+    "introduced_characters": [
+      "Dori"
+    ]
+  },
+  {
+    "version_id": "3.1A",
+    "release_date": "2022-09-28",
+    "next_release_date": "2022-10-14",
+    "version_end_date": "2022-10-13",
+    "introduced_characters": [
+      "Cyno",
+      "Candace"
+    ]
+  },
+  {
+    "version_id": "3.1B",
+    "release_date": "2022-10-14",
+    "next_release_date": "2022-11-02",
+    "version_end_date": "2022-11-01",
+    "introduced_characters": [
+      "Nilou"
+    ]
+  },
+  {
+    "version_id": "3.2A",
+    "release_date": "2022-11-02",
+    "next_release_date": "2022-11-18",
+    "version_end_date": "2022-11-17",
+    "introduced_characters": [
+      "Nahida"
+    ]
+  },
+  {
+    "version_id": "3.2B",
+    "release_date": "2022-11-18",
+    "next_release_date": "2022-12-07",
+    "version_end_date": "2022-12-06",
+    "introduced_characters": [
+      "Layla"
+    ]
+  },
+  {
+    "version_id": "3.3A",
+    "release_date": "2022-12-07",
+    "next_release_date": "2023-01-18",
+    "version_end_date": "2023-01-17",
+    "introduced_characters": [
+      "Wanderer",
+      "Faruzan"
+    ]
+  },
+  {
+    "version_id": "3.4A",
+    "release_date": "2023-01-18",
+    "next_release_date": "2023-03-01",
+    "version_end_date": "2023-02-28",
+    "introduced_characters": [
+      "Alhaitham",
+      "Yaoyao"
+    ]
+  },
+  {
+    "version_id": "3.5A",
+    "release_date": "2023-03-01",
+    "next_release_date": "2023-03-21",
+    "version_end_date": "2023-03-20",
+    "introduced_characters": [
+      "Dehya"
+    ]
+  },
+  {
+    "version_id": "3.5B",
+    "release_date": "2023-03-21",
+    "next_release_date": "2023-05-02",
+    "version_end_date": "2023-05-01",
+    "introduced_characters": [
+      "Mika"
+    ]
+  },
+  {
+    "version_id": "3.6B",
+    "release_date": "2023-05-02",
+    "next_release_date": "2023-05-24",
+    "version_end_date": "2023-05-23",
+    "introduced_characters": [
+      "Baizhu",
+      "Kaveh"
+    ]
+  },
+  {
+    "version_id": "3.7A",
+    "release_date": "2023-05-24",
+    "next_release_date": "2023-08-16",
+    "version_end_date": "2023-08-15",
+    "introduced_characters": [
+      "Kirara"
+    ]
+  },
+  {
+    "version_id": "4.0A",
+    "release_date": "2023-08-16",
+    "next_release_date": "2023-09-06",
+    "version_end_date": "2023-09-05",
+    "introduced_characters": [
+      "Lyney",
+      "Lynette"
+    ]
+  },
+  {
+    "version_id": "4.0B",
+    "release_date": "2023-09-06",
+    "next_release_date": "2023-09-27",
+    "version_end_date": "2023-09-26",
+    "introduced_characters": [
+      "Freminet"
+    ]
+  },
+  {
+    "version_id": "4.1A",
+    "release_date": "2023-09-27",
+    "next_release_date": "2023-10-17",
+    "version_end_date": "2023-10-16",
+    "introduced_characters": [
+      "Neuvillette"
+    ]
+  },
+  {
+    "version_id": "4.1B",
+    "release_date": "2023-10-17",
+    "next_release_date": "2023-11-08",
+    "version_end_date": "2023-11-07",
+    "introduced_characters": [
+      "Wriothesley"
+    ]
+  },
+  {
+    "version_id": "4.2A",
+    "release_date": "2023-11-08",
+    "next_release_date": "2023-12-20",
+    "version_end_date": "2023-12-19",
+    "introduced_characters": [
+      "Furina",
+      "Charlotte"
+    ]
+  },
+  {
+    "version_id": "4.3A",
+    "release_date": "2023-12-20",
+    "next_release_date": "2024-01-09",
+    "version_end_date": "2024-01-08",
+    "introduced_characters": [
+      "Navia"
+    ]
+  },
+  {
+    "version_id": "4.3B",
+    "release_date": "2024-01-09",
+    "next_release_date": "2024-01-31",
+    "version_end_date": "2024-01-30",
+    "introduced_characters": [
+      "Chevreuse"
+    ]
+  },
+  {
+    "version_id": "4.4A",
+    "release_date": "2024-01-31",
+    "next_release_date": "2024-03-13",
+    "version_end_date": "2024-03-12",
+    "introduced_characters": [
+      "Xianyun",
+      "Gaming"
+    ]
+  },
+  {
+    "version_id": "4.5A",
+    "release_date": "2024-03-13",
+    "next_release_date": "2024-04-24",
+    "version_end_date": "2024-04-23",
+    "introduced_characters": [
+      "Chiori"
+    ]
+  },
+  {
+    "version_id": "4.6A",
+    "release_date": "2024-04-24",
+    "next_release_date": "2024-06-05",
+    "version_end_date": "2024-06-04",
+    "introduced_characters": [
+      "Arlecchino"
+    ]
+  },
+  {
+    "version_id": "4.7A",
+    "release_date": "2024-06-05",
+    "next_release_date": "2024-06-25",
+    "version_end_date": "2024-06-24",
+    "introduced_characters": [
+      "Clorinde",
+      "Sethos"
+    ]
+  },
+  {
+    "version_id": "4.7B",
+    "release_date": "2024-06-25",
+    "next_release_date": "2024-08-06",
+    "version_end_date": "2024-08-05",
+    "introduced_characters": [
+      "Sigewinne"
+    ]
+  },
+  {
+    "version_id": "4.8B",
+    "release_date": "2024-08-06",
+    "next_release_date": "2024-08-28",
+    "version_end_date": "2024-08-27",
+    "introduced_characters": [
+      "Emilie"
+    ]
+  },
+  {
+    "version_id": "5.0A",
+    "release_date": "2024-08-28",
+    "next_release_date": "2024-09-17",
+    "version_end_date": "2024-09-16",
+    "introduced_characters": [
+      "Mualani",
+      "Kachina"
+    ]
+  },
+  {
+    "version_id": "5.0B",
+    "release_date": "2024-09-17",
+    "next_release_date": "2024-10-09",
+    "version_end_date": "2024-10-08",
+    "introduced_characters": [
+      "Kinich"
+    ]
+  },
+  {
+    "version_id": "5.1A",
+    "release_date": "2024-10-09",
+    "next_release_date": "2024-11-20",
+    "version_end_date": "2024-11-19",
+    "introduced_characters": [
+      "Xilonen"
+    ]
+  },
+  {
+    "version_id": "5.2A",
+    "release_date": "2024-11-20",
+    "next_release_date": "2025-01-01",
+    "version_end_date": "2024-12-31",
+    "introduced_characters": [
+      "Chasca",
+      "Ororon"
+    ]
+  },
+  {
+    "version_id": "5.3A",
+    "release_date": "2025-01-01",
+    "next_release_date": "2025-01-21",
+    "version_end_date": "2025-01-20",
+    "introduced_characters": [
+      "Citlali",
+      "Mavuika"
+    ]
+  },
+  {
+    "version_id": "5.3B",
+    "release_date": "2025-01-21",
+    "next_release_date": "2025-02-12",
+    "version_end_date": "2025-02-11",
+    "introduced_characters": [
+      "Lan Yan"
+    ]
+  },
+  {
+    "version_id": "5.4A",
+    "release_date": "2025-02-12",
+    "next_release_date": "2025-03-26",
+    "version_end_date": "2025-03-25",
+    "introduced_characters": [
+      "Yumemizuki Mizuki"
+    ]
+  },
+  {
+    "version_id": "5.5A",
+    "release_date": "2025-03-26",
+    "next_release_date": "2025-05-07",
+    "version_end_date": "2025-05-06",
+    "introduced_characters": [
+      "Varesa",
+      "Iansan"
+    ]
+  },
+  {
+    "version_id": "5.6A",
+    "release_date": "2025-05-07",
+    "next_release_date": "2025-06-18",
+    "version_end_date": "2025-06-17",
+    "introduced_characters": [
+      "Escoffier",
+      "Ifa"
+    ]
+  },
+  {
+    "version_id": "5.7A",
+    "release_date": "2025-06-18",
+    "next_release_date": "2025-07-30",
+    "version_end_date": "2025-07-29",
+    "introduced_characters": [
+      "Skirk",
+      "Dahlia"
+    ]
+  },
+  {
+    "version_id": "5.8A",
+    "release_date": "2025-07-30",
+    "next_release_date": "2025-09-10",
+    "version_end_date": "2025-09-09",
+    "introduced_characters": [
+      "Ineffa"
+    ]
+  },
+  {
+    "version_id": "6.0A",
+    "release_date": "2025-09-10",
+    "next_release_date": "2025-09-30",
+    "version_end_date": "2025-09-29",
+    "introduced_characters": [
+      "Lauma",
+      "Aino"
+    ]
+  },
+  {
+    "version_id": "6.0B",
+    "release_date": "2025-09-30",
+    "next_release_date": "2025-10-22",
+    "version_end_date": "2025-10-21",
+    "introduced_characters": [
+      "Flins"
+    ]
+  },
+  {
+    "version_id": "6.1A",
+    "release_date": "2025-10-22",
+    "next_release_date": "2025-12-03",
+    "version_end_date": "2025-12-02",
+    "introduced_characters": [
+      "Nefer",
+      "Wonderland Manekin"
+    ]
+  },
+  {
+    "version_id": "6.2A",
+    "release_date": "2025-12-03",
+    "next_release_date": "2026-01-14",
+    "version_end_date": "2026-01-13",
+    "introduced_characters": [
+      "Durin",
+      "Jahoda"
+    ]
+  },
+  {
+    "version_id": "6.3A",
+    "release_date": "2026-01-14",
+    "next_release_date": "2026-02-03",
+    "version_end_date": "2026-02-02",
+    "introduced_characters": [
+      "Columbina"
+    ]
+  },
+  {
+    "version_id": "6.3B",
+    "release_date": "2026-02-03",
+    "next_release_date": "2026-02-25",
+    "version_end_date": "2026-02-24",
+    "introduced_characters": [
+      "Zibai",
+      "Illuga"
+    ]
+  },
+  {
+    "version_id": "6.4A",
+    "release_date": "2026-02-25",
+    "next_release_date": "2026-04-08",
+    "version_end_date": "2026-04-07",
+    "introduced_characters": [
+      "Varka"
+    ]
+  },
+  {
+    "version_id": "6.5A",
+    "release_date": "2026-04-08",
+    "next_release_date": "2026-05-20",
+    "version_end_date": "2026-05-19",
+    "introduced_characters": [
+      "Linnea"
+    ]
+  },
+  {
+    "version_id": "6.6A",
+    "release_date": "2026-05-20",
+    "next_release_date": "2026-06-09",
+    "version_end_date": "2026-06-08",
+    "introduced_characters": [
+      "Nicole",
+      "Prune"
+    ]
+  },
+  {
+    "version_id": "6.6B",
+    "release_date": "2026-06-09",
+    "next_release_date": "2026-07-01",
+    "version_end_date": "2026-06-30",
+    "introduced_characters": [
+      "Lohen"
+    ]
+  },
+  {
+    "version_id": "6.7A",
+    "release_date": "2026-07-01",
+    "next_release_date": null,
+    "version_end_date": "2026-07-01",
+    "introduced_characters": [
+      "Sandrone"
+    ]
+  }
+]

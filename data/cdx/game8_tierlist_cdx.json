@@ -1,0 +1,2686 @@
+{
+  "fetched_at": "2026-07-19T17:24:49.175565+00:00",
+  "target_url": "https://game8.co/games/Genshin-Impact/archives/297465",
+  "captures": [
+    {
+      "timestamp": "20201024083644",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UA337YGQQTTJEB5UXBV77F2VEKADZTHX",
+      "length": "21640"
+    },
+    {
+      "timestamp": "20201026113320",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AMMH4FTV2QAAOXTY6DVQPL4IJF5QAVAE",
+      "length": "21506"
+    },
+    {
+      "timestamp": "20201101014348",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5BQEPA6JZOKSB5KY2H5HCGJONVJZADB4",
+      "length": "22541"
+    },
+    {
+      "timestamp": "20201202033735",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OG6EIC3LDH47ZSYFYFN3LYAQ3SKFYH3M",
+      "length": "26018"
+    },
+    {
+      "timestamp": "20201230032659",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IXSZLPDU5IRWWZDLECZRRW6NUXSKI7ZQ",
+      "length": "25643"
+    },
+    {
+      "timestamp": "20210118221249",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AQ3UYVPQL7ZRMLUOORCYKGBNOTWT5FWA",
+      "length": "22752"
+    },
+    {
+      "timestamp": "20210118232535",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5XZSPODMHSLWFT3JRUZQNWUFDYPBQH76",
+      "length": "28080"
+    },
+    {
+      "timestamp": "20210127000927",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HUUXKZKSPONWJ2ORZMYKHPGSCKAIS26B",
+      "length": "27730"
+    },
+    {
+      "timestamp": "20210207210648",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2LOR63T5GTEENLX3A5S3WVAWGT2XO4CB",
+      "length": "29869"
+    },
+    {
+      "timestamp": "20210209230309",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2AZTFFVX2EM4NRQCIHDKGGXDI4DHSJLE",
+      "length": "29980"
+    },
+    {
+      "timestamp": "20210218084054",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UYXOGBL3OJVFGFBJGIXLN7OXBHYJL7LX",
+      "length": "30005"
+    },
+    {
+      "timestamp": "20210222062458",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "T5VPIW4UTUL7IDKLSFDOONV2JVQF53JV",
+      "length": "29664"
+    },
+    {
+      "timestamp": "20210303211939",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "T6UD4IPAYWDLXH5YVMQBUM6R6HIKPZDB",
+      "length": "30635"
+    },
+    {
+      "timestamp": "20210305024617",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OBBNJOHHH7JHJXRQQQU4LCWOSOM4ESB5",
+      "length": "31046"
+    },
+    {
+      "timestamp": "20210319051420",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MF2ZVJUV32OJ6ILKCSS2A4535QCJOO2G",
+      "length": "34339"
+    },
+    {
+      "timestamp": "20210319222302",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IXGAWEIA44YMJBLFCZI46QXWVW5KQMXT",
+      "length": "34757"
+    },
+    {
+      "timestamp": "20210324135746",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7EIPOT4F7MI7YHRF4EN7MIWENPH37WBN",
+      "length": "34154"
+    },
+    {
+      "timestamp": "20210324171015",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5ZYHMQR7E3V3NX2EGEF6ATE3BSSSIXUB",
+      "length": "34151"
+    },
+    {
+      "timestamp": "20210326182646",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KFXYSKWVM2HBXQILSJZGAMSWJSA7X75D",
+      "length": "34302"
+    },
+    {
+      "timestamp": "20210404025523",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "G737H5GJQDJD2QMWLLU2Z7I7XIR3LM7T",
+      "length": "36386"
+    },
+    {
+      "timestamp": "20210404042226",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "B4G4XKRMFGO5CF56HOUIMERRIDXBQ2GN",
+      "length": "36433"
+    },
+    {
+      "timestamp": "20210407022839",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "F6PNI56QCMI4R7JX2PQLH4C66MDS2YBJ",
+      "length": "36720"
+    },
+    {
+      "timestamp": "20210409190631",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OYZNSXNI3DMQNIULMC2V2FY4IIGC2PQR",
+      "length": "36913"
+    },
+    {
+      "timestamp": "20210414044406",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "R32ZFXCDJMOTVDLMUPYMTO2J5PZNFNY4",
+      "length": "36170"
+    },
+    {
+      "timestamp": "20210429054907",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "N2GYMLY4T6CYHQTAOPGEOPSTQYGNSP6P",
+      "length": "36417"
+    },
+    {
+      "timestamp": "20210607055127",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5BQR6R27TCIZV66WSCJCLP4WU7GNQYA6",
+      "length": "37632"
+    },
+    {
+      "timestamp": "20210623143325",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PJM6JSTGHFPZEG2TSZSLE6CYO7W4U3QI",
+      "length": "35017"
+    },
+    {
+      "timestamp": "20210709075720",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "423KMGGABYENYPRMMNKFODGYY7SDYBLZ",
+      "length": "39873"
+    },
+    {
+      "timestamp": "20210716023712",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AMWLFVJ5JGGWBHHI2VNZRCVEKHMGIJ4I",
+      "length": "40041"
+    },
+    {
+      "timestamp": "20210721033832",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3IYFJP26GH2SPTEHMWM6DLIK2VQTRWAK",
+      "length": "39650"
+    },
+    {
+      "timestamp": "20210722011759",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "EMAIVEICUMRGYLTBHFG7NZNOO2ZPCZET",
+      "length": "39530"
+    },
+    {
+      "timestamp": "20210816225408",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "33FSHSBBXF7SS7DJVSGKCSDULLW4HBBM",
+      "length": "42193"
+    },
+    {
+      "timestamp": "20210824184055",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "H6DEUL6C7N7GXB6XA3I3APHNF5M3I46B",
+      "length": "30898"
+    },
+    {
+      "timestamp": "20210913063906",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7TULBOP3F236PFIT3WN7GSJ5BBZCV5B2",
+      "length": "44709"
+    },
+    {
+      "timestamp": "20210919193625",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "4ZUAU35BGRSQRGDVEEGCVRMHOE7O74CW",
+      "length": "42113"
+    },
+    {
+      "timestamp": "20210924195439",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FTXWVKV2MTWGLITJGHJ4J2M3NSZM4ZHI",
+      "length": "44853"
+    },
+    {
+      "timestamp": "20210929172042",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "JUGMKBA6VIA5YJQ4E22OU7PPUEAVFOCT",
+      "length": "44811"
+    },
+    {
+      "timestamp": "20211001012423",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MNVCXJMC24ZWWRXJXFNKBOOO7TVTQNFF",
+      "length": "45120"
+    },
+    {
+      "timestamp": "20211002154444",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "W427IKFCQUFZYKFKN22SMZRM2UJULAWT",
+      "length": "45030"
+    },
+    {
+      "timestamp": "20211005055655",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7YTLR3DAP4NSJTBWBXZVCR6YLLQHGTMN",
+      "length": "44691"
+    },
+    {
+      "timestamp": "20211006081442",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5XDGXSQTEVQOKXKY7SKQJVWV77UPFDRA",
+      "length": "42631"
+    },
+    {
+      "timestamp": "20211007035546",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CYZMH3GEJIA3NLTETUUPQUM4QFBNJ56E",
+      "length": "45827"
+    },
+    {
+      "timestamp": "20211007053216",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XXCY7S7KOOKLHRY73M6BXMNMTGZF5U55",
+      "length": "45825"
+    },
+    {
+      "timestamp": "20211023210616",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5VCFJJFBKSAEGJC5MBLXRS6GDGAAPFCZ",
+      "length": "45487"
+    },
+    {
+      "timestamp": "20211201224736",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KAFQRRW7EPHNDTXFOGAZB2GU5H4IXXPH",
+      "length": "43060"
+    },
+    {
+      "timestamp": "20211217155330",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WS2CKBJWELD6CDLMPJ3JWWQ5RFOFMB7F",
+      "length": "43645"
+    },
+    {
+      "timestamp": "20211221014416",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "G7S7SQLN3HK5WTPEO7EENZHNIQ3RJPDF",
+      "length": "43697"
+    },
+    {
+      "timestamp": "20220101205653",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AF2PFDVHGMFEXY5N2M7XRPE3KTMVTD3C",
+      "length": "44690"
+    },
+    {
+      "timestamp": "20220105131121",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XOP7XTO6FQPOPBJEKR5ZW2XLP7ZUMIHL",
+      "length": "46028"
+    },
+    {
+      "timestamp": "20220107033105",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "X7ZD33E3GW4BXIVXNP2ARTJ3JK5CX74S",
+      "length": "45502"
+    },
+    {
+      "timestamp": "20220109060805",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "V6BOQS4OIYAL7G6FPJDXWKQZCGPKPOIU",
+      "length": "45557"
+    },
+    {
+      "timestamp": "20220124151039",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FLF66675OGGPKQY4TYMZDRRB4S7Z4RA2",
+      "length": "43363"
+    },
+    {
+      "timestamp": "20220126105422",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3C7NN7LQUAWRSAMKJRTKWSNZPR5G5W3E",
+      "length": "43254"
+    },
+    {
+      "timestamp": "20220131034526",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "BVTAE2XRIM47L7LPGDN454I5F4AWYRVH",
+      "length": "43087"
+    },
+    {
+      "timestamp": "20220214095929",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KWFKATDZSXMK4VQH7BTK2ATFI3DUDRHM",
+      "length": "46020"
+    },
+    {
+      "timestamp": "20220216030626",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SYIRUSTD3GODOH43T5P3Q5SAIBVF3UXH",
+      "length": "46258"
+    },
+    {
+      "timestamp": "20220322055200",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "F5RDKZVRQLFEER2IFNI2EAWSRKJ5Y5B2",
+      "length": "47086"
+    },
+    {
+      "timestamp": "20220323004947",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HDKC5YZAESXAJ4PLXARA45TRRN54A65J",
+      "length": "46784"
+    },
+    {
+      "timestamp": "20220324071032",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KQKZXNUGM7GOMRT2CGGM6EQ3AIAII4QK",
+      "length": "44508"
+    },
+    {
+      "timestamp": "20220324072544",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5DSPCVEVXKPKKYXWK2D3IYG2WJRY2QA7",
+      "length": "47160"
+    },
+    {
+      "timestamp": "20220330102910",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QN62OCQWFJOKRELSYGQRY4JLI2AB6KKB",
+      "length": "47542"
+    },
+    {
+      "timestamp": "20220330113901",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ZRMHITG5PUK5KRYD24UC7LEM2BEGZAA6",
+      "length": "47572"
+    },
+    {
+      "timestamp": "20220405024437",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7EVHJMPV77MC5B64HS4HFZHBFRY7UDRK",
+      "length": "47560"
+    },
+    {
+      "timestamp": "20220406033844",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "JHPR7S3KEOH2YUP6XUOTOUZ2EYUWBL4Q",
+      "length": "47598"
+    },
+    {
+      "timestamp": "20220410193838",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "4Q27CYFF27UVLXQIQGIBNDVGE4HHP7Z3",
+      "length": "47438"
+    },
+    {
+      "timestamp": "20220426053221",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UEIEK6BE7QP6YDTQHSZBY225VS6TRZFZ",
+      "length": "47405"
+    },
+    {
+      "timestamp": "20220528201229",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NTW2RHS6BBONZNKJNYRXMAAKHYU5YLET",
+      "length": "47523"
+    },
+    {
+      "timestamp": "20220601032957",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VGHMOFQ2XLZXWUIM2BEP7VPB5RCGG3V2",
+      "length": "48378"
+    },
+    {
+      "timestamp": "20220627233856",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TXKO5SAW3IWX67J2DA3GFUVPHJ574FFP",
+      "length": "46325"
+    },
+    {
+      "timestamp": "20220701182332",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AIC3YJ6OFBT4HLTTIB2MFCGW7KN3J5HX",
+      "length": "49114"
+    },
+    {
+      "timestamp": "20220713033346",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WJV2DY66I7DM6DWEJ6RQLZ76M5YAHU45",
+      "length": "49968"
+    },
+    {
+      "timestamp": "20220723180154",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "JLEPXBTMMM7FJLA5J6XPITPIB3VJCZP6",
+      "length": "36725"
+    },
+    {
+      "timestamp": "20220725172423",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "RWZPF733ZW7TSTYV743QIXDHRDQF5UJE",
+      "length": "50150"
+    },
+    {
+      "timestamp": "20220729140339",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UXYW2IMRBYLX3OIOAUVG76BBZCWG4VMT",
+      "length": "50333"
+    },
+    {
+      "timestamp": "20220730205706",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CD7JALVSBK5LXQB2C7VVKPEY4TL2EHAX",
+      "length": "50289"
+    },
+    {
+      "timestamp": "20220731181501",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "B724NNYUHHMRKSIVSK4V3CGT3QQNS2VF",
+      "length": "50295"
+    },
+    {
+      "timestamp": "20220817110627",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QOJM4BZSCQKNGQ6WEUKY6WJ62AZ44K54",
+      "length": "50872"
+    },
+    {
+      "timestamp": "20220818012833",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XBH5DIKSXXMTSJXL35BWU3MNIAOKHFH6",
+      "length": "50879"
+    },
+    {
+      "timestamp": "20220819191446",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AO3BWGLLH7B55SEF5FIDKD5CPPNMIYRJ",
+      "length": "50904"
+    },
+    {
+      "timestamp": "20220824111151",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OBHHD4AU3YTPTVL7L55TZKIXSO3CVFYS",
+      "length": "51440"
+    },
+    {
+      "timestamp": "20220824172745",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FKLZUTAWL4OH6IQBJUAFKNZM7W2CMT2E",
+      "length": "51476"
+    },
+    {
+      "timestamp": "20220826192927",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ZXVQAPLRBWAUSHICBKZ624EDMEKZTUJX",
+      "length": "52892"
+    },
+    {
+      "timestamp": "20220831182558",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "RE4SNCQYG7HAPTFBL5SZTULTJFF2X672",
+      "length": "52938"
+    },
+    {
+      "timestamp": "20220831200110",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VPNHHLTKHSXIINC57Q3HSMYJOP4EEINF",
+      "length": "52905"
+    },
+    {
+      "timestamp": "20220924194313",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HJMYUR6ZKBEAUPHTJRTHMJFWMZH75HWL",
+      "length": "53275"
+    },
+    {
+      "timestamp": "20220930024431",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WWTWE7HUD6QIIP4J2PDV662WLFDKNBQW",
+      "length": "51508"
+    },
+    {
+      "timestamp": "20220930094856",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "W6PYVR3TA4JZYH4FM66U64EU4EO6GUGV",
+      "length": "38774"
+    },
+    {
+      "timestamp": "20221002012913",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5NLN247ZLYYCYLAUI4T3WJ5PEKX67TQY",
+      "length": "54514"
+    },
+    {
+      "timestamp": "20221013095809",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UP2K3P35DN3V464S4NNAVQFGUWDSKJID",
+      "length": "55174"
+    },
+    {
+      "timestamp": "20221018201145",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DHKAG6Q6UM6GQRFB7AK6GAKNI3KU4V5Q",
+      "length": "55859"
+    },
+    {
+      "timestamp": "20221103184314",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OBM7CVCNVZHKYREZ7CRAHENCTQWPYL5J",
+      "length": "53578"
+    },
+    {
+      "timestamp": "20221222040758",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "W35FG6UA3AG5N7QMZEI3JCHL37LT2BKQ",
+      "length": "57977"
+    },
+    {
+      "timestamp": "20230116052607",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IA75UULE272T2CX3CY53KQP2H2LQVAUY",
+      "length": "58236"
+    },
+    {
+      "timestamp": "20230123011132",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5D33FCDHN3IPKOOAAVQ2J2SUXDMUGWQY",
+      "length": "58578"
+    },
+    {
+      "timestamp": "20230131230716",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KWWFKRLZU25WBE2JREQ2Z4LMW3APFMX5",
+      "length": "55339"
+    },
+    {
+      "timestamp": "20230207235525",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CMD4AKEOP32NDDPEOMSQ5QEGXNP5D2OX",
+      "length": "58559"
+    },
+    {
+      "timestamp": "20230209160459",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "63YVRJJYZVUJVVV5YWB6T3N2PJHWD3HP",
+      "length": "58578"
+    },
+    {
+      "timestamp": "20230302050242",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KVPZ4YALKFHV4UETALMX3IF4PV2VI4OF",
+      "length": "60996"
+    },
+    {
+      "timestamp": "20230305213457",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TF22BCBD4642AGMOLV4ZJ6JFDZ3AZNEL",
+      "length": "61064"
+    },
+    {
+      "timestamp": "20230316231153",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "6RO4NAUJE76Q2GXVOTSUBCHDTLIONA37",
+      "length": "61342"
+    },
+    {
+      "timestamp": "20230318165245",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "JPRS2UHVSKMNO5SU6SGUELBQXCUE3T5U",
+      "length": "61064"
+    },
+    {
+      "timestamp": "20230326010831",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CHIADLTD4YESAJZY7XBGXIDYRD63RYYX",
+      "length": "61293"
+    },
+    {
+      "timestamp": "20230403055111",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CGLZOIBIR6NP2C6SSUCBWQJNAXI25SIT",
+      "length": "61186"
+    },
+    {
+      "timestamp": "20230411033556",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SW4RDNAEP2YIK7E4MOQXQ6ZVKVXP4DCD",
+      "length": "61528"
+    },
+    {
+      "timestamp": "20230418111300",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PI2U62II432XT7VF5TA6QTVFWP32OKHG",
+      "length": "60202"
+    },
+    {
+      "timestamp": "20230428013942",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CRJFVYLCM5F5JLMQHNAL7C4ZYX6DOCCM",
+      "length": "60271"
+    },
+    {
+      "timestamp": "20230506072446",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2ALLVQOVW3YGUP6R2V77W6D7OEPAZLV7",
+      "length": "62326"
+    },
+    {
+      "timestamp": "20230516133219",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "73PVPSFUYXH23WDVIYB4A5YF44MCLOHJ",
+      "length": "62446"
+    },
+    {
+      "timestamp": "20230523144246",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "B656PC5XQXILQGEIIWEZGRL7JK5IMLDD",
+      "length": "62357"
+    },
+    {
+      "timestamp": "20230525122652",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5ARLHBY3C4LAIRBW2BLMLK5WDPDEEXKN",
+      "length": "63101"
+    },
+    {
+      "timestamp": "20230528150631",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "JNM7X3I3QVZTLBIZWZTH4PX2JHRKALNL",
+      "length": "62875"
+    },
+    {
+      "timestamp": "20230530145808",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UD5ZXZCXMF72WSK2HCL5UF555NGZ3JX4",
+      "length": "61740"
+    },
+    {
+      "timestamp": "20230604083740",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XYKH6W7KIMVLJ3I4HY5TMK4QJULPHSGC",
+      "length": "66235"
+    },
+    {
+      "timestamp": "20230608145616",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5O3JTCEDTZWNRC2IKFFDBW3JVAIZNS3V",
+      "length": "63250"
+    },
+    {
+      "timestamp": "20230613064454",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HG47TMDIVMRG7RIHRIT77DL4WCWL4YFF",
+      "length": "66545"
+    },
+    {
+      "timestamp": "20230616063011",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "BK6BA36DKU64RH2UUSALX6K4XFNFT3ZT",
+      "length": "61999"
+    },
+    {
+      "timestamp": "20230616155114",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WF6C53MA456ZORIKITYB6GKQCBCVDHGC",
+      "length": "62082"
+    },
+    {
+      "timestamp": "20230618112905",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ZWZHKNWN46F74VXG27D2TX43VCLSZCN6",
+      "length": "62024"
+    },
+    {
+      "timestamp": "20230703054153",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QP6W2MEW6CO2DJANBK4PCQMWAXL3I2AM",
+      "length": "62243"
+    },
+    {
+      "timestamp": "20230705064838",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VSSM6JTVDX5GQL5DVGZGIDYBVDG53EKN",
+      "length": "68617"
+    },
+    {
+      "timestamp": "20230707225651",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DDAVTO2MVEPBTG3O33QVDVSMEA6LXKJW",
+      "length": "69055"
+    },
+    {
+      "timestamp": "20230708170236",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NIMMYRQJL46ZS4NERV4Z6RGGHPWXFTON",
+      "length": "64353"
+    },
+    {
+      "timestamp": "20230709195055",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QFOYI6MAJHQ22L72WEXD4UAEHMRMPPID",
+      "length": "68946"
+    },
+    {
+      "timestamp": "20230717062249",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "4J6EGW6M3EQ4JC6PPLUBABE6GYMO2ZTA",
+      "length": "69184"
+    },
+    {
+      "timestamp": "20230722102459",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NMU7ZD4BNZUTRO6NQHULAIEAW3QDRWD4",
+      "length": "62731"
+    },
+    {
+      "timestamp": "20230730032610",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CLLE7NDA5ZO33XLGRBMH4UYC633JON4G",
+      "length": "62848"
+    },
+    {
+      "timestamp": "20230803195210",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MBYN7XZFUEYQ7PU2E3O5JGVML65OJF2K",
+      "length": "67154"
+    },
+    {
+      "timestamp": "20230806033000",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "RRMAOXHIONGOUGU3XKCE5BZ7JERHB6AA",
+      "length": "67397"
+    },
+    {
+      "timestamp": "20230812145941",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SKQNMADHLEF7ESJIKIMYVUOB5WO5U7ZC",
+      "length": "67309"
+    },
+    {
+      "timestamp": "20230823062439",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ABW2VN6RQJJKTBK52UAEAQHVPIQUEZXP",
+      "length": "62560"
+    },
+    {
+      "timestamp": "20230903040358",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VZWVKS7ZRN5YCLTZY6TBBZTHBTR6HTTJ",
+      "length": "69057"
+    },
+    {
+      "timestamp": "20230907083725",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "K3BJPWNMZTQFIEVCFIOV63TPT2AJ6BHL",
+      "length": "69436"
+    },
+    {
+      "timestamp": "20230912230958",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PB7SS2VR774NACW7DJORBBHWFSEY46DK",
+      "length": "69428"
+    },
+    {
+      "timestamp": "20230927045251",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2D5H54CXQHMEGYNN5O6YLEYCFFSBDNWT",
+      "length": "63231"
+    },
+    {
+      "timestamp": "20231007055027",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NDMHDVX3RZOETCEILBFIQ2EV57P5NQA4",
+      "length": "71216"
+    },
+    {
+      "timestamp": "20231014054643",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GIOU5F6CPEAORQPMSUXXPQL6AEAVH6RE",
+      "length": "71291"
+    },
+    {
+      "timestamp": "20231017013212",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CKTDVFPMDRKETBNGWFFN7MSCN4SRWS6S",
+      "length": "64563"
+    },
+    {
+      "timestamp": "20231024053623",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "Y6IO6CJBOYH7GR5EV6J7PQOQK2VVRZOY",
+      "length": "65302"
+    },
+    {
+      "timestamp": "20231026155042",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "R6DCGWUOYIXYMBX3EM5CQ5B5VEP5BG3L",
+      "length": "65347"
+    },
+    {
+      "timestamp": "20231031133030",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OSR4XQNW357XPA5PBVGXUKWPOOPMAR4W",
+      "length": "65367"
+    },
+    {
+      "timestamp": "20231106044817",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "4W2NWX5NUUUF4UFPNF3WP4I723Y2QK42",
+      "length": "65332"
+    },
+    {
+      "timestamp": "20231107204855",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KHKMPXZXWOMG427GFPZMWZLKWXBJH563",
+      "length": "71922"
+    },
+    {
+      "timestamp": "20231109210205",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ERIREJXPXZNZQAKCRFPBRBJLTWMV64TQ",
+      "length": "73791"
+    },
+    {
+      "timestamp": "20231111003432",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ISJ2EDGUAXRXRBL6FYHJZCMDO22ZXOZ7",
+      "length": "73847"
+    },
+    {
+      "timestamp": "20231111182614",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HVYAMLGZH4TPFBWLF2HMPGZTW2YMEVBP",
+      "length": "73840"
+    },
+    {
+      "timestamp": "20231112154459",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "YMWG7I6MWSYPQ3OX2NYMPKCN7ROCGKVI",
+      "length": "73962"
+    },
+    {
+      "timestamp": "20231113110800",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "K425IN6PDVY33IT7LSYAD3FQHZ22DCJV",
+      "length": "73830"
+    },
+    {
+      "timestamp": "20231114004922",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MZ4HPHLGE3VCGLJPSSWVB5O3RVLKTVOC",
+      "length": "73909"
+    },
+    {
+      "timestamp": "20231121110214",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DSCRCN5O7ZKX5HXDX65EMH5DURF2UAW5",
+      "length": "73949"
+    },
+    {
+      "timestamp": "20231121220554",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DIHBOWZQBNBJWATEZ26O2IC3USFSBARQ",
+      "length": "73945"
+    },
+    {
+      "timestamp": "20231127094933",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GNL6UVXPZWW4TFK2HUJUEINLTNOPO7NR",
+      "length": "67677"
+    },
+    {
+      "timestamp": "20231130205408",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XJW5SAVGMNDPZUOJBAO5L7Q3SALE6JEH",
+      "length": "67553"
+    },
+    {
+      "timestamp": "20231204191938",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ADBGNTLCFPAWN3JKWLPNY2XMRZ7DM4IQ",
+      "length": "70250"
+    },
+    {
+      "timestamp": "20231207000052",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WAS4S63B44G4DH7CSRJFQ5HOGHRFBKAP",
+      "length": "75470"
+    },
+    {
+      "timestamp": "20231211065413",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HBB5MNXHCZTVD4FBXCI5MGQ6EBHC7FS5",
+      "length": "75306"
+    },
+    {
+      "timestamp": "20231220033953",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GDOAGWP3W3HW3KDIXMQIHNYTNDNDQGIO",
+      "length": "69274"
+    },
+    {
+      "timestamp": "20231221120030",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DEKSWRU4K7JVA7ANWX67MW6D2WANMW3F",
+      "length": "69420"
+    },
+    {
+      "timestamp": "20231229064728",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DMT6T5NUSMXWN6R2P5MLLORSRS7HPGRR",
+      "length": "69597"
+    },
+    {
+      "timestamp": "20240108153002",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "BEWTLYJBIMSTZQOKS5NTUADSLZXE76OJ",
+      "length": "76741"
+    },
+    {
+      "timestamp": "20240112053822",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5BQWAKFDOQSC6COFXENAURMWZAPM6A2T",
+      "length": "77933"
+    },
+    {
+      "timestamp": "20240114163346",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GGB26GII34B62BB5764KGAZMZUUV4XK2",
+      "length": "78221"
+    },
+    {
+      "timestamp": "20240122233130",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FL54KQ6FAJQHU6WPGKV2DFB5L3SZUQMT",
+      "length": "71911"
+    },
+    {
+      "timestamp": "20240131034337",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "X3VRT3ESMI7IGWHWLSQMSYAHPP6QA5PV",
+      "length": "70987"
+    },
+    {
+      "timestamp": "20240206161708",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OA5QMES2PDSLSPMV5F2VU7UQ7WYUVBEE",
+      "length": "72821"
+    },
+    {
+      "timestamp": "20240208075433",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ROELU4ERHAVRYJLCAW46DT5JMNZOS6D2",
+      "length": "79551"
+    },
+    {
+      "timestamp": "20240211152201",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "W4P2MDFSMCSPZSQWE4MCCOP6CNJ7BQT3",
+      "length": "79563"
+    },
+    {
+      "timestamp": "20240214184330",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "V2KXPY37DJIKAZKFKSVTX4DXY7247PBX",
+      "length": "79595"
+    },
+    {
+      "timestamp": "20240220025520",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "BHNTVKOZLGTRGLTHSJURD7RBO7Y22JYT",
+      "length": "79447"
+    },
+    {
+      "timestamp": "20240306214305",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7KONOGQHRE252CL6ERUI5GJ6OLZZKMOI",
+      "length": "80319"
+    },
+    {
+      "timestamp": "20240307041129",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TCYYVDY2MXJDDV4NGNO2A4GQQZV76FGG",
+      "length": "80281"
+    },
+    {
+      "timestamp": "20240313191542",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "55AP5KJNTJSPDIM4BE3N4R3NOBN6FI4A",
+      "length": "79239"
+    },
+    {
+      "timestamp": "20240315182333",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2XIKIQNZT2B3HCM3GWU3EHJAOCBKQR5U",
+      "length": "72605"
+    },
+    {
+      "timestamp": "20240321215335",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DYZV3TFQOUPD4UHQO4HM5IWGNXZ5CQ7B",
+      "length": "72565"
+    },
+    {
+      "timestamp": "20240324110307",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ES24JRRBB43PRTLN2GWQT5ZI3INHHK4U",
+      "length": "72851"
+    },
+    {
+      "timestamp": "20240326092806",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GJ7XFY2VAHZRG3YYXTYFOXPKRDXX26Z7",
+      "length": "72644"
+    },
+    {
+      "timestamp": "20240402203241",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7QMLDQLTOVYSC5DGDL4AQVVDTLTRADHG",
+      "length": "79366"
+    },
+    {
+      "timestamp": "20240404144049",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "E2XUAQ7OCEIKFZQDU4MYPV6SVDQEUCAL",
+      "length": "79180"
+    },
+    {
+      "timestamp": "20240412083313",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NOTGB55UAPNIFWIADZMJCGUHNBWRBCUR",
+      "length": "80955"
+    },
+    {
+      "timestamp": "20240421022020",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AXS2CGGP3XJOMCMMQLH5VDGDCPCQMC54",
+      "length": "73112"
+    },
+    {
+      "timestamp": "20240430035856",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IKNSVJS7JMH4DSN436LQ4JIPGJHS4GHZ",
+      "length": "73630"
+    },
+    {
+      "timestamp": "20240506072110",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7CU3URFXV2NHWXVZFZDI3RD6Y7PBPMFW",
+      "length": "73948"
+    },
+    {
+      "timestamp": "20240513074226",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "C7RQGFDOFZZYQFJT4LKR4U3D67XN3JMZ",
+      "length": "74045"
+    },
+    {
+      "timestamp": "20240525195251",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ZKXGRV5WHZYD2F3SQE6F7CADONEQVEME",
+      "length": "81703"
+    },
+    {
+      "timestamp": "20240528225055",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5QIPJN3C5Q7T74EVNSWZ45YW5QCTVHZ4",
+      "length": "77299"
+    },
+    {
+      "timestamp": "20240603001320",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CHOLY6E2KXXNNNS2773FEJMBP4YVROY5",
+      "length": "73812"
+    },
+    {
+      "timestamp": "20240608005254",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XDKRGNDM2PM63LFLUUGD4DMOEFTTJMF3",
+      "length": "75126"
+    },
+    {
+      "timestamp": "20240611021133",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PPPVVJO3E5GICBR4OCKXE2LKCTL4NVKN",
+      "length": "75176"
+    },
+    {
+      "timestamp": "20240612130808",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IE2IURXOKVBZE3FQMRTYMCLAIE52VW65",
+      "length": "75691"
+    },
+    {
+      "timestamp": "20240620085110",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WCJUNM24LTVHG5B2WX32PBZXJC5VDZ66",
+      "length": "82119"
+    },
+    {
+      "timestamp": "20240624164239",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PVQVDHTVUJSYVCF2C3Q4A7K5HZD4FU2Z",
+      "length": "82227"
+    },
+    {
+      "timestamp": "20240701025249",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VA6DNKSTFF7HPWJAI6TJJDNMRQQ2L2JT",
+      "length": "83410"
+    },
+    {
+      "timestamp": "20240710151829",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TU74IM6NEMSNGU4EYSIGOTED7R25NBK5",
+      "length": "76560"
+    },
+    {
+      "timestamp": "20240717084459",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OI7VSRAYP6SCVXJ3K4WXVI6UKNHBSDXN",
+      "length": "76195"
+    },
+    {
+      "timestamp": "20240725060340",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "LTYMCHUNXRXAG4QIHTEJ2HBPAEC6LZDD",
+      "length": "83729"
+    },
+    {
+      "timestamp": "20240801083157",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "G5YQIL4WEJY7QQAIKC7SCCOIDMWNJBO4",
+      "length": "76180"
+    },
+    {
+      "timestamp": "20240809053041",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GWMOXZ2QDUAGTB3EX7EZTREEAYEFLDUO",
+      "length": "83816"
+    },
+    {
+      "timestamp": "20240819113422",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IU3BJLYP5THEMODBLGG5TIDXLWH7DYVB",
+      "length": "83473"
+    },
+    {
+      "timestamp": "20240822225007",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "A3VKYGVRZUWNZ3YR3GKKN7UFUHCLGJ3R",
+      "length": "84345"
+    },
+    {
+      "timestamp": "20240824025754",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "4OZFXEJEW5237IOPARMFXQVYXEX7QLAN",
+      "length": "83277"
+    },
+    {
+      "timestamp": "20240828053017",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KZTGVY4SNNJOEUUEPJHK47XC55DUFW7J",
+      "length": "74433"
+    },
+    {
+      "timestamp": "20240828160013",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ECYAS7463UO7P6BLCN6WOF7KN6MTENY7",
+      "length": "76375"
+    },
+    {
+      "timestamp": "20240905153720",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CBKBZFBMXCFHUYDS23MYGQPMKTA6HGJG",
+      "length": "83598"
+    },
+    {
+      "timestamp": "20240917185813",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "U7KQ4F2HDBJIV7UBDQBRLZVEFJPD2ODG",
+      "length": "77639"
+    },
+    {
+      "timestamp": "20240918110551",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QF2PMCXX545NVRHASHOPYLONDP4JXSSA",
+      "length": "74379"
+    },
+    {
+      "timestamp": "20240918175930",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3BBXPHUWVHLBIABLYX74TOQ5TSNUX7A2",
+      "length": "77531"
+    },
+    {
+      "timestamp": "20240930174741",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TOHJ2NNUHXP6MYE27K4CZJTEY42BGQMF",
+      "length": "78070"
+    },
+    {
+      "timestamp": "20241006171340",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "L7YEGCSAEGZO4NZTDUSOKB3IAZ6GJU23",
+      "length": "85078"
+    },
+    {
+      "timestamp": "20241008224002",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WZGBLMI5O33XKRUXHPB27YV5SXLLSQJF",
+      "length": "85067"
+    },
+    {
+      "timestamp": "20241106104158",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XYXY7VE3LXQ5KYUPCCOASJTRUSG3UBKP",
+      "length": "85529"
+    },
+    {
+      "timestamp": "20241113075729",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "M7IGGUQHKIXJGFZBOJXIT4PG6IJK7HGT",
+      "length": "85305"
+    },
+    {
+      "timestamp": "20241115070136",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XP6QCSQULCCFLFUDQUNMEC5WTBU743CQ",
+      "length": "78031"
+    },
+    {
+      "timestamp": "20241122102821",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TMXT6RQK2GIMJBEAE77Y5QQMPOT5KWOX",
+      "length": "79758"
+    },
+    {
+      "timestamp": "20241127004343",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "T3X5UX36OGWEEC4ALIN3XCYLMWABP33I",
+      "length": "80267"
+    },
+    {
+      "timestamp": "20241201195309",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WZVEJDJD4ACNEOT6JUSKO72PICZ7VOW5",
+      "length": "87063"
+    },
+    {
+      "timestamp": "20241205114305",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "EZC2KZ2J5RKQOM3ASAIICI57G5W7DYRS",
+      "length": "87300"
+    },
+    {
+      "timestamp": "20241223005305",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QMJK3DCDNYLW47GKPSO5OQ6ZKGBMG4PT",
+      "length": "76454"
+    },
+    {
+      "timestamp": "20241229220758",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KGS2URBTIRG4CZMYLE3EBLVDAPS4ABSP",
+      "length": "80657"
+    },
+    {
+      "timestamp": "20250101180157",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "C3CO7AQHI3YPZMACIERYRSWNDSWK2OTB",
+      "length": "90969"
+    },
+    {
+      "timestamp": "20250112203256",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "L2S2PDJLSBUG4GCMUB2VZV22URC6HEHI",
+      "length": "90054"
+    },
+    {
+      "timestamp": "20250112221943",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NHFK3XF7QUMBM5JVBPIUECFX4TWN5M4A",
+      "length": "95508"
+    },
+    {
+      "timestamp": "20250114061039",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "W34TEI6G74LTLF373RS2U2UQO7Z23P4W",
+      "length": "94099"
+    },
+    {
+      "timestamp": "20250123061117",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "P3UNXT3PEMR2IV72NHUOUXT6WCDPAIKW",
+      "length": "88550"
+    },
+    {
+      "timestamp": "20250128182806",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HKDM3453B4D2LHJ3ZW6EGOFJVMLEHV3Z",
+      "length": "91254"
+    },
+    {
+      "timestamp": "20250131015328",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ODOXDFPLZSZY5RIDSTDYPID77CPUIGYT",
+      "length": "91720"
+    },
+    {
+      "timestamp": "20250210220605",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "4ULQDHYPJO3RF2Z7FRCSOYF4NSCCDAHS",
+      "length": "98318"
+    },
+    {
+      "timestamp": "20250303235733",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WXHWSIVS22RUSPFCPSO47MS3I26XXLD7",
+      "length": "95549"
+    },
+    {
+      "timestamp": "20250312050000",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NERT443AW2BFIPKXUQ5HH5N7EONMKHXS",
+      "length": "94135"
+    },
+    {
+      "timestamp": "20250320092441",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "BJU6QZUDSPD4MBNP2JYIILWQKY3ZP7KF",
+      "length": "87376"
+    },
+    {
+      "timestamp": "20250325224533",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "LDKADWPGLA2NJQ6PEVLADB3KGPY2DDQT",
+      "length": "87191"
+    },
+    {
+      "timestamp": "20250327194825",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "M22X3CZVKD2OGWCRYDHO3DGPNH75YK66",
+      "length": "88953"
+    },
+    {
+      "timestamp": "20250330185859",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SKZDX2VXEU53W5MS7BLAZDGEE2B4JQSZ",
+      "length": "88788"
+    },
+    {
+      "timestamp": "20250331015636",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "H6O4M7RUG7LI3GVFSCGTWPOXG6ZUMABL",
+      "length": "89133"
+    },
+    {
+      "timestamp": "20250331231337",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7VLMSWQ2WVLIBAOCQPSVLNPYQBJQSJ57",
+      "length": "89100"
+    },
+    {
+      "timestamp": "20250405020345",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MDBUKUH6AK2FRENQSIQWMD4TNPD4GPEU",
+      "length": "97472"
+    },
+    {
+      "timestamp": "20250420015721",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NE34V6PMLXTAZNWDU7HUZ5LARC6NFTVJ",
+      "length": "89495"
+    },
+    {
+      "timestamp": "20250429021915",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UHIG24JINCUSBJCZJ4S2TWZ2FZ5AXOQK",
+      "length": "89409"
+    },
+    {
+      "timestamp": "20250501152338",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3ZTW2NQYDFY6EYSWHHSXVVVK7IYPY475",
+      "length": "96784"
+    },
+    {
+      "timestamp": "20250502183315",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ESSC7QOFEGFKOAN7PHTQO2TW7OZUH6RW",
+      "length": "96913"
+    },
+    {
+      "timestamp": "20250513153000",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5NP5GTUKONRDUQSQVVLFOHGV2RNMTTYR",
+      "length": "97684"
+    },
+    {
+      "timestamp": "20250520071801",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "E6MKNY37SDD7FQ4C5BGGLRJDGATC3WNB",
+      "length": "90239"
+    },
+    {
+      "timestamp": "20250607022631",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DA5REPGALZ74DDSG2OFUNIZYPRX5BD2A",
+      "length": "98973"
+    },
+    {
+      "timestamp": "20250618174617",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "M2XAVVPDYAPDNORSPDMAJIJ76D3MJPXJ",
+      "length": "92359"
+    },
+    {
+      "timestamp": "20250619081403",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "DTB3RK2R7R6JMMHTKIKS7QWXY4PZIT7A",
+      "length": "92639"
+    },
+    {
+      "timestamp": "20250708020306",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FM42DCHIT7SADKFKHAKEXWBQE4FSCPIB",
+      "length": "103042"
+    },
+    {
+      "timestamp": "20250727070403",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "D7O2ZM2BPGCU2444SLYRIUHIP5FU7Q7U",
+      "length": "95116"
+    },
+    {
+      "timestamp": "20250730072325",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "OFQZQINBTCDL4E6DZEDWAZ2Z7CFIBHLY",
+      "length": "94247"
+    },
+    {
+      "timestamp": "20250826112857",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "S6WIXIYEPOWXRI7WVYXJMJG7MSGF7HHO",
+      "length": "94776"
+    },
+    {
+      "timestamp": "20250831130006",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "RLNVFJLVFXMHQMH23O2JF5SGV2T6C5B2",
+      "length": "94869"
+    },
+    {
+      "timestamp": "20250902131016",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CYINXRS7Z32NORUUV36CGS6XAFV5RUAZ",
+      "length": "94890"
+    },
+    {
+      "timestamp": "20250913102543",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KJ3G5AJS4EEEUKMGBDKHDYPAED4I2XK7",
+      "length": "106014"
+    },
+    {
+      "timestamp": "20250915002721",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ABT4GXT6AKEJ4WEWDSSQC3X4VERRGFDL",
+      "length": "106129"
+    },
+    {
+      "timestamp": "20251001155934",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GO7GHEWWD6MK2KOQLPIWQK2HARHR3UTW",
+      "length": "107768"
+    },
+    {
+      "timestamp": "20251007210228",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WMURPNKIHMVUXHQQ6NUBNEVLV3N7MJPV",
+      "length": "107509"
+    },
+    {
+      "timestamp": "20251011061344",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "JRFPTPLSH2VXN5DKQMKUT5LVAVBKO7EJ",
+      "length": "102008"
+    },
+    {
+      "timestamp": "20251014193745",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "RUEQGPQIZYN32EE5NO2TXUGP424L4F4O",
+      "length": "103647"
+    },
+    {
+      "timestamp": "20251018003738",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XODZFIXKFNA4LBSR3FIE6RC2KDD42UCB",
+      "length": "100513"
+    },
+    {
+      "timestamp": "20251031131507",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "H6XBVYKSBFU3Q64C7QKS4RJGKR3TEBWA",
+      "length": "97138"
+    },
+    {
+      "timestamp": "20251104152007",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "K2IEBXKNMT3WXYBP3TWL3HQXCXLX74GR",
+      "length": "105859"
+    },
+    {
+      "timestamp": "20251111211750",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IO6KACI5MPH2XGY4NWHESDAT37PZO2I6",
+      "length": "106526"
+    },
+    {
+      "timestamp": "20251202231847",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XZ3YJUMECYTD2O4SXPWC6BRSIMLLMHGO",
+      "length": "78219"
+    },
+    {
+      "timestamp": "20251205071907",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "BG772RPJNRGWM67SU7PR35KZ74UNV6P2",
+      "length": "108013"
+    },
+    {
+      "timestamp": "20251213163211",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AESFDRMBG2TPT7FG2YOFST7VHUHGGWFT",
+      "length": "107996"
+    },
+    {
+      "timestamp": "20251216073409",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "EPRNPWRKZQQYZLEFCYINAP73YHDDQBXS",
+      "length": "100473"
+    },
+    {
+      "timestamp": "20251217222550",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "A4LCCPWDBW4QE3KEGLLFIHO4UOXTPT64",
+      "length": "103329"
+    },
+    {
+      "timestamp": "20251218001200",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VHW6UOS3S5CYZA4CACU5JQKTPLBWAX3R",
+      "length": "103237"
+    },
+    {
+      "timestamp": "20251220025848",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7S3WIF7MGWW3323Y2U273BV2HURT27RL",
+      "length": "103435"
+    },
+    {
+      "timestamp": "20251226131631",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NOCGUBIHNDSXU74G75KZ36HWDLNOTTRR",
+      "length": "100525"
+    },
+    {
+      "timestamp": "20251227172701",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ZUDR43L3YMO7ZGAP74DXMW3G7KCNRLBI",
+      "length": "100620"
+    },
+    {
+      "timestamp": "20251230054736",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SEIIZCQU7M7KKAK24NLFBVW2M2L65MMF",
+      "length": "100655"
+    },
+    {
+      "timestamp": "20251231071511",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WNEGCJ4YDHHWECVGN5UX7E4K6K4B67AE",
+      "length": "100569"
+    },
+    {
+      "timestamp": "20260101113047",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "VKQLJX3ESQPDSODXYDYNNYPO45T4DN2C",
+      "length": "107980"
+    },
+    {
+      "timestamp": "20260102112559",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IBVPFWTS2RDQW5AQKWQRJ4JJ3AQ7ECMB",
+      "length": "108039"
+    },
+    {
+      "timestamp": "20260102123419",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GN2MFBOSKBXR4IJPZVK5TDXYOXEBAONV",
+      "length": "109300"
+    },
+    {
+      "timestamp": "20260106040430",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SYUVT4I25D4MGYZJJZV73V7LG6FAX2TD",
+      "length": "108266"
+    },
+    {
+      "timestamp": "20260107073811",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "X2WHK53FXEWKSCW27M4MJ3PZTLPV7KTL",
+      "length": "108097"
+    },
+    {
+      "timestamp": "20260109040655",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "UWXMOAWJGWM3V33WQXT5LWVCGLVFZXM2",
+      "length": "107973"
+    },
+    {
+      "timestamp": "20260111055837",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KXOUPYRTQF6KPCKVAAKETXZRUENSQUTY",
+      "length": "108453"
+    },
+    {
+      "timestamp": "20260112161052",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PPW7OUPGNRHTGFBW7X3KIGRYRG4G26TJ",
+      "length": "108248"
+    },
+    {
+      "timestamp": "20260115054346",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "S4KVVFEOSEACOA4KTT4E2H2LLQMSMZI4",
+      "length": "99661"
+    },
+    {
+      "timestamp": "20260117221005",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FRCHIWOB4PZZ6CK2HUWIBA7X2AL4F5M7",
+      "length": "99926"
+    },
+    {
+      "timestamp": "20260118011959",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "N5LQMXBQEQZOSWWCHZELF5EMS2DVL4KK",
+      "length": "99757"
+    },
+    {
+      "timestamp": "20260120162934",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3JWE5TDP7JAI4CW6QLSA3OADJCQXSG45",
+      "length": "99818"
+    },
+    {
+      "timestamp": "20260121011445",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "A2JB6NMVPZ72XOXLA3DFRAXGVTYT7ZS4",
+      "length": "99871"
+    },
+    {
+      "timestamp": "20260121045812",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3YI2MNQXNRTR2XBDRYZMOSHL5FD2P2VJ",
+      "length": "99870"
+    },
+    {
+      "timestamp": "20260122164232",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ETMVRLCGJW3DF54JOSNG7NRYIHQWC67Y",
+      "length": "100742"
+    },
+    {
+      "timestamp": "20260124061727",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5C6ZBS6LFKA45WGM7QRQQBTZXJUIUQ7U",
+      "length": "100959"
+    },
+    {
+      "timestamp": "20260129184213",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "3TV33MD2LCQISC7BXJZFNMRCNQNYG5FN",
+      "length": "100679"
+    },
+    {
+      "timestamp": "20260131061751",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7RM6UNEZDOZNZZ5PTALDTW7M2VRJQ7RE",
+      "length": "100851"
+    },
+    {
+      "timestamp": "20260203153054",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NO4AORKTSMMQTI6SI7GGSEAABI2MM5QV",
+      "length": "109710"
+    },
+    {
+      "timestamp": "20260205175139",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "CLRQM3OWYV5N7VAJVJ5P3T4HHIXZT3N3",
+      "length": "110069"
+    },
+    {
+      "timestamp": "20260208102323",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "AXUS32DFXIAERCNL5YOAKYIO7C3SODNO",
+      "length": "110100"
+    },
+    {
+      "timestamp": "20260211163041",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "YXPYV3QLIBC7VLUFBTHUKQBVK3RU7IXC",
+      "length": "109996"
+    },
+    {
+      "timestamp": "20260214084713",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FCF26JOKCF4MHJDUFGR5T7AL7QTB7AFE",
+      "length": "110230"
+    },
+    {
+      "timestamp": "20260215152142",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "IYP5GOSW7V5JIVTD5S7DN4QJXHKBKWYV",
+      "length": "102356"
+    },
+    {
+      "timestamp": "20260225221110",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XPJNCRL2IXUNSSOCWEGWTU3EV6H7USFR",
+      "length": "101450"
+    },
+    {
+      "timestamp": "20260310162157",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "54VO6GBUV2YJ2M6CJB5545KZTRCST2OQ",
+      "length": "111211"
+    },
+    {
+      "timestamp": "20260318091229",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2SJBRF2NCRFZ4BBRS5LJQP334VWGTA5G",
+      "length": "96802"
+    },
+    {
+      "timestamp": "20260405071917",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "TFQCD6TH2JDRYE5WYUPE55SWDFPSB225",
+      "length": "110311"
+    },
+    {
+      "timestamp": "20260408015052",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SGULULWBXOESB32GYW7EGATJOY2J3VB7",
+      "length": "110784"
+    },
+    {
+      "timestamp": "20260426054104",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "PUMIIXXQLD7P765Q2DOWMWXGQGIFCWCE",
+      "length": "105461"
+    },
+    {
+      "timestamp": "20260429190426",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "QNLGDJMY4F6W7MI7BLS4C3UATM2TII3O",
+      "length": "104835"
+    },
+    {
+      "timestamp": "20260503053539",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GB5JTTYA47WNQYPZGI3RBGO4DARPDW5J",
+      "length": "112985"
+    },
+    {
+      "timestamp": "20260508234759",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "Q2PFU4PXG2DRTG4Y6HLZFZDZ6WMZBI5A",
+      "length": "113037"
+    },
+    {
+      "timestamp": "20260510043138",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "LWYGMAO7JGSL4772D4Q5K7GXTONRXAJY",
+      "length": "113471"
+    },
+    {
+      "timestamp": "20260512160736",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "I2E5VF56P456FMJ5ETWQI4ME5MHUY3KG",
+      "length": "113282"
+    },
+    {
+      "timestamp": "20260515140824",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FPQ5XLHY6SMNO42C2I7XQYZ2V5QLGRSA",
+      "length": "105663"
+    },
+    {
+      "timestamp": "20260516171744",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "FPR4RYRPA4V4FM57VJPP7F5IWGN4U42H",
+      "length": "105761"
+    },
+    {
+      "timestamp": "20260518032539",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5ZH3NE66MWFCTW2L5F2QZSSWFKAZBS7D",
+      "length": "105596"
+    },
+    {
+      "timestamp": "20260519071640",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "EH7UUPL427IHFREJOMTAVKBTK45ECPIW",
+      "length": "106395"
+    },
+    {
+      "timestamp": "20260520161705",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "F2HX3PPLGPACM7DHJIZWGRW2SPGTIFG6",
+      "length": "108702"
+    },
+    {
+      "timestamp": "20260524043750",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MDCZJXEEP5IRXJCD2PPRLQ5CYA4XJ5LD",
+      "length": "109014"
+    },
+    {
+      "timestamp": "20260525172422",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "XEHSQR6PH2TE2IFEEFGOQQYGAK7HFCCS",
+      "length": "109300"
+    },
+    {
+      "timestamp": "20260527152142",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KDUA3AIEZNQQKFGY2DULTZ4OJCTOWO5C",
+      "length": "109120"
+    },
+    {
+      "timestamp": "20260530090711",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "EKRCN63MVERLEEG3ZA4FCT656YEWWA3I",
+      "length": "109035"
+    },
+    {
+      "timestamp": "20260603172205",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "EL3EUPHWW2C36DD7CEOVRY6XASVQSTXD",
+      "length": "116380"
+    },
+    {
+      "timestamp": "20260605154229",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HCIK6S4UXQGS3WHYIFCPS67NTZTBIEW6",
+      "length": "116404"
+    },
+    {
+      "timestamp": "20260607013451",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NEPXMCEOGGV3OGNMKFJZXBGZVXD2ZVH3",
+      "length": "116456"
+    },
+    {
+      "timestamp": "20260609184021",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "I6MIPAPR3MDQYAGD7HBXCB33F7ED5EOY",
+      "length": "117500"
+    },
+    {
+      "timestamp": "20260613054248",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HA5UOZJ3AXXVQMIEXI6ZNJEB2DJC7OID",
+      "length": "117582"
+    },
+    {
+      "timestamp": "20260614065322",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "N3HRAWEOGHYJSJ52YTYKWFNOJELBP56J",
+      "length": "117540"
+    },
+    {
+      "timestamp": "20260617165036",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "SWJMW7AZPFH3RIXDRMHEEJYWRPGN3RC3",
+      "length": "117838"
+    },
+    {
+      "timestamp": "20260618171639",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "NYOO32MVCVLSG5IQJVWTQPFXBZUTT2PL",
+      "length": "118081"
+    },
+    {
+      "timestamp": "20260620091006",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "7BEUFSC7KOBIQRUSWW6ETXEAR6URNFBX",
+      "length": "117970"
+    },
+    {
+      "timestamp": "20260624173843",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "WI2OT6XHXP3QZZWQ72APNFR27GUV7EED",
+      "length": "117923"
+    },
+    {
+      "timestamp": "20260627040106",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "RIXPW6N7GU6R5QKVCDOPT32HF3MDN4DC",
+      "length": "117765"
+    },
+    {
+      "timestamp": "20260629230359",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "ZB4UIOTZL6KBR5QNZ3VYGVMQHLSRG3D4",
+      "length": "118209"
+    },
+    {
+      "timestamp": "20260701060456",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "5YYCAEABOJKEZKSHSDZ5YLRM7GRWYW6Y",
+      "length": "122849"
+    },
+    {
+      "timestamp": "20260702014032",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "MHRYQXNG4N75UCW6GPSPOVZOB5HA7UMW",
+      "length": "123444"
+    },
+    {
+      "timestamp": "20260705034811",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "KL4AFNCRLDLXW4PQICSIGSCC2H42D4H3",
+      "length": "123244"
+    },
+    {
+      "timestamp": "20260709034224",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "GPQIFKC4P6QU4NHK3QEGNDS3FM4L2V2N",
+      "length": "123381"
+    },
+    {
+      "timestamp": "20260711042857",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "X46YVAYTIZNLL3EDELWD3ESUMJMVKQTX",
+      "length": "123271"
+    },
+    {
+      "timestamp": "20260712123852",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HNODGIAON4BL6AXWYBT4XWWITMSNJHLF",
+      "length": "123494"
+    },
+    {
+      "timestamp": "20260714115341",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "YB4WC3QJDCUWOXHSZYZA2CXBIAWIJDAS",
+      "length": "123210"
+    },
+    {
+      "timestamp": "20260716160423",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "2GQHNGEB4SYY4UEGCAQJRYAW5I7YLL2M",
+      "length": "116759"
+    },
+    {
+      "timestamp": "20260718070441",
+      "original": "https://game8.co/games/Genshin-Impact/archives/297465",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "digest": "HDM3ZEN752UYRPXZ44UIDEM5JJSZDRZG",
+      "length": "116620"
+    }
+  ]
+}

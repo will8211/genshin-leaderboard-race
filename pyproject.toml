@@ -1,0 +1,26 @@
+[project]
+name = "genshin-leaderboard-race"
+version = "0.1.0"
+description = "Iterative tooling for Game8 Wayback extraction and Flourish CSV generation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "jsonschema>=4.23.0",
+]
+
+[project.scripts]
+genshin-archive = "archive_tooling.cli:main"
+genshin-extract = "extract_transform.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "archive_tooling",
+  "extract_transform",
+]

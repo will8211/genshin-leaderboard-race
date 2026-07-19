@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SnapshotManifest",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "version_id",
+      "target_end_date",
+      "selected_timestamp",
+      "archive_url",
+      "selection_reason",
+      "quality_flags",
+      "override",
+      "unresolved_reason"
+    ],
+    "properties": {
+      "version_id": {
+        "type": "string"
+      },
+      "target_end_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "selected_timestamp": {
+        "type": ["string", "null"]
+      },
+      "archive_url": {
+        "type": ["string", "null"],
+        "format": "uri"
+      },
+      "selection_reason": {
+        "type": "string"
+      },
+      "quality_flags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "override": {
+        "type": ["object", "null"],
+        "additionalProperties": true
+      },
+      "unresolved_reason": {
+        "type": ["string", "null"]
+      }
+    },
+    "additionalProperties": false
+  }
+}

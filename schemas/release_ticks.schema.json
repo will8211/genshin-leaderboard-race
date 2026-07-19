@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReleaseTicks",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "version_id",
+      "release_date",
+      "next_release_date",
+      "version_end_date",
+      "introduced_characters"
+    ],
+    "properties": {
+      "version_id": {
+        "type": "string"
+      },
+      "release_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "next_release_date": {
+        "type": ["string", "null"],
+        "format": "date"
+      },
+      "version_end_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "introduced_characters": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

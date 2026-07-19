@@ -1,0 +1,119 @@
+from __future__ import annotations
+
+from html.parser import HTMLParser
+
+
+class _StructureParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self._current_heading_tag: str | None = None
+        self._heading_buffer: list[str] = []
+        self.headings: list[dict[str, str]] = []
+
+        self._in_row_stack: list[bool] = []
+        self._cell_count_stack: list[int] = []
+        self._table_stack: list[dict[str, int]] = []
+        self.tables: list[dict[str, int]] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        lower = tag.lower()
+        if lower in {"h1", "h2", "h3", "h4", "h5", "h6"}:
+            self._current_heading_tag = lower
+            self._heading_buffer = []
+            return
+
+        if lower == "table":
+            self._table_stack.append({"rows": 0, "max_cols": 0})
+            self._in_row_stack.append(False)
+            self._cell_count_stack.append(0)
+            return
+
+        if lower == "tr" and self._table_stack:
+            self._in_row_stack[-1] = True
+            self._cell_count_stack[-1] = 0
+            return
+
+        if lower in {"td", "th"} and self._table_stack and self._in_row_stack[-1]:
+            self._cell_count_stack[-1] += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        lower = tag.lower()
+        if self._current_heading_tag and lower == self._current_heading_tag:
+            text = " ".join("".join(self._heading_buffer).split())
+            if text:
+                self.headings.append({"level": self._current_heading_tag, "text": text})
+            self._current_heading_tag = None
+            self._heading_buffer = []
+            return
+
+        if lower == "tr" and self._table_stack and self._in_row_stack[-1]:
+            table = self._table_stack[-1]
+            table["rows"] += 1
+            table["max_cols"] = max(table["max_cols"], self._cell_count_stack[-1])
+            self._in_row_stack[-1] = False
+            return
+
+        if lower == "table" and self._table_stack:
+            table = self._table_stack.pop()
+            self._in_row_stack.pop()
+            self._cell_count_stack.pop()
+            self.tables.append(table)
+
+    def handle_data(self, data: str) -> None:
+        if self._current_heading_tag:
+            self._heading_buffer.append(data)
+
+
+def summarize_html_structure(html_text: str) -> dict[str, object]:
+    parser = _StructureParser()
+    parser.feed(html_text)
+    return {
+        "heading_count": len(parser.headings),
+        "headings": parser.headings,
+        "table_count": len(parser.tables),
+        "tables": [
+            {
+                "index": idx,
+                "rows": table["rows"],
+                "max_cols": table["max_cols"],
+            }
+            for idx, table in enumerate(parser.tables)
+        ],
+    }
+
+
+def diff_structures(
+    left_version: str,
+    right_version: str,
+    left_summary: dict[str, object],
+    right_summary: dict[str, object],
+) -> dict[str, object]:
+    left_tables = left_summary.get("tables", [])
+    right_tables = right_summary.get("tables", [])
+
+    max_len = max(len(left_tables), len(right_tables))
+    changed: list[dict[str, object]] = []
+    for idx in range(max_len):
+        left_table = left_tables[idx] if idx < len(left_tables) else None
+        right_table = right_tables[idx] if idx < len(right_tables) else None
+        if left_table != right_table:
+            changed.append(
+                {
+                    "index": idx,
+                    "left": left_table,
+                    "right": right_table,
+                }
+            )
+
+    left_first = (left_summary.get("headings", []) or [None])[0]
+    right_first = (right_summary.get("headings", []) or [None])[0]
+    return {
+        "left_version": left_version,
+        "right_version": right_version,
+        "left_heading_count": left_summary.get("heading_count", 0),
+        "right_heading_count": right_summary.get("heading_count", 0),
+        "left_table_count": left_summary.get("table_count", 0),
+        "right_table_count": right_summary.get("table_count", 0),
+        "first_heading_changed": left_first != right_first,
+        "table_shape_changes": changed,
+    }

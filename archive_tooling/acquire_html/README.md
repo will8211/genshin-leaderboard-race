@@ -8,11 +8,19 @@ HTML acquisition boundary inside `archive_tooling`.
 - Provide the stable fixture layer for parser iteration.
 
 ## Status
-- Module boundary is in place.
-- Implementation tasks are tracked in Milestone 4 Phase 3.
+- Implemented in Milestone 4 Phase 3.
+- Commands are available through `genshin-archive`.
 
-## Planned capabilities
+## Current capabilities
 - Fetch canonical HTML for one version or a version range.
 - Track checksum and basic fetch metadata.
 - Report missing local cache entries.
-- Support repeatable offline parsing workflows.
+- Summarize headings and table structures from cached HTML.
+- Diff structural summaries between two versions.
+
+## Command examples
+- `uv run genshin-archive fetch-canonical-html --version 1.0B`
+- `uv run genshin-archive fetch-canonical-html --start-version 1.0B --end-version 1.2B`
+- `uv run genshin-archive inspect-html-structure --version 1.0B`
+- `uv run genshin-archive diff-html-structure --left-version 1.0B --right-version 1.1B`
+- `uv run genshin-archive list-missing-canonical-html`

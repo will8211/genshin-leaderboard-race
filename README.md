@@ -18,7 +18,8 @@ Build a repeatable pipeline with clear stage boundaries:
 ## Current implementation status
 1. Phase 1 complete: root project scaffold, schemas, and CLI entrypoints.
 2. Phase 2 complete: release tick parser, CDX fetch/cache, manifest selector, and candidate inspection.
-3. Phase 3+ in progress: HTML acquisition, structural inspection, extraction strategies, and CSV transform hardening.
+3. Phase 3 complete: canonical HTML fetch/cache, checksum metadata, structural inspection, structure diff, and missing-cache reporting.
+4. Phase 4+ in progress: extraction strategies and CSV transform hardening.
 
 ## Quick start
 1. Install dependencies: `uv sync`
@@ -49,6 +50,10 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - `genshin-archive build-release-ticks` parses `releases_genshin.md` into `data/release_ticks.json`.
 - `genshin-archive build-snapshot-manifest` fetches/uses CDX captures and selects canonical snapshots into `data/snapshot_manifest.json`.
 - `genshin-archive inspect-snapshot-candidates --version <VERSION>` shows before/after capture candidates around a version end date.
+- `genshin-archive fetch-canonical-html [--version V | --start-version A --end-version B]` fetches manifest-selected HTML into `data/html_cache`.
+- `genshin-archive inspect-html-structure --version <VERSION>` summarizes headings and table shapes for cached HTML.
+- `genshin-archive diff-html-structure --left-version A --right-version B` compares cached page structure across versions.
+- `genshin-archive list-missing-canonical-html` reports manifest versions not yet cached locally.
 - `genshin-extract build-flourish-csv` placeholder command for upcoming implementation.
 
 ## Artifacts and folders
@@ -57,8 +62,9 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - `data/snapshot_manifest.json`: canonical version-to-snapshot mapping.
 - `data/cdx/game8_tierlist_cdx.json`: cached CDX response used for selection.
 - `data/snapshot_overrides.json`: optional manual override map for edge cases.
+- `data/html_cache/`: canonical cached HTML plus checksum metadata per version/timestamp.
 - `archive_tooling/`: timeline/CDX/manifest/validation code.
-- `archive_tooling/acquire_html/`: upcoming HTML fetch/cache implementation boundary.
+- `archive_tooling/acquire_html/`: HTML fetch/cache and structure inspection utilities.
 - `extract_transform/`: extraction and transformation layer.
 
 ## Folder-level docs
@@ -68,7 +74,7 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 
 ## Checkpoint status
 - Checkpoint A (first complete manifest produced): complete.
-- Checkpoint B (first stable HTML cache for sample version range): pending.
+- Checkpoint B (first stable HTML cache for sample version range): complete.
 - Checkpoint C (first two extractor strategies validated on fixtures): pending.
 - Checkpoint D (first Flourish CSV preview generated): pending.
 

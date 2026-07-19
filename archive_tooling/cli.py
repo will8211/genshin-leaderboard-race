@@ -4,6 +4,15 @@ import argparse
 import json
 from pathlib import Path
 
+from archive_tooling.acquire_html.cache import (
+    cache_paths,
+    fetch_bytes,
+    find_missing_cached_versions,
+    load_manifest,
+    select_manifest_rows,
+    write_cached_html,
+)
+from archive_tooling.acquire_html.inspect import diff_structures, summarize_html_structure
 from archive_tooling.cdx import dedupe_captures, fetch_cdx_captures, load_cdx_cache, write_cdx_cache
 from archive_tooling.manifest import (
     build_manifest,
@@ -101,6 +110,176 @@ def cmd_inspect_snapshot_candidates(args: argparse.Namespace) -> int:
     return 0
 
 
+def _find_manifest_row(manifest: list[dict[str, object]], version: str) -> dict[str, object] | None:
+    version_upper = version.upper()
+    return next((row for row in manifest if str(row["version_id"]).upper() == version_upper), None)
+
+
+def cmd_fetch_canonical_html(args: argparse.Namespace) -> int:
+    repo_root = Path(args.repo_root).resolve()
+    manifest_path = (repo_root / args.manifest).resolve()
+    cache_root = (repo_root / args.cache_dir).resolve()
+    manifest = load_manifest(manifest_path)
+    try:
+        rows = select_manifest_rows(manifest, args.version, args.start_version, args.end_version)
+    except ValueError as exc:
+        print(str(exc))
+        return 1
+
+    fetched: list[dict[str, str]] = []
+    skipped: list[dict[str, str]] = []
+    failures: list[dict[str, str]] = []
+
+    for row in rows:
+        version_id = str(row["version_id"])
+        timestamp = row.get("selected_timestamp")
+        archive_url = row.get("archive_url")
+        unresolved_reason = row.get("unresolved_reason")
+
+        if not timestamp or not archive_url:
+            skipped.append(
+                {
+                    "version_id": version_id,
+                    "reason": str(unresolved_reason or "missing_timestamp_or_url"),
+                }
+            )
+            continue
+
+        html_path, _meta_path = cache_paths(cache_root, version_id, str(timestamp))
+        if html_path.exists() and not args.force:
+            skipped.append(
+                {
+                    "version_id": version_id,
+                    "reason": "already_cached",
+                    "html_path": str(html_path),
+                }
+            )
+            continue
+
+        try:
+            content = fetch_bytes(str(archive_url))
+            written_html, written_meta = write_cached_html(
+                cache_root=cache_root,
+                version_id=version_id,
+                timestamp=str(timestamp),
+                archive_url=str(archive_url),
+                content=content,
+            )
+            fetched.append(
+                {
+                    "version_id": version_id,
+                    "selected_timestamp": str(timestamp),
+                    "html_path": str(written_html),
+                    "meta_path": str(written_meta),
+                }
+            )
+        except Exception as exc:
+            failures.append(
+                {
+                    "version_id": version_id,
+                    "selected_timestamp": str(timestamp),
+                    "archive_url": str(archive_url),
+                    "error": str(exc),
+                }
+            )
+
+    print(
+        json.dumps(
+            {
+                "requested_rows": len(rows),
+                "fetched_count": len(fetched),
+                "skipped_count": len(skipped),
+                "failure_count": len(failures),
+                "fetched": fetched,
+                "skipped": skipped,
+                "failures": failures,
+            },
+            indent=2,
+        )
+    )
+    return 1 if failures else 0
+
+
+def cmd_list_missing_canonical_html(args: argparse.Namespace) -> int:
+    repo_root = Path(args.repo_root).resolve()
+    manifest_path = (repo_root / args.manifest).resolve()
+    cache_root = (repo_root / args.cache_dir).resolve()
+    manifest = load_manifest(manifest_path)
+    missing = find_missing_cached_versions(manifest, cache_root)
+    print(json.dumps({"missing_count": len(missing), "missing": missing}, indent=2))
+    return 0
+
+
+def _load_cached_html_for_version(
+    manifest: list[dict[str, object]],
+    cache_root: Path,
+    version: str,
+) -> tuple[dict[str, object], str] | tuple[None, None]:
+    row = _find_manifest_row(manifest, version)
+    if row is None:
+        return None, None
+    timestamp = row.get("selected_timestamp")
+    if not timestamp:
+        return row, None
+    html_path, _meta_path = cache_paths(cache_root, str(row["version_id"]), str(timestamp))
+    if not html_path.exists():
+        return row, None
+    return row, html_path.read_text(encoding="utf-8", errors="replace")
+
+
+def cmd_inspect_html_structure(args: argparse.Namespace) -> int:
+    repo_root = Path(args.repo_root).resolve()
+    manifest_path = (repo_root / args.manifest).resolve()
+    cache_root = (repo_root / args.cache_dir).resolve()
+    manifest = load_manifest(manifest_path)
+
+    row, html_text = _load_cached_html_for_version(manifest, cache_root, args.version)
+    if row is None:
+        print(f"Version not found in manifest: {args.version}")
+        return 1
+    if html_text is None:
+        print(f"Cached HTML not found for version {row['version_id']}; run fetch-canonical-html first.")
+        return 1
+
+    summary = summarize_html_structure(html_text)
+    payload = {
+        "version_id": row["version_id"],
+        "selected_timestamp": row["selected_timestamp"],
+        **summary,
+    }
+    print(json.dumps(payload, indent=2))
+    return 0
+
+
+def cmd_diff_html_structure(args: argparse.Namespace) -> int:
+    repo_root = Path(args.repo_root).resolve()
+    manifest_path = (repo_root / args.manifest).resolve()
+    cache_root = (repo_root / args.cache_dir).resolve()
+    manifest = load_manifest(manifest_path)
+
+    left_row, left_html = _load_cached_html_for_version(manifest, cache_root, args.left_version)
+    right_row, right_html = _load_cached_html_for_version(manifest, cache_root, args.right_version)
+
+    if left_row is None:
+        print(f"Version not found in manifest: {args.left_version}")
+        return 1
+    if right_row is None:
+        print(f"Version not found in manifest: {args.right_version}")
+        return 1
+    if left_html is None:
+        print(f"Cached HTML not found for version {left_row['version_id']}; run fetch-canonical-html first.")
+        return 1
+    if right_html is None:
+        print(f"Cached HTML not found for version {right_row['version_id']}; run fetch-canonical-html first.")
+        return 1
+
+    left_summary = summarize_html_structure(left_html)
+    right_summary = summarize_html_structure(right_html)
+    diff = diff_structures(str(left_row["version_id"]), str(right_row["version_id"]), left_summary, right_summary)
+    print(json.dumps(diff, indent=2))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="genshin-archive",
@@ -146,7 +325,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     inspect = subparsers.add_parser(
         "inspect-snapshot-candidates",
-        help="Inspect candidate captures for a version (placeholder).",
+        help="Inspect candidate captures for a version.",
     )
     inspect.add_argument("--version", required=True)
     inspect.add_argument("--repo-root", default=".")
@@ -156,12 +335,46 @@ def build_parser() -> argparse.ArgumentParser:
 
     fetch = subparsers.add_parser(
         "fetch-canonical-html",
-        help="Fetch canonical HTML for selected versions (placeholder).",
+        help="Fetch canonical HTML for selected versions.",
     )
+    fetch.add_argument("--repo-root", default=".")
+    fetch.add_argument("--manifest", default="data/snapshot_manifest.json")
+    fetch.add_argument("--cache-dir", default="data/html_cache")
     fetch.add_argument("--version")
     fetch.add_argument("--start-version")
     fetch.add_argument("--end-version")
-    fetch.set_defaults(func=lambda _args: cmd_placeholder("fetch-canonical-html"))
+    fetch.add_argument("--force", action="store_true")
+    fetch.set_defaults(func=cmd_fetch_canonical_html)
+
+    inspect_html = subparsers.add_parser(
+        "inspect-html-structure",
+        help="Summarize headings and tables for a cached version HTML.",
+    )
+    inspect_html.add_argument("--repo-root", default=".")
+    inspect_html.add_argument("--manifest", default="data/snapshot_manifest.json")
+    inspect_html.add_argument("--cache-dir", default="data/html_cache")
+    inspect_html.add_argument("--version", required=True)
+    inspect_html.set_defaults(func=cmd_inspect_html_structure)
+
+    diff_html = subparsers.add_parser(
+        "diff-html-structure",
+        help="Compare cached HTML structure between two versions.",
+    )
+    diff_html.add_argument("--repo-root", default=".")
+    diff_html.add_argument("--manifest", default="data/snapshot_manifest.json")
+    diff_html.add_argument("--cache-dir", default="data/html_cache")
+    diff_html.add_argument("--left-version", required=True)
+    diff_html.add_argument("--right-version", required=True)
+    diff_html.set_defaults(func=cmd_diff_html_structure)
+
+    missing_html = subparsers.add_parser(
+        "list-missing-canonical-html",
+        help="List manifest versions whose canonical HTML is not cached locally.",
+    )
+    missing_html.add_argument("--repo-root", default=".")
+    missing_html.add_argument("--manifest", default="data/snapshot_manifest.json")
+    missing_html.add_argument("--cache-dir", default="data/html_cache")
+    missing_html.set_defaults(func=cmd_list_missing_canonical_html)
 
     return parser
 

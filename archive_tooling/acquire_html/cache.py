@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen
@@ -49,6 +50,14 @@ def cache_paths(cache_root: Path, version_id: str, timestamp: str) -> tuple[Path
     return html_path, meta_path
 
 
+def version_dir_path(cache_root: Path, version_id: str) -> Path:
+    return cache_root / version_id
+
+
+def no_data_marker_path(cache_root: Path, version_id: str) -> Path:
+    return version_dir_path(cache_root, version_id) / ".no-data"
+
+
 def fetch_bytes(url: str) -> bytes:
     with urlopen(url) as response:
         return response.read()
@@ -78,6 +87,37 @@ def write_cached_html(
     return html_path, meta_path
 
 
+def write_no_data_marker(
+    cache_root: Path,
+    version_id: str,
+    reason: str,
+    selected_timestamp: str | None = None,
+    archive_url: str | None = None,
+    detail: str | None = None,
+) -> Path:
+    version_dir = version_dir_path(cache_root, version_id)
+    if version_dir.exists():
+        shutil.rmtree(version_dir)
+    version_dir.mkdir(parents=True, exist_ok=True)
+
+    marker_path = no_data_marker_path(cache_root, version_id)
+    payload = {
+        "version_id": version_id,
+        "reason": reason,
+        "selected_timestamp": selected_timestamp,
+        "archive_url": archive_url,
+        "detail": detail,
+        "created_at": datetime.now(timezone.utc).isoformat(),
+    }
+    marker_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    return marker_path
+
+
+def is_before_release(selected_timestamp: str, release_date_iso: str) -> bool:
+    release_floor = release_date_iso.replace("-", "") + "000000"
+    return selected_timestamp < release_floor
+
+
 def find_missing_cached_versions(manifest: list[dict[str, object]], cache_root: Path) -> list[dict[str, str]]:
     missing: list[dict[str, str]] = []
     for row in manifest:
@@ -85,6 +125,9 @@ def find_missing_cached_versions(manifest: list[dict[str, object]], cache_root: 
         timestamp = row.get("selected_timestamp")
         archive_url = row.get("archive_url")
         if not timestamp or not archive_url:
+            continue
+        marker_path = no_data_marker_path(cache_root, version_id)
+        if marker_path.exists():
             continue
         html_path, _meta_path = cache_paths(cache_root, version_id, str(timestamp))
         if not html_path.exists():

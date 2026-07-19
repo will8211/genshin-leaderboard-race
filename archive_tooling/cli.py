@@ -8,8 +8,10 @@ from archive_tooling.acquire_html.cache import (
     cache_paths,
     fetch_bytes,
     find_missing_cached_versions,
+    is_before_release,
     load_manifest,
     select_manifest_rows,
+    write_no_data_marker,
     write_cached_html,
 )
 from archive_tooling.acquire_html.inspect import diff_structures, summarize_html_structure
@@ -118,8 +120,11 @@ def _find_manifest_row(manifest: list[dict[str, object]], version: str) -> dict[
 def cmd_fetch_canonical_html(args: argparse.Namespace) -> int:
     repo_root = Path(args.repo_root).resolve()
     manifest_path = (repo_root / args.manifest).resolve()
+    release_ticks_path = (repo_root / args.release_ticks).resolve()
     cache_root = (repo_root / args.cache_dir).resolve()
     manifest = load_manifest(manifest_path)
+    release_ticks = load_release_ticks(release_ticks_path)
+    release_by_version = {str(row["version_id"]).upper(): str(row["release_date"]) for row in release_ticks}
     try:
         rows = select_manifest_rows(manifest, args.version, args.start_version, args.end_version)
     except ValueError as exc:
@@ -128,6 +133,7 @@ def cmd_fetch_canonical_html(args: argparse.Namespace) -> int:
 
     fetched: list[dict[str, str]] = []
     skipped: list[dict[str, str]] = []
+    placeholders: list[dict[str, str]] = []
     failures: list[dict[str, str]] = []
 
     for row in rows:
@@ -135,12 +141,42 @@ def cmd_fetch_canonical_html(args: argparse.Namespace) -> int:
         timestamp = row.get("selected_timestamp")
         archive_url = row.get("archive_url")
         unresolved_reason = row.get("unresolved_reason")
+        release_date = release_by_version.get(version_id.upper())
 
         if not timestamp or not archive_url:
-            skipped.append(
+            marker_path = write_no_data_marker(
+                cache_root=cache_root,
+                version_id=version_id,
+                reason="no_data_for_version",
+                selected_timestamp=str(timestamp) if timestamp else None,
+                archive_url=str(archive_url) if archive_url else None,
+                detail=str(unresolved_reason or "missing_timestamp_or_url"),
+            )
+            placeholders.append(
                 {
                     "version_id": version_id,
                     "reason": str(unresolved_reason or "missing_timestamp_or_url"),
+                    "marker_path": str(marker_path),
+                }
+            )
+            continue
+
+        if release_date and is_before_release(str(timestamp), release_date):
+            marker_path = write_no_data_marker(
+                cache_root=cache_root,
+                version_id=version_id,
+                reason="selected_snapshot_before_release_date",
+                selected_timestamp=str(timestamp),
+                archive_url=str(archive_url),
+                detail=f"release_date={release_date}",
+            )
+            placeholders.append(
+                {
+                    "version_id": version_id,
+                    "reason": "selected_snapshot_before_release_date",
+                    "selected_timestamp": str(timestamp),
+                    "release_date": release_date,
+                    "marker_path": str(marker_path),
                 }
             )
             continue
@@ -188,9 +224,11 @@ def cmd_fetch_canonical_html(args: argparse.Namespace) -> int:
             {
                 "requested_rows": len(rows),
                 "fetched_count": len(fetched),
+                "placeholder_count": len(placeholders),
                 "skipped_count": len(skipped),
                 "failure_count": len(failures),
                 "fetched": fetched,
+                "placeholders": placeholders,
                 "skipped": skipped,
                 "failures": failures,
             },
@@ -339,6 +377,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     fetch.add_argument("--repo-root", default=".")
     fetch.add_argument("--manifest", default="data/snapshot_manifest.json")
+    fetch.add_argument("--release-ticks", default="data/release_ticks.json")
     fetch.add_argument("--cache-dir", default="data/html_cache")
     fetch.add_argument("--version")
     fetch.add_argument("--start-version")

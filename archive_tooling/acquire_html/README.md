@@ -18,6 +18,11 @@ HTML acquisition boundary inside `archive_tooling`.
 - Summarize headings and table structures from cached HTML.
 - Diff structural summaries between two versions.
 
+## No-data policy
+- If a manifest row is unresolved (no canonical timestamp/url), create `<version>/.no-data`.
+- If selected snapshot is before the version release date, create `<version>/.no-data` instead of caching HTML.
+- For these cases, any previously cached html/meta for that version is removed to avoid stale incorrect data.
+
 ## Command examples
 - `uv run genshin-archive fetch-canonical-html --version 1.0B`
 - `uv run genshin-archive fetch-canonical-html --start-version 1.0B --end-version 1.2B`

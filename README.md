@@ -81,3 +81,4 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 ## Notes
 - Early versions may have no snapshot at or before a strict end-date cutoff.
 - Unresolved rows in `data/snapshot_manifest.json` are expected and are part of normal workflow.
+- For unresolved or pre-release-selected rows, cache uses `data/html_cache/<VERSION>/.no-data` instead of storing potentially incorrect HTML.

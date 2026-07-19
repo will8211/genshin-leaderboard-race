@@ -16,7 +16,7 @@
 ## Task execution rules
 1. Implement tasks in order unless marked parallelizable.
 2. Keep outputs deterministic and reproducible.
-3. Preserve stage boundaries: manifest, HTML cache, extraction, CSV.
+3. Preserve stage boundaries: manifest, HTML cache, extraction.
 4. Emit diagnostics for all unresolved or failed units.
 5. Use `uv run ...` for Python command execution; do not manually create or activate virtualenvs.
 6. At the end of every phase, update all relevant README files before marking the phase complete.
@@ -101,37 +101,9 @@
 1. Golden fixture versions parse with expected results.
 2. Failures are structured and actionable.
 
-## Phase 5: CSV transform
-1. Implement transform command that reads only normalized JSON and release ticks.
-2. Generate wide CSV for limited_5star_dps.
-3. Ensure version columns are strictly chronological.
-4. Ensure blank output for unreleased/missing values.
-5. Add row consistency checks for character naming stability.
-
-### Deliverables
-1. Flourish-ready CSV.
-
-### Exit criteria
-1. CSV passes validation checks.
-2. CSV imports successfully in Flourish line race template.
-
-## Phase 6: Validation, fixtures, and iteration workflow
-1. Add validation command for all artifact layers.
-2. Add golden fixtures spanning multiple layout eras.
-3. Add regression check for extraction on fixtures.
-4. Add run-summary report:
-5. manifest coverage.
-6. extraction success/failure by strategy.
-7. unresolved counts.
-8. Document operational loop in project docs.
-
-### Deliverables
-1. Validation suite and fixture set.
-2. Iteration workflow documentation.
-
-### Exit criteria
-1. End-to-end run is reproducible.
-2. Failed-only iteration loop works and is documented.
+## Forward work
+1. Phase 5 and 6 scaffolding has been intentionally removed due to high uncertainty in extraction design details.
+2. Remaining work is tracked in `TO_DO.md` and will be replanned after exploratory extraction spikes.
 
 ## Parallelizable task groups
 1. After Phase 2 starts:
@@ -145,15 +117,13 @@
 1. Checkpoint A: First complete manifest produced.
 2. Checkpoint B: First stable HTML cache for sample version range.
 3. Checkpoint C: First two extractor strategies validated on fixtures.
-4. Checkpoint D: First Flourish CSV preview generated.
 
 ## Definition of done
 1. All phase exit criteria are met.
 2. Diagnostics are available for unresolved or failed versions.
-3. CSV output is validated and usable for intended Flourish visualization.
-4. Root and folder-level README files are updated to reflect final state of each completed phase.
-5. Unit tests for new or changed behavior are present.
-6. Full test suite has been run successfully at final phase completion.
+3. Root and folder-level README files are updated to reflect final state of each completed phase.
+4. Unit tests for new or changed behavior are present.
+5. Full test suite has been run successfully at final phase completion.
 
 ## Acceptance checklist for Milestone 3
 1. Task ordering and dependencies are clear.

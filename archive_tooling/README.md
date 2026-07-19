@@ -29,6 +29,8 @@ Tools for timeline parsing, Wayback capture discovery, and canonical snapshot ma
 - `uv run genshin-archive diff-html-structure --left-version 1.0B --right-version 1.1B`
 - `uv run genshin-archive list-missing-canonical-html`
 - `uv run genshin-archive validate-contracts`
+- `uv run genshin-archive validate-completed-work`
+- `uv run genshin-archive run-summary`
 
 ## Inputs and outputs
 - Input: `releases_genshin.md`

@@ -11,7 +11,7 @@ def cmd_placeholder(command_name: str) -> int:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="genshin-extract",
-        description="Extraction and CSV transform tooling.",
+        description="Extraction tooling.",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -24,18 +24,6 @@ def build_parser() -> argparse.ArgumentParser:
     extract.add_argument("--end-version")
     extract.add_argument("--failed-only", action="store_true")
     extract.set_defaults(func=lambda _args: cmd_placeholder("extract-rankings"))
-
-    csv_cmd = subparsers.add_parser(
-        "build-flourish-csv",
-        help="Build Flourish CSV from normalized JSON (placeholder).",
-    )
-    csv_cmd.set_defaults(func=lambda _args: cmd_placeholder("build-flourish-csv"))
-
-    validate = subparsers.add_parser(
-        "validate-artifacts",
-        help="Validate extraction and transform artifacts (placeholder).",
-    )
-    validate.set_defaults(func=lambda _args: cmd_placeholder("validate-artifacts"))
 
     return parser
 

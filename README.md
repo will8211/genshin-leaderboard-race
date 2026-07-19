@@ -8,7 +8,6 @@ Build a repeatable pipeline with clear stage boundaries:
 2. Select one canonical Wayback snapshot per release version.
 3. Cache raw archived HTML for stable, iterative parser development.
 4. Extract normalized rankings JSON.
-5. Generate Flourish-ready line chart race CSV.
 
 ## Environment model
 - Use `uv` as the environment and command runner.
@@ -19,7 +18,9 @@ Build a repeatable pipeline with clear stage boundaries:
 1. Phase 1 complete: root project scaffold, schemas, and CLI entrypoints.
 2. Phase 2 complete: release tick parser, CDX fetch/cache, manifest selector, and candidate inspection.
 3. Phase 3 complete: canonical HTML fetch/cache, checksum metadata, structural inspection, structure diff, and missing-cache reporting.
-4. Phase 4+ in progress: extraction strategies and CSV transform hardening.
+4. Completed-work validation closeout complete: timeline/manifest/cache validation and run-summary reporting.
+5. Phase 4 in progress: extraction strategy implementation.
+6. Forward planning is tracked in `TO_DO.md` while exploratory extraction spikes are underway.
 
 ## Quick start
 1. Install dependencies: `uv sync`
@@ -54,7 +55,9 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - `genshin-archive inspect-html-structure --version <VERSION>` summarizes headings and table shapes for cached HTML.
 - `genshin-archive diff-html-structure --left-version A --right-version B` compares cached page structure across versions.
 - `genshin-archive list-missing-canonical-html` reports manifest versions not yet cached locally.
-- `genshin-extract build-flourish-csv` placeholder command for upcoming implementation.
+- `genshin-archive validate-completed-work` validates completed layers (release ticks, manifest semantics, cache/no-data coverage).
+- `genshin-archive run-summary` reports manifest unresolved counts and cache coverage metrics for completed layers.
+- `genshin-extract extract-rankings [--version V | --start-version A --end-version B] [--failed-only]` placeholder extraction command.
 
 ## Artifacts and folders
 - `releases_genshin.md`: source timeline headings and release dates.
@@ -76,7 +79,6 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - Checkpoint A (first complete manifest produced): complete.
 - Checkpoint B (first stable HTML cache for sample version range): complete.
 - Checkpoint C (first two extractor strategies validated on fixtures): pending.
-- Checkpoint D (first Flourish CSV preview generated): pending.
 
 ## Notes
 - Early versions may have no snapshot at or before a strict end-date cutoff.

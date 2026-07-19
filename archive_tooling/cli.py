@@ -25,6 +25,7 @@ from archive_tooling.manifest import (
 )
 from archive_tooling.release_ticks import build_release_ticks_file
 from archive_tooling.validation import validate_contract_bundle
+from archive_tooling.validation import build_completed_work_summary, validate_completed_work_bundle
 
 
 def cmd_validate_contracts(args: argparse.Namespace) -> int:
@@ -37,6 +38,26 @@ def cmd_validate_contracts(args: argparse.Namespace) -> int:
         return 1
 
     print("Contract validation passed.")
+    return 0
+
+
+def cmd_validate_completed_work(args: argparse.Namespace) -> int:
+    repo_root = Path(args.repo_root).resolve()
+    failures = validate_completed_work_bundle(repo_root)
+    if failures:
+        print("Completed-work validation failed:")
+        for failure in failures:
+            print(f"- {failure}")
+        return 1
+
+    print("Completed-work validation passed.")
+    return 0
+
+
+def cmd_run_summary(args: argparse.Namespace) -> int:
+    repo_root = Path(args.repo_root).resolve()
+    summary = build_completed_work_summary(repo_root)
+    print(json.dumps(summary, indent=2))
     return 0
 
 
@@ -335,6 +356,28 @@ def build_parser() -> argparse.ArgumentParser:
         help="Repository root containing data/ and schemas/.",
     )
     validate.set_defaults(func=cmd_validate_contracts)
+
+    validate_completed = subparsers.add_parser(
+        "validate-completed-work",
+        help="Validate completed artifact layers: timeline, manifest, and html cache coverage.",
+    )
+    validate_completed.add_argument(
+        "--repo-root",
+        default=".",
+        help="Repository root containing data/ and schemas/.",
+    )
+    validate_completed.set_defaults(func=cmd_validate_completed_work)
+
+    run_summary = subparsers.add_parser(
+        "run-summary",
+        help="Report coverage and unresolved counts for completed artifact layers.",
+    )
+    run_summary.add_argument(
+        "--repo-root",
+        default=".",
+        help="Repository root containing data/ artifacts.",
+    )
+    run_summary.set_defaults(func=cmd_run_summary)
 
     release_ticks = subparsers.add_parser(
         "build-release-ticks",

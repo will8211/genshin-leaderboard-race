@@ -15,12 +15,11 @@
 ## Architecture overview
 Use one root uv project with two primary code areas:
 1. archive_tooling: release parsing, Wayback querying, canonical snapshot selection, HTML acquisition, and manifest management.
-2. extract_transform: strategy-based HTML extraction, normalization, and Flourish CSV generation.
+2. extract_transform: strategy-based HTML extraction and normalization.
 
 The design is intentionally iterative:
 1. Snapshot reference assignment is independent from extraction logic.
-2. Extraction logic is independent from CSV generation.
-3. Each stage can be rerun without rerunning all earlier stages.
+2. Each stage can be rerun without rerunning all earlier stages.
 
 ## Repository shape (planned)
 1. pyproject.toml (root uv project)
@@ -31,7 +30,6 @@ The design is intentionally iterative:
 6. data/snapshot_manifest.json
 7. data/html_cache/
 8. data/extracted_rankings/
-9. output/limited_5star_dps_flourish.csv
 
 ## Core data contracts
 
@@ -77,15 +75,6 @@ Record fields:
 4. global_rank_int (flattened higher-is-better integer)
 5. status (ok, missing, ambiguous)
 
-### 4) Flourish CSV
-Purpose: final race chart payload.
-
-Shape:
-1. First column: character
-2. Remaining columns: version ticks in chronological order
-3. Cell values: global_rank_int
-4. Missing/unreleased values: blank
-
 ## Snapshot selection logic
 1. Query Wayback CDX for the Game8 target page.
 2. Filter to valid captures (status 200, html-like content).
@@ -125,8 +114,8 @@ Fallback behavior:
 4. fetch-canonical-html --version or --range
 5. inspect-html-structure --version
 6. extract-rankings --version|--range|--failed-only
-7. build-flourish-csv
-8. validate-artifacts
+7. validate-completed-work
+8. run-summary
 
 ## Validation and quality gates
 1. Timeline validation:
@@ -137,8 +126,6 @@ Fallback behavior:
 6. every selected snapshot has local HTML plus checksum.
 7. Extraction validation:
 8. schema conformance, duplicate row checks, rank consistency checks.
-9. CSV validation:
-10. header order equals timeline order and blank policy is respected.
 
 ## Operational model
 Iterative loop:
@@ -148,7 +135,10 @@ Iterative loop:
 4. review failures
 5. update strategy logic
 6. rerun failed versions
-7. regenerate CSV
+
+## Forward planning note
+1. Phase 5-6 implementation planning is intentionally deferred.
+2. Remaining work options and open questions are tracked in `TO_DO.md` and will be converted into a new plan after exploratory spikes.
 
 ## Technical risks and mitigations
 1. Risk: major HTML layout shifts.

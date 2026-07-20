@@ -3,7 +3,7 @@
 Tooling workspace for working with historical Game8 Genshin rankings from Wayback snapshots.
 
 ## Current scope
-1. Parse release ticks from `releases_genshin.md`.
+1. Parse release version dates from `releases_genshin.md`.
 2. Select one canonical Wayback snapshot per release version.
 3. Cache raw archived HTML and metadata.
 4. Inspect and diff cached HTML structure.

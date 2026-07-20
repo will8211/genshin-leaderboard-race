@@ -22,37 +22,37 @@
   - unified: "table:nth-of-type(6)"
 
 "1.2B":
-  - unified: ""
+  - unified: "table:nth-of-type(6)"
 
 "1.3A":
   - unified: "table:nth-of-type(6)"
 
 "1.3B":
-  - unified: ""
+  - unified: "table:nth-of-type(7)"
 
 "1.4B":
-  - unified: ""
+  - unified: "table:nth-of-type(6)"
 
 "1.5A":
-  - unified: ""
+  - unified: "table:nth-of-type(7)"
 
 "1.5B":
-  - unified: ""
+  - unified: "table:nth-of-type(7)"
 
 "1.6B":
-  - unified: ""
+  - unified: "table:nth-of-type(7)"
 
 "2.0A":
-  - unified: ""
+  - unified: "table:nth-of-type(6)"
 
 "2.0B":
-  - unified: ""
+  - unified: "table:nth-of-type(8)"
 
 "2.1A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "2.1B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "2.2B":
   - unified: ""
@@ -178,10 +178,10 @@
   - unified: "table:nth-of-type(3)"
 
 "5.6A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "5.7A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "5.8A":
   - unified: "table:nth-of-type(3)"
@@ -199,10 +199,10 @@
   - unified: "table:nth-of-type(4)"
 
 "6.3A":
-  - unified: ""
+  - unified: "table:nth-of-type(4)"
 
 "6.3B":
-  - unified: ""
+  - unified: "table:nth-of-type(4)"
 
 "6.4A":
   - unified: "table:nth-of-type(4)"

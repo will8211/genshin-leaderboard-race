@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import yaml
+from bs4 import BeautifulSoup
 
 from archive_tooling.acquire_html.cache import cache_paths
 from extract_rankings.parser import extract_tables_by_selectors, load_html_from_cache
@@ -109,4 +110,9 @@ def extract_tables_for_version(
 def write_output_file(output_path: Path, content: str) -> None:
     """Write HTML content to output file, creating directories as needed."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(content, encoding="utf-8")
+    
+    # Prettify the HTML for better readability
+    soup = BeautifulSoup(content, "html.parser")
+    formatted_content = soup.prettify()
+    
+    output_path.write_text(formatted_content, encoding="utf-8")

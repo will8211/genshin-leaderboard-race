@@ -6,10 +6,14 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
   "jsonschema>=4.23.0",
+  "beautifulsoup4>=4.12.0",
+  "lxml>=5.0.0",
+  "pyyaml>=6.0.0",
 ]
 
 [project.scripts]
 genshin-archive = "archive_tooling.cli:main"
+extract-rankings = "extract_rankings.cli:main"
 
 [build-system]
 requires = ["hatchling>=1.25.0"]
@@ -21,6 +25,7 @@ package = true
 [tool.hatch.build.targets.wheel]
 packages = [
   "archive_tooling",
+  "extract_rankings",
 ]
 
 [dependency-groups]

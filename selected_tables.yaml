@@ -19,13 +19,13 @@
     sup: "table:nth-of-type(15)"
 
 "1.2A":
-  - unified: "table:nth-of-type(6)"
+  - unified: "table:nth-of-type(5)"
 
 "1.2B":
   - unified: "table:nth-of-type(6)"
 
 "1.3A":
-  - unified: "table:nth-of-type(6)"
+  - unified: "table:nth-of-type(5)"
 
 "1.3B":
   - unified: "table:nth-of-type(7)"
@@ -130,7 +130,7 @@
   - unified: "table:nth-of-type(4)"
 
 "4.3A":
-  - unified: "table:nth-of-type(3)"
+  - unified: "table:nth-of-type(4)"
 
 "4.3B":
   - unified: "table:nth-of-type(4)"

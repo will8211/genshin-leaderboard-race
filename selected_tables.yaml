@@ -55,16 +55,16 @@
   - unified: "table:nth-of-type(3)"
 
 "2.2B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "2.3B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "2.4A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "2.5A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "2.6A":
   - unified: ""

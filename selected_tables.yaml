@@ -1,0 +1,221 @@
+"1.0A":
+  - dps: ~
+    sub: ~
+    sup: ~
+
+"1.0B":
+  - dps: "table:nth-of-type(11)"
+    sub: ~
+    sup: "table:nth-of-type(13)"
+
+"1.1A":
+  - dps: ~
+    sub: ~
+    sup: ~
+
+"1.1B":
+  - dps: "table:nth-of-type(11)"
+    sub: "table:nth-of-type(13)"
+    sup: "table:nth-of-type(15)"
+
+"1.2A":
+  - unified: "table:nth-of-type(6)"
+
+
+"1.2B":
+  - unified: ""
+
+"1.3A":
+  - unified: "table:nth-of-type(6)"
+
+"1.3B":
+  - unified: ""
+
+"1.4B":
+  - unified: ""
+
+"1.5A":
+  - unified: ""
+
+"1.5B":
+  - unified: ""
+
+"1.6B":
+  - unified: ""
+
+"2.0A":
+  - unified: ""
+
+"2.0B":
+  - unified: ""
+
+"2.1A":
+  - unified: ""
+
+"2.1B":
+  - unified: ""
+
+"2.2B":
+  - unified: ""
+
+"2.3B":
+  - unified: ""
+
+"2.4A":
+  - unified: ""
+
+"2.5A":
+  - unified: ""
+
+"2.6A":
+  - unified: ""
+
+"2.7A":
+  - unified: ""
+
+"2.7B":
+  - unified: ""
+
+"2.8A":
+  - unified: ""
+
+"3.0A":
+  - unified: ""
+
+"3.0B":
+  - unified: ""
+
+"3.1A":
+  - unified: ""
+
+"3.1B":
+  - unified: ""
+
+"3.2A":
+  - unified: ""
+
+"3.2B":
+  - unified: ""
+
+"3.3A":
+  - unified: ""
+
+"3.4A":
+  - unified: ""
+
+"3.5A":
+  - unified: ""
+
+"3.5B":
+  - unified: ""
+
+"3.6B":
+  - unified: ""
+
+"3.7A":
+  - unified: ""
+
+"4.0A":
+  - unified: "table:nth-of-type(3)"
+
+"4.0B":
+  - unified: ""
+
+"4.1A":
+  - unified: ""
+
+"4.1B":
+  - unified: ""
+
+"4.2A":
+  - unified: ""
+
+"4.3A":
+  - unified: ""
+
+"4.3B":
+  - unified: ""
+
+"4.4A":
+  - unified: ""
+
+"4.5A":
+  - unified: ""
+
+"4.6A":
+  - unified: "table:nth-of-type(4)"
+
+"4.7A":
+  - unified: ""
+
+"4.7B":
+  - unified: ""
+
+"4.8B":
+  - unified: ""
+
+"5.0A":
+  - unified: ""
+
+"5.0B":
+  - unified: ""
+
+"5.1A":
+  - unified: ""
+
+"5.2A":
+  - unified: ""
+
+"5.3A":
+  - unified: ""
+
+"5.3B":
+  - unified: ""
+
+"5.4A":
+  - unified: ""
+
+"5.5A":
+  - unified: "table:nth-of-type(3)"
+
+"5.6A":
+  - unified: ""
+
+"5.7A":
+  - unified: ""
+
+"5.8A":
+  - unified: "table:nth-of-type(3)"
+
+"6.0A":
+  - unified: "table:nth-of-type(3)"
+
+"6.0B":
+  - unified: "table:nth-of-type(3)"
+
+"6.1A":
+  - unified: "table:nth-of-type(4)"
+
+"6.2A":
+  - unified: "table:nth-of-type(4)"
+
+"6.3A":
+  - unified: ""
+
+"6.3B":
+  - unified: ""
+
+"6.4A":
+  - unified: "table:nth-of-type(4)"
+
+"6.5A":
+  - unified: "table:nth-of-type(4)"
+
+"6.6A":
+  - unified: "table:nth-of-type(4)"
+
+"6.6B":
+  - unified: "table:nth-of-type(4)"
+
+"6.7A":
+  - unified: "table:nth-of-type(3)"

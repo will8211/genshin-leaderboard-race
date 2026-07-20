@@ -26,7 +26,7 @@ class _StructureParser(HTMLParser):
             return
 
         if lower == "table":
-            last_heading = self.headings[-1]["text"] if self.headings else None
+            last_heading = self._current_table_heading_name()
             self._table_stack.append({"name": last_heading, "rows": 0, "max_cols": 0, "first_col_alts": []})
             self._in_row_stack.append(False)
             self._cell_count_stack.append(0)
@@ -89,6 +89,28 @@ class _StructureParser(HTMLParser):
         if self._current_heading_tag:
             self._heading_buffer.append(data)
 
+    def _current_table_heading_name(self) -> str | None:
+        if not self.headings:
+            return None
+
+        current_heading = self.headings[-1]
+        current_level = _heading_level(current_heading["level"])
+        if current_level is None or len(self.headings) < 2:
+            return current_heading["text"]
+
+        previous_heading = self.headings[-2]
+        previous_level = _heading_level(previous_heading["level"])
+        if previous_level == current_level - 1:
+            return f"{previous_heading['text']} > {current_heading['text']}"
+
+        return current_heading["text"]
+
+
+def _heading_level(level_tag: str) -> int | None:
+    if len(level_tag) == 2 and level_tag.startswith("h") and level_tag[1].isdigit():
+        return int(level_tag[1])
+    return None
+
 
 def summarize_html_structure(html_text: str) -> dict[str, object]:
     parser = _StructureParser()
@@ -104,6 +126,7 @@ def summarize_html_structure(html_text: str) -> dict[str, object]:
                 "rows": table["rows"],
                 "max_cols": table["max_cols"],
                 "first_col_alts": table["first_col_alts"],
+                "selector": f"table:nth-of-type({idx + 1})",
             }
             for idx, table in enumerate(parser.tables)
         ],

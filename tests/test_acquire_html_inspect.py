@@ -24,7 +24,7 @@ def test_summarize_html_structure_counts_headings_and_tables():
     summary = summarize_html_structure(SAMPLE_HTML)
     assert summary["heading_count"] == 2
     assert summary["table_count"] == 1
-    assert summary["tables"][0]["name"] == "Main DPS"
+    assert summary["tables"][0]["name"] == "Genshin Tier List > Main DPS"
     assert summary["tables"][0]["rows"] == 3
     assert summary["tables"][0]["max_cols"] == 2
 
@@ -37,8 +37,8 @@ def test_diff_structures_reports_changes():
     assert diff["right_version"] == "1.0B"
     assert diff["first_heading_changed"] is False
     assert len(diff["table_shape_changes"]) == 1
-    assert diff["table_shape_changes"][0]["left"]["name"] == "Main DPS"
-    assert diff["table_shape_changes"][0]["right"]["name"] == "Support"
+    assert diff["table_shape_changes"][0]["left"]["name"] == "Genshin Tier List > Main DPS"
+    assert diff["table_shape_changes"][0]["right"]["name"] == "Genshin Tier List > Support"
 
 
 def test_summarize_html_structure_captures_first_col_alts():
@@ -78,3 +78,35 @@ def test_select_tables_with_first_col_alt_substring_filters_to_a_tier():
     filtered = select_tables_with_first_col_alt_substring(summary, "A Tier")
     assert len(filtered) == 1
     assert filtered[0]["name"] == "Main DPS"
+
+
+def test_table_name_includes_immediately_previous_parent_heading_level():
+    html = """
+    <html>
+      <body>
+        <h2>foo</h2>
+        <h3>bar</h3>
+        <table>
+          <tr><td>x</td></tr>
+        </table>
+      </body>
+    </html>
+    """
+    summary = summarize_html_structure(html)
+    assert summary["tables"][0]["name"] == "foo > bar"
+
+
+def test_table_name_does_not_include_non_immediate_parent_level_heading():
+    html = """
+    <html>
+      <body>
+        <h2>foo</h2>
+        <h4>bar</h4>
+        <table>
+          <tr><td>x</td></tr>
+        </table>
+      </body>
+    </html>
+    """
+    summary = summarize_html_structure(html)
+    assert summary["tables"][0]["name"] == "bar"

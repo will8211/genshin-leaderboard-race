@@ -1,17 +1,17 @@
 "1.0A":
-  - dps: ~
-    sub: ~
-    sup: ~
+  - dps: null
+    sub: null
+    sup: null
 
 "1.0B":
   - dps: "table:nth-of-type(11)"
-    sub: ~
+    sub: null
     sup: "table:nth-of-type(13)"
 
 "1.1A":
-  - dps: ~
-    sub: ~
-    sup: ~
+  - dps: null
+    sub: null
+    sup: null
 
 "1.1B":
   - dps: "table:nth-of-type(11)"
@@ -79,40 +79,40 @@
   - unified: "table:nth-of-type(3)"
 
 "3.0A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.0B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.1A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.1B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.2A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.2B":
-  - unified: ""
+  - unified: null
 
 "3.3A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.4A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.5A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.5B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.6B":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "3.7A":
-  - unified: ""
+  - unified: "table:nth-of-type(3)"
 
 "4.0A":
   - unified: "table:nth-of-type(3)"

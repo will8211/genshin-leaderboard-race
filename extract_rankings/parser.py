@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from bs4.element import Tag
 
 
-UNWANTED_ATTRIBUTES = {"width", "height", "class", "style"}
+UNWANTED_ATTRIBUTES = {"width", "height", "class", "style", "data-src", "src"}
 
 WAYBACK_PREFIX_PATTERN = re.compile(
     r"https://web\.archive\.org/web/\d+/"

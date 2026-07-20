@@ -48,6 +48,7 @@ uv run genshin-archive inspect-snapshot-candidates --version 1.0A
 - `genshin-archive inspect-snapshot-candidates --version <VERSION>` shows before/after capture candidates around a version end date.
 - `genshin-archive fetch-canonical-html [--version V | --start-version A --end-version B]` fetches manifest-selected HTML into `data/html_cache`.
 - `genshin-archive inspect-html-structure --version <VERSION>` summarizes headings and table shapes for cached HTML.
+- `genshin-archive inspect-html-structure --version <VERSION> --relevant-tables` outputs only tables whose `first_col_alts` includes an alt containing `A Tier` or `A Rank`.
 - `genshin-archive diff-html-structure --left-version A --right-version B` compares cached page structure across versions.
 - `genshin-archive list-missing-canonical-html` reports manifest versions not yet cached locally.
 - `genshin-archive validate-completed-work` validates completed layers (release ticks, manifest semantics, cache/no-data coverage).

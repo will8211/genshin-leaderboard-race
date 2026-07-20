@@ -15,6 +15,8 @@ from archive_tooling.acquire_html.cache import (
     write_cached_html,
 )
 from archive_tooling.acquire_html.inspect import diff_structures, summarize_html_structure
+from archive_tooling.acquire_html.inspect import select_tables_with_first_col_alt_substrings
+from archive_tooling.acquire_html.inspect import select_tables_with_first_col_alt_substring
 from archive_tooling.cdx import dedupe_captures, fetch_cdx_captures, load_cdx_cache, write_cdx_cache
 from archive_tooling.manifest import (
     build_manifest,
@@ -301,11 +303,20 @@ def cmd_inspect_html_structure(args: argparse.Namespace) -> int:
         return 1
 
     summary = summarize_html_structure(html_text)
-    payload = {
-        "version_id": row["version_id"],
-        "selected_timestamp": row["selected_timestamp"],
-        **summary,
-    }
+    if args.relevant_tables:
+        filtered_tables = select_tables_with_first_col_alt_substrings(summary, ["A Tier", "A Rank"])
+        payload = {
+            "version_id": row["version_id"],
+            "selected_timestamp": row["selected_timestamp"],
+            "table_count": len(filtered_tables),
+            "tables": filtered_tables,
+        }
+    else:
+        payload = {
+            "version_id": row["version_id"],
+            "selected_timestamp": row["selected_timestamp"],
+            **summary,
+        }
     print(json.dumps(payload, indent=2))
     return 0
 
@@ -436,6 +447,11 @@ def build_parser() -> argparse.ArgumentParser:
     inspect_html.add_argument("--manifest", default="data/snapshot_manifest.json")
     inspect_html.add_argument("--cache-dir", default="data/html_cache")
     inspect_html.add_argument("--version", required=True)
+    inspect_html.add_argument(
+        "--relevant-tables",
+        action="store_true",
+        help='Only output tables where first_col_alts contains "A Tier" or "A Rank".',
+    )
     inspect_html.set_defaults(func=cmd_inspect_html_structure)
 
     diff_html = subparsers.add_parser(

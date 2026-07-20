@@ -30,6 +30,7 @@ Tools for timeline parsing, Wayback capture discovery, and canonical snapshot ma
 - `uv run genshin-archive inspect-snapshot-candidates --version 1.0A`
 - `uv run genshin-archive fetch-canonical-html --start-version 1.0B --end-version 1.2B`
 - `uv run genshin-archive inspect-html-structure --version 1.0B`
+- `uv run genshin-archive inspect-html-structure --version 6.7A --relevant-tables`
 - `uv run genshin-archive diff-html-structure --left-version 1.0B --right-version 1.1B`
 - `uv run genshin-archive list-missing-canonical-html`
 - `uv run genshin-archive validate-contracts`

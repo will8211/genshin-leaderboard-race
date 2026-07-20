@@ -12,8 +12,11 @@ class _StructureParser(HTMLParser):
 
         self._in_row_stack: list[bool] = []
         self._cell_count_stack: list[int] = []
-        self._table_stack: list[dict[str, int]] = []
-        self.tables: list[dict[str, int]] = []
+        self._table_stack: list[dict[str, object]] = []
+        self.tables: list[dict[str, object]] = []
+
+        self._in_first_col_stack: list[bool] = []
+        self._current_cell_alts_stack: list[list[str]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         lower = tag.lower()
@@ -23,9 +26,12 @@ class _StructureParser(HTMLParser):
             return
 
         if lower == "table":
-            self._table_stack.append({"rows": 0, "max_cols": 0})
+            last_heading = self.headings[-1]["text"] if self.headings else None
+            self._table_stack.append({"name": last_heading, "rows": 0, "max_cols": 0, "first_col_alts": []})
             self._in_row_stack.append(False)
             self._cell_count_stack.append(0)
+            self._in_first_col_stack.append(False)
+            self._current_cell_alts_stack.append([])
             return
 
         if lower == "tr" and self._table_stack:
@@ -34,7 +40,16 @@ class _StructureParser(HTMLParser):
             return
 
         if lower in {"td", "th"} and self._table_stack and self._in_row_stack[-1]:
+            if self._cell_count_stack[-1] == 0:
+                self._in_first_col_stack[-1] = True
+                self._current_cell_alts_stack[-1] = []
             self._cell_count_stack[-1] += 1
+            return
+
+        if lower == "img" and self._table_stack and self._in_first_col_stack[-1]:
+            alt = dict(attrs).get("alt")
+            if alt:
+                self._current_cell_alts_stack[-1].append(alt)
 
     def handle_endtag(self, tag: str) -> None:
         lower = tag.lower()
@@ -46,10 +61,19 @@ class _StructureParser(HTMLParser):
             self._heading_buffer = []
             return
 
+        if lower in {"td", "th"} and self._table_stack and self._in_first_col_stack[-1]:
+            if self._current_cell_alts_stack[-1]:
+                table = self._table_stack[-1]
+                first_col_alts = table["first_col_alts"]
+                assert isinstance(first_col_alts, list)
+                first_col_alts.append(list(self._current_cell_alts_stack[-1]))
+            self._in_first_col_stack[-1] = False
+            return
+
         if lower == "tr" and self._table_stack and self._in_row_stack[-1]:
             table = self._table_stack[-1]
-            table["rows"] += 1
-            table["max_cols"] = max(table["max_cols"], self._cell_count_stack[-1])
+            table["rows"] = int(table["rows"]) + 1
+            table["max_cols"] = max(int(table["max_cols"]), self._cell_count_stack[-1])
             self._in_row_stack[-1] = False
             return
 
@@ -57,6 +81,8 @@ class _StructureParser(HTMLParser):
             table = self._table_stack.pop()
             self._in_row_stack.pop()
             self._cell_count_stack.pop()
+            self._in_first_col_stack.pop()
+            self._current_cell_alts_stack.pop()
             self.tables.append(table)
 
     def handle_data(self, data: str) -> None:
@@ -74,12 +100,54 @@ def summarize_html_structure(html_text: str) -> dict[str, object]:
         "tables": [
             {
                 "index": idx,
+                "name": table["name"],
                 "rows": table["rows"],
                 "max_cols": table["max_cols"],
+                "first_col_alts": table["first_col_alts"],
             }
             for idx, table in enumerate(parser.tables)
         ],
     }
+
+
+def select_tables_with_first_col_alt_substring(
+    summary: dict[str, object],
+    substring: str,
+) -> list[dict[str, object]]:
+    return select_tables_with_first_col_alt_substrings(summary, [substring])
+
+
+def select_tables_with_first_col_alt_substrings(
+    summary: dict[str, object],
+    substrings: list[str],
+) -> list[dict[str, object]]:
+    tables = summary.get("tables", [])
+    if not isinstance(tables, list):
+        return []
+
+    needles = [needle for needle in substrings if needle]
+    if not needles:
+        return []
+
+    matching_tables: list[dict[str, object]] = []
+    for table in tables:
+        if not isinstance(table, dict):
+            continue
+        first_col_alts = table.get("first_col_alts", [])
+        if not isinstance(first_col_alts, list):
+            continue
+
+        if any(
+            isinstance(row_alts, list)
+            and any(
+                isinstance(alt, str) and any(needle in alt for needle in needles)
+                for alt in row_alts
+            )
+            for row_alts in first_col_alts
+        ):
+            matching_tables.append(table)
+
+    return matching_tables
 
 
 def diff_structures(

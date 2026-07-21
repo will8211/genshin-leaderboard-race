@@ -1,0 +1,126 @@
+{
+  "2.7A": {
+    "Main DPS": {
+      "SS": [
+        "Hu Tao",
+        "Ayaka",
+        "Ayato",
+        "Ganyu",
+        "Raiden",
+        "Itto"
+      ],
+      "S": [
+        "Eula",
+        "Xiao",
+        "Yoimiya",
+        "Tartaglia"
+      ],
+      "A": [
+        "Noelle",
+        "Yanfei",
+        "Ningguang",
+        "Diluc",
+        "Klee",
+        "Kokomi"
+      ],
+      "B": [
+        "Keqing",
+        "Mona",
+        "Razor",
+        "Fischl",
+        "Kaeya",
+        "Qiqi",
+        "Beidou",
+        "Yun Jin"
+      ],
+      "C": [
+        "Rosaria",
+        "Xinyan",
+        "Aloy"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Xingqiu",
+        "Yelan",
+        "Ayaka",
+        "Albedo",
+        "Raiden",
+        "Xiangling",
+        "Kazuha",
+        "Venti"
+      ],
+      "S": [
+        "Ayato",
+        "Ganyu",
+        "Shenhe",
+        "Tartaglia",
+        "Fischl",
+        "Zhongli",
+        "Mona"
+      ],
+      "A": [
+        "Yae Miko",
+        "Beidou",
+        "Rosaria",
+        "Kaeya",
+        "Kokomi",
+        "Sara",
+        "Sucrose"
+      ],
+      "B": [
+        "Sayu",
+        "Chongyun",
+        "Jean"
+      ],
+      "C": [
+        "Lisa",
+        "Thoma",
+        "Traveler (Geo)",
+        "Amber",
+        "Traveler (Anemo)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Zhongli",
+        "Bennett",
+        "Kazuha",
+        "Raiden",
+        "Diona"
+      ],
+      "S": [
+        "Sucrose",
+        "Yun Jin",
+        "Mona",
+        "Venti",
+        "Kokomi",
+        "Jean",
+        "Albedo",
+        "Shenhe"
+      ],
+      "A": [
+        "Gorou",
+        "Sara",
+        "Barbara",
+        "Qiqi",
+        "Sayu"
+      ],
+      "B": [
+        "Traveler (Electro)",
+        "Rosaria",
+        "Yelan",
+        "Ayato",
+        "Xinyan",
+        "Thoma",
+        "Traveler (Geo)",
+        "Chongyun"
+      ],
+      "C": [
+        "Xingqiu",
+        "Ningguang",
+        "Noelle"
+      ]
+    }
+  }
+}

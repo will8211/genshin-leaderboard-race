@@ -1,0 +1,134 @@
+{
+  "3.4A": {
+    "Main DPS": {
+      "SS": [
+        "Ayato",
+        "Ganyu",
+        "Itto",
+        "Tighnari",
+        "Tartaglia",
+        "Nahida"
+      ],
+      "S": [
+        "Cyno",
+        "Wanderer",
+        "Yoimiya",
+        "Keqing",
+        "Xiao",
+        "Eula",
+        "Yelan"
+      ],
+      "A": [
+        "Yanfei",
+        "Heizou",
+        "Klee",
+        "Diluc",
+        "Ningguang",
+        "Noelle",
+        "Kokomi",
+        "Nilou"
+      ],
+      "B": [
+        "Razor",
+        "Fischl",
+        "Candace",
+        "Kaeya"
+      ],
+      "C": [
+        "Rosaria",
+        "Xinyan",
+        "Barbara",
+        "Beidou",
+        "Yun Jin",
+        "Chongyun",
+        "Aloy"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Fischl",
+        "Yae Miko",
+        "Albedo",
+        "Nilou"
+      ],
+      "S": [
+        "Venti",
+        "Shinobu",
+        "Ganyu",
+        "Mona",
+        "Beidou"
+      ],
+      "A": [
+        "Ayato",
+        "Sucrose",
+        "Rosaria",
+        "Collei",
+        "Kokomi",
+        "Thoma",
+        "Traveler (Dendro)",
+        "Layla",
+        "Zhongli",
+        "Kaeya"
+      ],
+      "B": [
+        "Jean",
+        "Lisa",
+        "Heizou",
+        "Chongyun",
+        "Xinyan",
+        "Sayu",
+        "Candace"
+      ],
+      "C": [
+        "Traveler (Anemo)",
+        "Amber",
+        "Traveler (Geo)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Yelan",
+        "Mona",
+        "Diona"
+      ],
+      "S": [
+        "Jean",
+        "Sucrose",
+        "Gorou",
+        "Shenhe",
+        "Yun Jin",
+        "Venti",
+        "Faruzan",
+        "Sara",
+        "Traveler (Dendro)",
+        "Yaoyao",
+        "Sayu"
+      ],
+      "A": [
+        "Layla",
+        "Qiqi",
+        "Barbara",
+        "Shinobu",
+        "Traveler (Electro)",
+        "Candace",
+        "Dori"
+      ],
+      "B": [
+        "Chongyun",
+        "Rosaria",
+        "Thoma",
+        "Xinyan",
+        "Lisa",
+        "Albedo",
+        "Klee"
+      ],
+      "C": [
+        "Xingqiu",
+        "Noelle",
+        "Traveler (Geo)",
+        "Ningguang",
+        "Yanfei"
+      ]
+    }
+  }
+}

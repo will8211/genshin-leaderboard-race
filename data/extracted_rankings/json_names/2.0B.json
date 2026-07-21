@@ -1,0 +1,113 @@
+{
+  "2.0B": {
+    "Main DPS": {
+      "SS": [
+        "Ayaka",
+        "Hu Tao",
+        "Ganyu",
+        "Eula",
+        "Xiao"
+      ],
+      "S": [
+        "Yoimiya",
+        "Diluc",
+        "Klee",
+        "Tartaglia",
+        "Keqing"
+      ],
+      "A": [
+        "Yanfei",
+        "Ningguang",
+        "Noelle",
+        "Razor"
+      ],
+      "B": [
+        "Fischl",
+        "Beidou",
+        "Sayu",
+        "Xinyan",
+        "Mona"
+      ],
+      "C": [
+        "Jean",
+        "Chongyun",
+        "Rosaria",
+        "Amber"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Venti",
+        "Kazuha",
+        "Xingqiu",
+        "Ganyu",
+        "Albedo"
+      ],
+      "S": [
+        "Hu Tao",
+        "Klee",
+        "Fischl",
+        "Mona",
+        "Zhongli",
+        "Ayaka",
+        "Tartaglia"
+      ],
+      "A": [
+        "Xiangling",
+        "Kaeya",
+        "Yoimiya",
+        "Sayu",
+        "Rosaria",
+        "Chongyun",
+        "Sucrose"
+      ],
+      "B": [
+        "Traveler (Electro)",
+        "Jean",
+        "Beidou"
+      ],
+      "C": [
+        "Traveler (Geo)",
+        "Lisa",
+        "Amber",
+        "Traveler (Anemo)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Zhongli",
+        "Bennett",
+        "Diona",
+        "Venti",
+        "Kazuha",
+        "Sucrose"
+      ],
+      "S": [
+        "Albedo",
+        "Jean",
+        "Mona"
+      ],
+      "A": [
+        "Sayu",
+        "Qiqi",
+        "Barbara",
+        "Xingqiu",
+        "Amber",
+        "Xinyan",
+        "Tartaglia"
+      ],
+      "B": [
+        "Chongyun",
+        "Rosaria",
+        "Noelle",
+        "Traveler (Geo)",
+        "Klee",
+        "Traveler (Electro)"
+      ],
+      "C": [
+        "Ningguang",
+        "Lisa"
+      ]
+    }
+  }
+}

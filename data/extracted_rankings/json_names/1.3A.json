@@ -1,0 +1,90 @@
+{
+  "1.3A": {
+    "Main DPS": {
+      "SS": [
+        "Ganyu",
+        "Xiao",
+        "Tartaglia",
+        "Diluc",
+        "Klee"
+      ],
+      "S": [
+        "Noelle",
+        "Keqing",
+        "Razor",
+        "Ningguang"
+      ],
+      "A": [
+        "Xinyan",
+        "Beidou",
+        "Fischl",
+        "Chongyun",
+        "Jean",
+        "Mona"
+      ],
+      "B": [],
+      "C": []
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Albedo",
+        "Venti",
+        "Mona",
+        "Fischl",
+        "Xingqiu",
+        "Klee"
+      ],
+      "S": [
+        "Zhongli",
+        "Ganyu",
+        "Chongyun",
+        "Tartaglia",
+        "Jean",
+        "Xiangling"
+      ],
+      "A": [
+        "Sucrose",
+        "Kaeya"
+      ],
+      "B": [
+        "Lisa",
+        "Amber",
+        "Traveler (Geo)",
+        "Traveler (Anemo)"
+      ],
+      "C": []
+    },
+    "Support": {
+      "SS": [
+        "Zhongli",
+        "Bennett",
+        "Diona",
+        "Venti",
+        "Jean"
+      ],
+      "S": [
+        "Albedo",
+        "Sucrose",
+        "Ganyu",
+        "Tartaglia",
+        "Mona"
+      ],
+      "A": [
+        "Chongyun",
+        "Qiqi",
+        "Xingqiu",
+        "Amber",
+        "Barbara"
+      ],
+      "B": [
+        "Noelle",
+        "Traveler (Geo)"
+      ],
+      "C": [
+        "Xinyan",
+        "Ningguang",
+        "Lisa"
+      ]
+    }
+  }
+}

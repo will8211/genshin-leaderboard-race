@@ -1,0 +1,177 @@
+{
+  "5.6A": {
+    "Main DPS": {
+      "SS": [
+        "Neuvillette",
+        "Mavuika",
+        "Arlecchino"
+      ],
+      "S": [
+        "Varesa",
+        "Mualani",
+        "Kinich",
+        "Navia",
+        "Alhaitham",
+        "Hu Tao",
+        "Lyney",
+        "Chasca",
+        "Gaming",
+        "Raiden",
+        "Wriothesley",
+        "Clorinde"
+      ],
+      "A": [
+        "Ayaka",
+        "Xiao",
+        "Tartaglia",
+        "Diluc",
+        "Ayato",
+        "Tighnari",
+        "Wanderer",
+        "Ganyu"
+      ],
+      "B": [
+        "Yoimiya",
+        "Sethos",
+        "Itto",
+        "Cyno",
+        "Keqing",
+        "Ifa",
+        "Sucrose",
+        "Noelle",
+        "Eula"
+      ],
+      "C": [
+        "Mizuki",
+        "Yanfei",
+        "Heizou",
+        "Klee",
+        "Kaveh",
+        "Kokomi",
+        "Freminet",
+        "Ningguang"
+      ],
+      "D": [
+        "Razor",
+        "Dehya",
+        "Xinyan",
+        "Aloy"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Furina",
+        "Nahida",
+        "Yelan",
+        "Escoffier",
+        "Xingqiu",
+        "Mavuika",
+        "Xiangling"
+      ],
+      "S": [
+        "Raiden",
+        "Fischl",
+        "Nilou",
+        "Yae Miko",
+        "Shinobu",
+        "Emilie",
+        "Chiori",
+        "Ororon"
+      ],
+      "A": [
+        "Venti",
+        "Ganyu",
+        "Mona",
+        "Beidou",
+        "Collei",
+        "Rosaria",
+        "Sucrose"
+      ],
+      "B": [
+        "Albedo",
+        "Ayato",
+        "Kokomi",
+        "Traveler (Pyro)",
+        "Thoma",
+        "Traveler (Dendro)",
+        "Lynette",
+        "Zhongli"
+      ],
+      "C": [
+        "Kachina",
+        "Kaeya",
+        "Dehya",
+        "Lisa",
+        "Chongyun",
+        "Sayu"
+      ],
+      "D": [
+        "Xinyan",
+        "Traveler (Geo)",
+        "Amber",
+        "Traveler (Anemo)",
+        "Traveler (Hydro)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Furina",
+        "Xilonen",
+        "Bennett",
+        "Iansan",
+        "Kazuha",
+        "Citlali",
+        "Nahida",
+        "Zhongli"
+      ],
+      "S": [
+        "Escoffier",
+        "Chevreuse",
+        "Raiden",
+        "Xianyun",
+        "Baizhu",
+        "Mona",
+        "Shenhe",
+        "Jean",
+        "Sucrose"
+      ],
+      "A": [
+        "Lan Yan",
+        "Kokomi",
+        "Faruzan",
+        "Venti",
+        "Diona",
+        "Yaoyao",
+        "Charlotte",
+        "Layla",
+        "Shinobu"
+      ],
+      "B": [
+        "Yun Jin",
+        "Sara",
+        "Gorou",
+        "Kirara",
+        "Mika",
+        "Mizuki",
+        "Sigewinne",
+        "Sayu",
+        "Thoma",
+        "Dehya"
+      ],
+      "C": [
+        "Qiqi",
+        "Barbara",
+        "Traveler (Electro)",
+        "Rosaria",
+        "Candace",
+        "Dori"
+      ],
+      "D": [
+        "Noelle",
+        "Chongyun",
+        "Lisa",
+        "Xinyan"
+      ]
+    }
+  }
+}

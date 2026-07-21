@@ -1,0 +1,184 @@
+{
+  "6.2A": {
+    "Main DPS": {
+      "SS": [
+        "Mavuika",
+        "Skirk",
+        "Nefer",
+        "Flins",
+        "Varesa"
+      ],
+      "S": [
+        "Neuvillette",
+        "Mualani",
+        "Arlecchino",
+        "Chasca",
+        "Kinich"
+      ],
+      "A": [
+        "Clorinde",
+        "Gaming",
+        "Klee",
+        "Razor",
+        "Venti",
+        "Navia",
+        "Alhaitham",
+        "Ayaka",
+        "Wriothesley",
+        "Lyney",
+        "Hu Tao",
+        "Xiao",
+        "Raiden"
+      ],
+      "B": [
+        "Tartaglia",
+        "Wanderer",
+        "Yoimiya",
+        "Diluc",
+        "Itto",
+        "Ayato",
+        "Ganyu",
+        "Tighnari",
+        "Sethos",
+        "Cyno",
+        "Ifa"
+      ],
+      "C": [
+        "Keqing",
+        "Noelle",
+        "Eula",
+        "Mizuki",
+        "Yanfei",
+        "Heizou",
+        "Kaveh"
+      ],
+      "D": [
+        "Freminet",
+        "Ningguang",
+        "Dehya",
+        "Xinyan",
+        "Aloy"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Furina",
+        "Escoffier",
+        "Lauma",
+        "Durin",
+        "Ineffa",
+        "Mavuika",
+        "Fischl",
+        "Yelan"
+      ],
+      "S": [
+        "Xingqiu",
+        "Nahida",
+        "Xiangling",
+        "Raiden",
+        "Albedo",
+        "Emilie",
+        "Nilou",
+        "Shinobu"
+      ],
+      "A": [
+        "Ororon",
+        "Aino",
+        "Venti",
+        "Mona",
+        "Sucrose",
+        "Chiori",
+        "Yae Miko",
+        "Rosaria"
+      ],
+      "B": [
+        "Jahoda",
+        "Thoma",
+        "Ganyu",
+        "Collei",
+        "Traveler (Pyro)",
+        "Kokomi",
+        "Beidou",
+        "Kaeya",
+        "Traveler (Dendro)",
+        "Lynette"
+      ],
+      "C": [
+        "Kachina",
+        "Dehya",
+        "Lisa",
+        "Chongyun",
+        "Sayu"
+      ],
+      "D": [
+        "Xinyan",
+        "Traveler (Geo)",
+        "Amber",
+        "Traveler (Anemo)",
+        "Traveler (Hydro)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Furina",
+        "Bennett",
+        "Iansan",
+        "Lauma",
+        "Citlali",
+        "Xilonen",
+        "Chevreuse",
+        "Sucrose"
+      ],
+      "S": [
+        "Escoffier",
+        "Nahida",
+        "Mona",
+        "Kazuha",
+        "Ineffa",
+        "Xianyun",
+        "Baizhu",
+        "Zhongli",
+        "Shenhe"
+      ],
+      "A": [
+        "Jean",
+        "Lan Yan",
+        "Kokomi",
+        "Faruzan",
+        "Diona",
+        "Yaoyao",
+        "Charlotte",
+        "Layla",
+        "Kirara",
+        "Shinobu"
+      ],
+      "B": [
+        "Jahoda",
+        "Yun Jin",
+        "Sara",
+        "Gorou",
+        "Mizuki",
+        "Sigewinne",
+        "Thoma",
+        "Dehya"
+      ],
+      "C": [
+        "Mika",
+        "Sayu",
+        "Dahlia",
+        "Qiqi",
+        "Barbara",
+        "Traveler (Electro)",
+        "Rosaria",
+        "Candace",
+        "Dori"
+      ],
+      "D": [
+        "Noelle",
+        "Chongyun",
+        "Lisa",
+        "Xinyan"
+      ]
+    }
+  }
+}

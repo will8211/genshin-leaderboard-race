@@ -1,0 +1,120 @@
+{
+  "2.4A": {
+    "Main DPS": {
+      "SS": [
+        "Hu Tao",
+        "Ayaka",
+        "Ganyu",
+        "Itto",
+        "Raiden"
+      ],
+      "S": [
+        "Eula",
+        "Xiao",
+        "Yoimiya",
+        "Tartaglia"
+      ],
+      "A": [
+        "Noelle",
+        "Yanfei",
+        "Ningguang",
+        "Diluc",
+        "Klee",
+        "Kokomi"
+      ],
+      "B": [
+        "Keqing",
+        "Mona",
+        "Razor",
+        "Fischl",
+        "Kaeya",
+        "Qiqi",
+        "Beidou",
+        "Yun Jin"
+      ],
+      "C": [
+        "Rosaria",
+        "Xinyan",
+        "Aloy"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Xingqiu",
+        "Ayaka",
+        "Albedo",
+        "Raiden",
+        "Xiangling",
+        "Kazuha",
+        "Venti"
+      ],
+      "S": [
+        "Ganyu",
+        "Shenhe",
+        "Tartaglia",
+        "Fischl",
+        "Zhongli",
+        "Mona"
+      ],
+      "A": [
+        "Beidou",
+        "Rosaria",
+        "Kaeya",
+        "Kokomi",
+        "Sara",
+        "Sucrose"
+      ],
+      "B": [
+        "Sayu",
+        "Chongyun",
+        "Jean"
+      ],
+      "C": [
+        "Lisa",
+        "Thoma",
+        "Traveler (Geo)",
+        "Amber",
+        "Traveler (Anemo)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Zhongli",
+        "Bennett",
+        "Kazuha",
+        "Raiden",
+        "Diona"
+      ],
+      "S": [
+        "Mona",
+        "Sucrose",
+        "Yun Jin",
+        "Venti",
+        "Sara",
+        "Gorou",
+        "Shenhe",
+        "Albedo"
+      ],
+      "A": [
+        "Jean",
+        "Kokomi",
+        "Barbara",
+        "Qiqi",
+        "Sayu"
+      ],
+      "B": [
+        "Traveler (Electro)",
+        "Rosaria",
+        "Xinyan",
+        "Thoma",
+        "Traveler (Geo)",
+        "Chongyun"
+      ],
+      "C": [
+        "Xingqiu",
+        "Ningguang",
+        "Noelle"
+      ]
+    }
+  }
+}

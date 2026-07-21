@@ -1,0 +1,163 @@
+{
+  "5.1A": {
+    "Main DPS": {
+      "SS": [
+        "Neuvillette",
+        "Arlecchino",
+        "Alhaitham"
+      ],
+      "S": [
+        "Mualani",
+        "Kinich",
+        "Hu Tao",
+        "Navia",
+        "Lyney",
+        "Raiden",
+        "Gaming",
+        "Wriothesley",
+        "Ayaka",
+        "Clorinde"
+      ],
+      "A": [
+        "Tartaglia",
+        "Xiao",
+        "Diluc",
+        "Ayato",
+        "Tighnari",
+        "Wanderer",
+        "Ganyu"
+      ],
+      "B": [
+        "Yoimiya",
+        "Itto",
+        "Cyno",
+        "Keqing",
+        "Noelle",
+        "Eula",
+        "Sethos"
+      ],
+      "C": [
+        "Yanfei",
+        "Heizou",
+        "Klee",
+        "Kaveh",
+        "Kokomi",
+        "Freminet",
+        "Ningguang"
+      ],
+      "D": [
+        "Razor",
+        "Dehya",
+        "Xinyan",
+        "Aloy"
+      ]
+    },
+    "Sub-DPS": {
+      "SS": [
+        "Nahida",
+        "Furina",
+        "Xingqiu",
+        "Yelan",
+        "Xiangling",
+        "Raiden"
+      ],
+      "S": [
+        "Nilou",
+        "Fischl",
+        "Yae Miko",
+        "Shinobu",
+        "Emilie",
+        "Navia"
+      ],
+      "A": [
+        "Chiori",
+        "Venti",
+        "Ganyu",
+        "Mona",
+        "Beidou",
+        "Collei",
+        "Rosaria",
+        "Sucrose"
+      ],
+      "B": [
+        "Albedo",
+        "Ayato",
+        "Kokomi",
+        "Thoma",
+        "Traveler (Dendro)",
+        "Lynette",
+        "Zhongli",
+        "Kachina"
+      ],
+      "C": [
+        "Kaeya",
+        "Dehya",
+        "Lisa",
+        "Chongyun",
+        "Sayu"
+      ],
+      "D": [
+        "Xinyan",
+        "Traveler (Geo)",
+        "Amber",
+        "Traveler (Anemo)",
+        "Traveler (Hydro)"
+      ]
+    },
+    "Support": {
+      "SS": [
+        "Furina",
+        "Kazuha",
+        "Xilonen",
+        "Bennett",
+        "Nahida",
+        "Zhongli",
+        "Baizhu",
+        "Kokomi"
+      ],
+      "S": [
+        "Raiden",
+        "Mona",
+        "Xianyun",
+        "Shenhe",
+        "Jean",
+        "Chevreuse",
+        "Sucrose",
+        "Faruzan"
+      ],
+      "A": [
+        "Gorou",
+        "Venti",
+        "Diona",
+        "Yun Jin",
+        "Sara",
+        "Yaoyao",
+        "Charlotte",
+        "Shinobu"
+      ],
+      "B": [
+        "Kirara",
+        "Mika",
+        "Sigewinne",
+        "Layla",
+        "Sayu",
+        "Thoma",
+        "Dehya"
+      ],
+      "C": [
+        "Qiqi",
+        "Barbara",
+        "Traveler (Electro)",
+        "Rosaria",
+        "Candace",
+        "Dori"
+      ],
+      "D": [
+        "Noelle",
+        "Chongyun",
+        "Lisa",
+        "Xinyan"
+      ]
+    }
+  }
+}

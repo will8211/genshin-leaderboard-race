@@ -1,0 +1,1185 @@
+{
+  "Aino": {
+    "imagePath": "./assets/headshots/Aino.png",
+    "vision": "Hydro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Aino",
+    "game8id": "537903",
+    "nation": "Nod-Krai"
+  },
+  "Albedo": {
+    "imagePath": "./assets/headshots/Albedo.png",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Albedo",
+    "game8id": "312182",
+    "nation": "Mondstadt"
+  },
+  "Alhaitham": {
+    "imagePath": "./assets/headshots/Alhaitham.png",
+    "vision": "Dendro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Alhaitham",
+    "game8id": "383712",
+    "nation": "Sumeru"
+  },
+  "Aloy": {
+    "imagePath": "./assets/headshots/Aloy.png",
+    "vision": "Cryo",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Aloy",
+    "game8id": "337957",
+    "nation": "Mondstadt"
+  },
+  "Amber": {
+    "imagePath": "./assets/headshots/Amber.png",
+    "vision": "Pyro",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Amber",
+    "game8id": "297535",
+    "nation": "Mondstadt"
+  },
+  "Arlecchino": {
+    "imagePath": "./assets/headshots/Arlecchino.png",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Arlecchino",
+    "game8id": "382103",
+    "nation": "Fontaine"
+  },
+  "Ayaka": {
+    "imagePath": "./assets/headshots/Ayaka.png",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Ayaka",
+    "game8id": "315215",
+    "nation": "Inazuma"
+  },
+  "Ayato": {
+    "imagePath": "./assets/headshots/Ayato.png",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Ayato",
+    "game8id": "345514",
+    "nation": "Inazuma"
+  },
+  "Baizhu": {
+    "imagePath": "./assets/headshots/Baizhu.png",
+    "vision": "Dendro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Baizhu",
+    "game8id": "314348",
+    "nation": "Liyue"
+  },
+  "Barbara": {
+    "imagePath": "./assets/headshots/Barbara.png",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Barbara",
+    "game8id": "297517",
+    "nation": "Mondstadt"
+  },
+  "Beidou": {
+    "imagePath": "./assets/headshots/Beidou.png",
+    "vision": "Electro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Beidou",
+    "game8id": "297528",
+    "nation": "Liyue"
+  },
+  "Bennett": {
+    "imagePath": "./assets/headshots/Bennett.png",
+    "vision": "Pyro",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Bennett",
+    "game8id": "Bennett-Best-Builds",
+    "nation": "Mondstadt"
+  },
+  "Candace": {
+    "imagePath": "./assets/headshots/Candace.png",
+    "vision": "Hydro",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Candace",
+    "game8id": "386384",
+    "nation": "Sumeru"
+  },
+  "Charlotte": {
+    "imagePath": "./assets/headshots/Charlotte.png",
+    "vision": "Cryo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Charlotte",
+    "game8id": "412428",
+    "nation": "Fontaine"
+  },
+  "Chasca": {
+    "imagePath": "./assets/headshots/Chasca.png",
+    "vision": "Anemo",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Chasca",
+    "game8id": "462001",
+    "nation": "Natlan"
+  },
+  "Chevreuse": {
+    "imagePath": "./assets/headshots/Chevreuse.png",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Chevreuse",
+    "game8id": "426201",
+    "nation": "Fontaine"
+  },
+  "Chiori": {
+    "imagePath": "./assets/headshots/Chiori.png",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Chiori",
+    "game8id": "382793",
+    "nation": "Fontaine"
+  },
+  "Chongyun": {
+    "imagePath": "./assets/headshots/Chongyun.png",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Chongyun",
+    "game8id": "297532",
+    "nation": "Liyue"
+  },
+  "Citlali": {
+    "imagePath": "./assets/headshots/Citlali.png",
+    "vision": "Cryo",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Citlali",
+    "game8id": "461989",
+    "nation": "Natlan"
+  },
+  "Clorinde": {
+    "imagePath": "./assets/headshots/Clorinde.png",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Clorinde",
+    "game8id": "417218",
+    "nation": "Fontaine"
+  },
+  "Collei": {
+    "imagePath": "./assets/headshots/Collei.png",
+    "vision": "Dendro",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Collei",
+    "game8id": "382079",
+    "nation": "Sumeru"
+  },
+  "Columbina": {
+    "imagePath": "./assets/headshots/Columbina.png",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Columbina",
+    "game8id": "382106",
+    "nation": "Nod-Krai"
+  },
+  "Cyno": {
+    "imagePath": "./assets/headshots/Cyno.png",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Cyno",
+    "game8id": "315233",
+    "nation": "Sumeru"
+  },
+  "Dahlia": {
+    "imagePath": "./assets/headshots/Dahlia.png",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Dahlia",
+    "game8id": "516026",
+    "nation": "Mondstadt"
+  },
+  "Dehya": {
+    "imagePath": "./assets/headshots/Dehya.png",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Dehya",
+    "game8id": "Dehya-Best-Builds",
+    "nation": "Sumeru"
+  },
+  "Diluc": {
+    "imagePath": "./assets/headshots/Diluc.png",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Diluc",
+    "game8id": "297518",
+    "nation": "Mondstadt"
+  },
+  "Diona": {
+    "imagePath": "./assets/headshots/Diona.png",
+    "vision": "Cryo",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Diona",
+    "game8id": "305872",
+    "nation": "Mondstadt"
+  },
+  "Dori": {
+    "imagePath": "./assets/headshots/Dori.png",
+    "vision": "Electro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Dori",
+    "game8id": "380569",
+    "nation": "Sumeru"
+  },
+  "Durin": {
+    "imagePath": "./assets/headshots/Durin.png",
+    "vision": "Pyro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Durin",
+    "game8id": "462478",
+    "nation": "Mondstadt"
+  },
+  "Emilie": {
+    "imagePath": "./assets/headshots/Emilie.png",
+    "vision": "Dendro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Emilie",
+    "game8id": "422493",
+    "nation": "Fontaine"
+  },
+  "Escoffier": {
+    "imagePath": "./assets/headshots/Escoffier.png",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Escoffier",
+    "game8id": "385307",
+    "nation": "Fontaine"
+  },
+  "Eula": {
+    "imagePath": "./assets/headshots/Eula.png",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Eula",
+    "game8id": "328764",
+    "nation": "Mondstadt"
+  },
+  "Faruzan": {
+    "imagePath": "./assets/headshots/Faruzan.png",
+    "vision": "Anemo",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Faruzan",
+    "game8id": "391897",
+    "nation": "Sumeru"
+  },
+  "Fischl": {
+    "imagePath": "./assets/headshots/Fischl.png",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Fischl",
+    "game8id": "297524",
+    "nation": "Mondstadt"
+  },
+  "Flins": {
+    "imagePath": "./assets/headshots/Flins.png",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Flins",
+    "game8id": "538451",
+    "nation": "Nod-Krai"
+  },
+  "Freminet": {
+    "imagePath": "./assets/headshots/Freminet.png",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Freminet",
+    "game8id": "417207",
+    "nation": "Fontaine"
+  },
+  "Furina": {
+    "imagePath": "./assets/headshots/Furina.png",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Furina",
+    "game8id": "Furina-Best-Builds",
+    "nation": "Fontaine"
+  },
+  "Gaming": {
+    "imagePath": "./assets/headshots/Gaming.png",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Gaming",
+    "game8id": "437446",
+    "nation": "Liyue"
+  },
+  "Ganyu": {
+    "imagePath": "./assets/headshots/Ganyu.png",
+    "vision": "Cryo",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Ganyu",
+    "game8id": "312173",
+    "nation": "Liyue"
+  },
+  "Gorou": {
+    "imagePath": "./assets/headshots/Gorou.png",
+    "vision": "Geo",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Gorou",
+    "game8id": "336726",
+    "nation": "Inazuma"
+  },
+  "Heizou": {
+    "imagePath": "./assets/headshots/Heizou.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Heizou",
+    "game8id": "345516",
+    "nation": "Inazuma"
+  },
+  "Hu Tao": {
+    "imagePath": "./assets/headshots/Hu Tao.png",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Hu Tao",
+    "game8id": "314347",
+    "nation": "Liyue"
+  },
+  "Iansan": {
+    "imagePath": "./assets/headshots/Iansan.png",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Iansan",
+    "game8id": "345881",
+    "nation": "Natlan"
+  },
+  "Ifa": {
+    "imagePath": "./assets/headshots/Ifa.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Ifa",
+    "game8id": "472693",
+    "nation": "Natlan"
+  },
+  "Illuga": {
+    "imagePath": "./assets/headshots/Illuga.png",
+    "vision": "Geo",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Illuga",
+    "game8id": "555902",
+    "nation": "Nod-Krai"
+  },
+  "Ineffa": {
+    "imagePath": "./assets/headshots/Ineffa.png",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Ineffa",
+    "game8id": "531360",
+    "nation": "Nod-Krai"
+  },
+  "Itto": {
+    "imagePath": "./assets/headshots/Itto.png",
+    "vision": "Geo",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Itto",
+    "game8id": "345461",
+    "nation": "Inazuma"
+  },
+  "Jahoda": {
+    "imagePath": "./assets/headshots/Jahoda.png",
+    "vision": "Anemo",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "isStandard": true,
+    "name": "Jahoda",
+    "game8id": "538446",
+    "nation": "Nod-Krai"
+  },
+  "Jean": {
+    "imagePath": "./assets/headshots/Jean.png",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Jean",
+    "game8id": "297536",
+    "nation": "Mondstadt"
+  },
+  "Kachina": {
+    "imagePath": "./assets/headshots/Kachina.png",
+    "vision": "Geo",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Kachina",
+    "game8id": "462004",
+    "nation": "Natlan"
+  },
+  "Kaeya": {
+    "imagePath": "./assets/headshots/Kaeya.png",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Kaeya",
+    "game8id": "297516",
+    "nation": "Mondstadt"
+  },
+  "Kaveh": {
+    "imagePath": "./assets/headshots/Kaveh.png",
+    "vision": "Dendro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Kaveh",
+    "game8id": "Kaveh-Best-Builds",
+    "nation": "Sumeru"
+  },
+  "Kazuha": {
+    "imagePath": "./assets/headshots/Kazuha.png",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Kazuha",
+    "game8id": "332826",
+    "nation": "Inazuma"
+  },
+  "Keqing": {
+    "imagePath": "./assets/headshots/Keqing.png",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Keqing",
+    "game8id": "Keqing-Best-Builds",
+    "nation": "Liyue"
+  },
+  "Kinich": {
+    "imagePath": "./assets/headshots/Kinich.png",
+    "vision": "Dendro",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Kinich",
+    "game8id": "461991",
+    "nation": "Natlan"
+  },
+  "Kirara": {
+    "imagePath": "./assets/headshots/Kirara.png",
+    "vision": "Dendro",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Kirara",
+    "game8id": "409556",
+    "nation": "Inazuma"
+  },
+  "Klee": {
+    "imagePath": "./assets/headshots/Klee.png",
+    "vision": "Pyro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Klee",
+    "game8id": "297521",
+    "nation": "Mondstadt"
+  },
+  "Kokomi": {
+    "imagePath": "./assets/headshots/Kokomi.png",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Kokomi",
+    "game8id": "337140",
+    "nation": "Inazuma"
+  },
+  "Lan Yan": {
+    "imagePath": "./assets/headshots/Lan Yan.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Lan Yan",
+    "game8id": "486709",
+    "nation": "Liyue"
+  },
+  "Lauma": {
+    "imagePath": "./assets/headshots/Lauma.png",
+    "vision": "Dendro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Lauma",
+    "game8id": "538066",
+    "nation": "Nod-Krai"
+  },
+  "Layla": {
+    "imagePath": "./assets/headshots/Layla.png",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Layla",
+    "game8id": "386486",
+    "nation": "Sumeru"
+  },
+  "Linnea": {
+    "imagePath": "./assets/headshots/Linnea.png",
+    "vision": "Geo",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Linnea",
+    "game8id": "551088",
+    "nation": "Nod-Krai"
+  },
+  "Lisa": {
+    "imagePath": "./assets/headshots/Lisa.png",
+    "vision": "Electro",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Lisa",
+    "game8id": "Lisa-Best-Builds",
+    "nation": "Mondstadt"
+  },
+  "Lohen": {
+    "imagePath": "./assets/headshots/Lohen.png",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Lohen",
+    "game8id": "580697",
+    "nation": "Mondstadt"
+  },
+  "Lynette": {
+    "imagePath": "./assets/headshots/Lynette.png",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Lynette",
+    "game8id": "345879",
+    "nation": "Fontaine"
+  },
+  "Lyney": {
+    "imagePath": "./assets/headshots/Lyney.png",
+    "vision": "Pyro",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Lyney",
+    "game8id": "345540",
+    "nation": "Fontaine"
+  },
+  "Mavuika": {
+    "imagePath": "./assets/headshots/Mavuika.png",
+    "game8id": "461999",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Mavuika",
+    "nation": "Natlan"
+  },
+  "Mika": {
+    "imagePath": "./assets/headshots/Mika.png",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Mika",
+    "game8id": "390096",
+    "nation": "Mondstadt"
+  },
+  "Mizuki": {
+    "imagePath": "./assets/headshots/Mizuki.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Mizuki",
+    "game8id": "492414",
+    "nation": "Inazuma"
+  },
+  "Mona": {
+    "imagePath": "./assets/headshots/Mona.png",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Mona",
+    "game8id": "Mona-Best-Builds",
+    "nation": "Mondstadt"
+  },
+  "Mualani": {
+    "imagePath": "./assets/headshots/Mualani.png",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Mualani",
+    "game8id": "461994",
+    "nation": "Natlan"
+  },
+  "Nahida": {
+    "imagePath": "./assets/headshots/Nahida.png",
+    "vision": "Dendro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Nahida",
+    "game8id": "Nahida-Best-Builds",
+    "nation": "Sumeru"
+  },
+  "Navia": {
+    "imagePath": "./assets/headshots/Navia.png",
+    "vision": "Geo",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Navia",
+    "game8id": "417194",
+    "nation": "Fontaine"
+  },
+  "Nefer": {
+    "imagePath": "./assets/headshots/Nefer.png",
+    "vision": "Dendro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Nefer",
+    "game8id": "538448",
+    "nation": "Sumeru"
+  },
+  "Neuvillette": {
+    "imagePath": "./assets/headshots/Neuvillette.png",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Neuvillette",
+    "game8id": "Neuvillette-Best-Builds",
+    "nation": "Fontaine"
+  },
+  "Nicole": {
+    "imagePath": "./assets/headshots/Nicole.png",
+    "vision": "Pyro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Nicole",
+    "game8id": "406932",
+    "nation": "Nod-Krai"
+  },
+  "Nilou": {
+    "imagePath": "./assets/headshots/Nilou.png",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Nilou",
+    "game8id": "383715",
+    "nation": "Sumeru"
+  },
+  "Ningguang": {
+    "imagePath": "./assets/headshots/Ningguang.png",
+    "vision": "Geo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Ningguang",
+    "game8id": "297529",
+    "nation": "Liyue"
+  },
+  "Noelle": {
+    "imagePath": "./assets/headshots/Noelle.png",
+    "vision": "Geo",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Noelle",
+    "game8id": "297523",
+    "nation": "Mondstadt"
+  },
+  "Ororon": {
+    "imagePath": "./assets/headshots/Ororon.png",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Ororon",
+    "game8id": "461993",
+    "nation": "Natlan"
+  },
+  "Qiqi": {
+    "imagePath": "./assets/headshots/Qiqi.png",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Qiqi",
+    "game8id": "297533",
+    "nation": "Liyue"
+  },
+  "Prune": {
+    "imagePath": "./assets/headshots/Prune.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Prune",
+    "game8id": "590328",
+    "nation": "Mondstadt"
+  },
+  "Raiden": {
+    "imagePath": "./assets/headshots/Raiden.png",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Raiden",
+    "game8id": "337161",
+    "nation": "Inazuma"
+  },
+  "Razor": {
+    "imagePath": "./assets/headshots/Razor.png",
+    "vision": "Electro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Razor",
+    "game8id": "297519",
+    "nation": "Mondstadt"
+  },
+  "Rosaria": {
+    "imagePath": "./assets/headshots/Rosaria.png",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Rosaria",
+    "game8id": "314177",
+    "nation": "Mondstadt"
+  },
+  "Sandrone": {
+    "imagePath": "./assets/headshots/Sandrone.png",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Sandrone",
+    "game8id": "382107",
+    "nation": "Snezhnaya"
+  },
+  "Sara": {
+    "imagePath": "./assets/headshots/Sara.png",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Sara",
+    "game8id": "336727",
+    "nation": "Inazuma"
+  },
+  "Sayu": {
+    "imagePath": "./assets/headshots/Sayu.png",
+    "vision": "Anemo",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Sayu",
+    "game8id": "333496",
+    "nation": "Inazuma"
+  },
+  "Sethos": {
+    "imagePath": "./assets/headshots/Sethos.png",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "rarity": "4_star",
+    "name": "Sethos",
+    "game8id": "451024",
+    "nation": "Sumeru"
+  },
+  "Shenhe": {
+    "imagePath": "./assets/headshots/Shenhe.png",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Shenhe",
+    "game8id": "346620",
+    "nation": "Liyue"
+  },
+  "Shinobu": {
+    "imagePath": "./assets/headshots/Shinobu.png",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Shinobu",
+    "game8id": "346199",
+    "nation": "Inazuma"
+  },
+  "Sigewinne": {
+    "imagePath": "./assets/headshots/Sigewinne.png",
+    "vision": "Hydro",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Sigewinne",
+    "game8id": "352956",
+    "nation": "Fontaine"
+  },
+  "Skirk": {
+    "imagePath": "./assets/headshots/Skirk.png",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Skirk",
+    "game8id": "333140",
+    "nation": ""
+  },
+  "Sucrose": {
+    "imagePath": "./assets/headshots/Sucrose.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Sucrose",
+    "game8id": "297525",
+    "nation": "Mondstadt"
+  },
+  "Tartaglia": {
+    "imagePath": "./assets/headshots/Tartaglia.png",
+    "vision": "Hydro",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Tartaglia",
+    "game8id": "305862",
+    "nation": ""
+  },
+  "Thoma": {
+    "imagePath": "./assets/headshots/Thoma.png",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Thoma",
+    "game8id": "337141",
+    "nation": "Inazuma"
+  },
+  "Tighnari": {
+    "imagePath": "./assets/headshots/Tighnari.png",
+    "vision": "Dendro",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isStandard": true,
+    "name": "Tighnari",
+    "game8id": "382082",
+    "nation": "Sumeru"
+  },
+  "Traveler (Anemo)": {
+    "imagePath": "./assets/headshots/Traveler (Anemo).png",
+    "imagePathMale": "./assets/headshots/Aether (Anemo).png",
+    "imagePathFemale": "./assets/headshots/Lumine (Anemo).png",
+    "prefixImage": "Anemo",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "name": "Traveler",
+    "game8id": "297537",
+    "nation": "Mondstadt"
+  },
+  "Traveler (Dendro)": {
+    "imagePath": "./assets/headshots/Traveler (Dendro).png",
+    "imagePathMale": "./assets/headshots/Aether (Dendro).png",
+    "imagePathFemale": "./assets/headshots/Lumine (Dendro).png",
+    "prefixImage": "Dendro",
+    "vision": "Dendro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "name": "Traveler",
+    "game8id": "381807",
+    "nation": "Sumeru"
+  },
+  "Traveler (Electro)": {
+    "imagePath": "./assets/headshots/Traveler (Electro).png",
+    "imagePathMale": "./assets/headshots/Aether (Electro).png",
+    "imagePathFemale": "./assets/headshots/Lumine (Electro).png",
+    "prefixImage": "Electro",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "name": "Traveler",
+    "game8id": "336865",
+    "nation": "Inazuma"
+  },
+  "Traveler (Geo)": {
+    "imagePath": "./assets/headshots/Traveler (Geo).png",
+    "imagePathMale": "./assets/headshots/Aether (Geo).png",
+    "imagePathFemale": "./assets/headshots/Lumine (Geo).png",
+    "prefixImage": "Geo",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "name": "Traveler",
+    "game8id": "297538",
+    "nation": "Liyue"
+  },
+  "Traveler (Hydro)": {
+    "imagePath": "./assets/headshots/Traveler (Hydro).png",
+    "imagePathMale": "./assets/headshots/Aether (Hydro).png",
+    "imagePathFemale": "./assets/headshots/Lumine (Hydro).png",
+    "prefixImage": "Hydro",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "name": "Traveler",
+    "game8id": "416602",
+    "nation": "Fontaine"
+  },
+  "Traveler (Pyro)": {
+    "imagePath": "./assets/headshots/Traveler (Pyro).png",
+    "imagePathMale": "./assets/headshots/Aether (Pyro).png",
+    "imagePathFemale": "./assets/headshots/Lumine (Pyro).png",
+    "prefixImage": "Pyro",
+    "vision": "Pyro",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "name": "Traveler",
+    "game8id": "470309",
+    "nation": "Natlan"
+  },
+  "Varesa": {
+    "imagePath": "./assets/headshots/Varesa.png",
+    "vision": "Electro",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Varesa",
+    "game8id": "500244",
+    "nation": "Natlan"
+  },
+  "Venti": {
+    "imagePath": "./assets/headshots/Venti.png",
+    "vision": "Anemo",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Venti",
+    "game8id": "Venti-Best-Builds",
+    "nation": "Mondstadt"
+  },
+  "Wanderer": {
+    "imagePath": "./assets/headshots/Wanderer.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Wanderer",
+    "game8id": "309656",
+    "nation": "Sumeru"
+  },
+  "Wriothesley": {
+    "imagePath": "./assets/headshots/Wriothesley.png",
+    "vision": "Cryo",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Wriothesley",
+    "game8id": "Wriothesley-Best-Builds",
+    "nation": "Fontaine"
+  },
+  "Varka": {
+    "imagePath": "./assets/headshots/Varka.png",
+    "vision": "Anemo",
+    "weapon": "Claymore",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Varka",
+    "game8id": "314346",
+    "nation": "Mondstadt"
+  },
+  "Xiangling": {
+    "imagePath": "./assets/headshots/Xiangling.png",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Xiangling",
+    "game8id": "297530",
+    "nation": "Liyue"
+  },
+  "Xianyun": {
+    "imagePath": "./assets/headshots/Xianyun.png",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Xianyun",
+    "game8id": "Xianyun-Best-Builds",
+    "nation": "Liyue"
+  },
+  "Xiao": {
+    "imagePath": "./assets/headshots/Xiao.png",
+    "vision": "Anemo",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Xiao",
+    "game8id": "297527",
+    "nation": "Liyue"
+  },
+  "Xilonen": {
+    "imagePath": "./assets/headshots/Xilonen.png",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Xilonen",
+    "game8id": "461997",
+    "nation": "Natlan"
+  },
+  "Xingqiu": {
+    "imagePath": "./assets/headshots/Xingqiu.png",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "rarity": "4_star",
+    "name": "Xingqiu",
+    "game8id": "297531",
+    "nation": "Liyue"
+  },
+  "Xinyan": {
+    "imagePath": "./assets/headshots/Xinyan.png",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "rarity": "4_star",
+    "name": "Xinyan",
+    "game8id": "305873",
+    "nation": "Liyue"
+  },
+  "Yae Miko": {
+    "imagePath": "./assets/headshots/Yae Miko.png",
+    "rarity": "5_star",
+    "isLimited": true,
+    "weapon": "Catalyst",
+    "vision": "Electro",
+    "name": "Yae Miko",
+    "game8id": "327533",
+    "nation": "Inazuma"
+  },
+  "Yanfei": {
+    "imagePath": "./assets/headshots/Yanfei.png",
+    "vision": "Pyro",
+    "weapon": "Catalyst",
+    "rarity": "4_star",
+    "name": "Yanfei",
+    "game8id": "328765",
+    "nation": "Liyue"
+  },
+  "Yaoyao": {
+    "imagePath": "./assets/headshots/Yaoyao.png",
+    "vision": "Dendro",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Yaoyao",
+    "game8id": "314174",
+    "nation": "Liyue"
+  },
+  "Yelan": {
+    "imagePath": "./assets/headshots/Yelan.png",
+    "vision": "Hydro",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Yelan",
+    "game8id": "372781",
+    "nation": "Liyue"
+  },
+  "Yoimiya": {
+    "imagePath": "./assets/headshots/Yoimiya.png",
+    "vision": "Pyro",
+    "weapon": "Bow",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Yoimiya",
+    "game8id": "333497",
+    "nation": "Inazuma"
+  },
+  "Yun Jin": {
+    "imagePath": "./assets/headshots/Yun Jin.png",
+    "vision": "Geo",
+    "weapon": "Polearm",
+    "rarity": "4_star",
+    "name": "Yun Jin",
+    "game8id": "314345",
+    "nation": "Liyue"
+  },
+  "Zhongli": {
+    "imagePath": "./assets/headshots/Zhongli.png",
+    "vision": "Geo",
+    "weapon": "Polearm",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Zhongli",
+    "game8id": "305858",
+    "nation": "Liyue"
+  },
+  "Zibai": {
+    "imagePath": "./assets/headshots/Zibai.png",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "rarity": "5_star",
+    "isLimited": true,
+    "name": "Zibai",
+    "game8id": "570263",
+    "nation": "Liyue"
+  }
+}

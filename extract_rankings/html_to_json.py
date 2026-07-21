@@ -1,3 +1,4 @@
+import argparse
 import json
 import re
 from pathlib import Path
@@ -16,18 +17,6 @@ ROLE_NAME_MAP = {
 
 
 def extract_source_key(href: str) -> str | None:
-    """
-    Extract the final path segment from a Game8 URL.
-
-    The source key is treated as an opaque string. It may be numeric or textual.
-
-    Examples:
-        https://game8.co/games/Genshin-Impact/archives/297518
-        -> "297518"
-
-        https://game8.co/games/Genshin-Impact/archives/Furina-Best-Builds
-        -> "Furina-Best-Builds"
-    """
     path = urlparse(href).path.rstrip("/")
 
     if not path:
@@ -38,15 +27,6 @@ def extract_source_key(href: str) -> str | None:
 
 
 def extract_rank(th: Tag) -> str | None:
-    """
-    Extract a rank such as SS, S, A, B, C, or D from a row header.
-
-    Handles labels such as:
-        "Genshin - SS Rank Icon"
-        "S Rank Icon"
-        "SS Tier"
-        "D Tier"
-    """
     image = th.find("img")
 
     candidates = [
@@ -69,11 +49,6 @@ def extract_rank(th: Tag) -> str | None:
 
 
 def extract_version_id(soup: BeautifulSoup) -> str:
-    """
-    Extract the version ID from a title such as:
-        "1.2A Rankings"
-        "6.7A Rankings"
-    """
     title = soup.title.get_text(" ", strip=True) if soup.title else ""
 
     match = re.match(
@@ -91,9 +66,6 @@ def extract_version_id(soup: BeautifulSoup) -> str:
 
 
 def normalize_role_name(name: str) -> str:
-    """
-    Normalize role names across historical table formats.
-    """
     normalized = " ".join(name.split())
     return ROLE_NAME_MAP.get(normalized, normalized)
 
@@ -154,13 +126,13 @@ def extract_rankings(
             cells[1:],
             strict=False,
         ):
-            source_keys: list[str] = []
-
-            for link in cell.find_all("a", href=True):
-                source_key = extract_source_key(link["href"])
-
-                if source_key is not None:
-                    source_keys.append(source_key)
+            source_keys = [
+                source_key
+                for link in cell.find_all("a", href=True)
+                if (
+                    source_key := extract_source_key(link["href"])
+                ) is not None
+            ]
 
             rankings[role][rank] = source_keys
 
@@ -171,19 +143,12 @@ def extract_rankings(
 
 def convert_file(
     input_path: Path,
-    output_path: Path | None = None,
+    output_path: Path,
 ) -> Path:
-    """
-    Convert one extracted rankings HTML file to JSON.
-
-    If no output path is supplied, the JSON file is written beside the HTML
-    file using the same filename stem.
-    """
     html = input_path.read_text(encoding="utf-8")
     data = extract_rankings(html)
 
-    if output_path is None:
-        output_path = input_path.with_suffix(".json")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     output_path.write_text(
         json.dumps(
@@ -198,8 +163,34 @@ def convert_file(
     return output_path
 
 
-if __name__ == "__main__":
-    input_path = Path("1.2A.html")
-    output_path = convert_file(input_path)
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Convert an extracted rankings HTML file to JSON."
+    )
 
-    print(f"Wrote {output_path}")
+    parser.add_argument(
+        "--verision",
+        required=True,
+        help="Genshin version ID, for example 1.2B.",
+    )
+
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    args = parse_args()
+    version = args.verision
+
+    input_path = Path(
+        f"data/extracted_rankings/relevant_tables/{version}.html"
+    )
+    output_path = Path(
+        f"data/extracted_rankings/json/{version}.json"
+    )
+
+    written_path = convert_file(
+        input_path=input_path,
+        output_path=output_path,
+    )
+
+    print(f"Wrote {written_path}")

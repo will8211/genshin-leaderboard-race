@@ -37,7 +37,7 @@ def extract_rank(th: Tag) -> str | None:
 
     for candidate in candidates:
         match = re.search(
-            r"\b(SS|S|A|B|C|D|E|F)\b",
+            r"\b(SSS|SS|S|A|B|C|D|E|F)\b",
             candidate,
             re.IGNORECASE,
         )

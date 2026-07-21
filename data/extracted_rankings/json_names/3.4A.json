@@ -1,6 +1,12 @@
 {
   "3.4A": {
     "Main DPS": {
+      "SSS": [
+        "Hu Tao",
+        "Ayaka",
+        "Raiden",
+        "Alhaitham"
+      ],
       "SS": [
         "Ayato",
         "Ganyu",
@@ -45,6 +51,14 @@
       ]
     },
     "Sub-DPS": {
+      "SSS": [
+        "Nahida",
+        "Raiden",
+        "Xingqiu",
+        "Yelan",
+        "Xiangling",
+        "Kazuha"
+      ],
       "SS": [
         "Fischl",
         "Yae Miko",
@@ -86,6 +100,14 @@
       ]
     },
     "Support": {
+      "SSS": [
+        "Bennett",
+        "Kazuha",
+        "Zhongli",
+        "Raiden",
+        "Nahida",
+        "Kokomi"
+      ],
       "SS": [
         "Yelan",
         "Mona",

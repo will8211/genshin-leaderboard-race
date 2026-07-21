@@ -13,7 +13,7 @@ ROLE_TO_OUTPUT = {
     "Sub-DPS": "sub_dps.csv",
     "Support": "support.csv",
 }
-TIER_ORDER = ("SS", "S", "A", "B", "C")
+TIER_ORDER = ("SSS", "SS", "S", "A", "B", "C")
 
 
 def load_template(template_path: Path) -> tuple[list[str], list[dict[str, str]], list[str]]:

@@ -1,7 +1,0 @@
-Anemo #08F298
-Geo #FFCB51
-Electro #D050DC
-Dendro #82E202
-Hydro #4474DA
-Pyro #DC6664
-Cryo #4CD0F0

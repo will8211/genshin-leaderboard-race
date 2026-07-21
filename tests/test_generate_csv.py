@@ -120,3 +120,20 @@ def test_flatten_tiers_to_ranks_uses_ss_to_c_then_extra_tiers():
         "C1": "4",
         "Z1": "5",
     }
+
+
+def test_flatten_tiers_to_ranks_places_sss_above_ss():
+    tiers = {
+        "SS": ["SS1"],
+        "SSS": ["SSS1", "SSS2"],
+        "S": ["S1"],
+    }
+
+    ranks = flatten_tiers_to_ranks(tiers)
+
+    assert ranks == {
+        "SSS1": "1",
+        "SSS2": "2",
+        "SS1": "3",
+        "S1": "4",
+    }

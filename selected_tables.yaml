@@ -40,7 +40,7 @@
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(7)"
 
 "1.6B":
-  - "Main DPS, Sub-DPS, Support": "table:nth-of-type(7)"
+  - "Main DPS, Sub-DPS, Support": "table:nth-of-type(6)"
 
 "2.0A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(6)"

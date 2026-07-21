@@ -4,89 +4,98 @@
       "SS": [
         "Ganyu",
         "Hu Tao",
+        "Xiao",
         "Eula"
       ],
       "S": [
-        "Xiao"
-      ],
-      "A": [
         "Diluc",
         "Klee",
         "Tartaglia",
-        "Yanfei",
         "Keqing"
       ],
-      "B": [
-        "Razor",
+      "A": [
+        "Yanfei",
         "Ningguang",
-        "Jean"
+        "Noelle",
+        "Razor"
+      ],
+      "B": [
+        "Fischl",
+        "Beidou",
+        "Xinyan",
+        "Mona"
       ],
       "C": [
+        "Jean",
+        "Chongyun",
         "Rosaria",
-        "Xinyan",
-        "Beidou",
-        "Noelle",
-        "Chongyun"
+        "Amber"
       ]
     },
     "Sub-DPS": {
       "SS": [
         "Venti",
+        "Xingqiu",
         "Ganyu",
-        "Albedo"
+        "Albedo",
+        "Kazuha"
       ],
       "S": [
+        "Hu Tao",
+        "Klee",
+        "Fischl",
         "Mona",
         "Zhongli",
-        "Kazuha",
-        "Tartaglia",
-        "Fischl",
-        "Xingqiu"
+        "Tartaglia"
       ],
       "A": [
         "Xiangling",
+        "Kaeya",
         "Rosaria",
         "Chongyun",
         "Sucrose"
       ],
       "B": [
         "Jean",
-        "Kaeya",
-        "Traveler (Geo)",
-        "Traveler (Anemo)"
+        "Beidou"
       ],
       "C": [
+        "Traveler (Geo)",
         "Lisa",
-        "Amber"
+        "Amber",
+        "Traveler (Anemo)"
       ]
     },
     "Support": {
       "SS": [
         "Zhongli",
+        "Bennett",
+        "Diona",
         "Venti",
-        "Jean"
+        "Kazuha",
+        "Sucrose"
       ],
       "S": [
-        "Bennett",
-        "Kazuha",
         "Albedo",
-        "Sucrose",
-        "Diona",
+        "Jean",
         "Mona"
       ],
       "A": [
         "Qiqi",
         "Barbara",
+        "Xingqiu",
+        "Amber",
+        "Xinyan",
         "Tartaglia"
       ],
       "B": [
         "Chongyun",
         "Rosaria",
-        "Xingqiu"
+        "Noelle",
+        "Traveler (Geo)",
+        "Klee"
       ],
       "C": [
-        "Noelle",
-        "Xinyan",
         "Ningguang",
         "Lisa"
       ]

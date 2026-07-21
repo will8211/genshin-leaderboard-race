@@ -15,6 +15,7 @@ dependencies = [
 genshin-archive = "archive_tooling.cli:main"
 extract-rankings = "extract_rankings.cli:main"
 extract-rankings-json-names = "extract_rankings.json_names:main"
+generate-csv = "generate_csv.cli:main"
 
 [build-system]
 requires = ["hatchling>=1.25.0"]
@@ -27,6 +28,7 @@ package = true
 packages = [
   "archive_tooling",
   "extract_rankings",
+  "generate_csv",
 ]
 
 [dependency-groups]

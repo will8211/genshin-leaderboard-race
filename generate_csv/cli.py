@@ -24,10 +24,12 @@ def load_template(template_path: Path) -> tuple[list[str], list[dict[str, str]],
         fieldnames = reader.fieldnames
         rows = [dict(row) for row in reader]
 
-    if len(fieldnames) < 3:
-        raise ValueError("Template CSV must include Character, Images, and version columns")
+    if len(fieldnames) < 4:
+        raise ValueError(
+            "Template CSV must include Character, Image, Color, and version columns"
+        )
 
-    versions = fieldnames[2:]
+    versions = fieldnames[3:]
     return fieldnames, rows, versions
 
 

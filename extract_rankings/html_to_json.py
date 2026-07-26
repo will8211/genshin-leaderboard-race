@@ -169,7 +169,7 @@ def parse_args() -> argparse.Namespace:
     )
 
     parser.add_argument(
-        "--verision",
+        "--version",
         required=True,
         help="Genshin version ID, for example 1.2B.",
     )
@@ -179,7 +179,7 @@ def parse_args() -> argparse.Namespace:
 
 if __name__ == "__main__":
     args = parse_args()
-    version = args.verision
+    version = args.version
 
     input_path = Path(
         f"data/extracted_rankings/relevant_tables/{version}.html"

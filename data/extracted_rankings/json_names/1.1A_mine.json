@@ -1,5 +1,5 @@
 {
-  "1.1B": {
+  "1.1A": {
     "Main DPS": {
       "SS": [
         "Diluc",
@@ -30,7 +30,6 @@
         "Xingqiu"
       ],
       "S": [
-        "Zhongli",
         "Chongyun",
         "Sucrose",
         "Xiangling"
@@ -59,7 +58,6 @@
       ],
       "S": [
         "Sucrose",
-        "Zhongli",
         "Diona"
       ],
       "A": [
@@ -68,6 +66,43 @@
         "Xingqiu",
         "Chongyun",
         "Ningguang"
+      ]
+    },
+    "Exploration": {
+      "SS": [
+        "Venti",
+        "Mona",
+        "Klee"
+      ],
+      "S": [
+        "Kaeya",
+        "Razor",
+        "Amber",
+        "Keqing",
+        "Qiqi",
+        "Ningguang"
+      ],
+      "A": [
+        "Diluc",
+        "Chongyun",
+        "Beidou",
+        "Traveler (Geo)",
+        "Noelle"
+      ],
+      "B": [
+        "Diona",
+        "Fischl",
+        "Bennett",
+        "Barbara",
+        "Jean"
+      ],
+      "C": [
+        "Tartaglia",
+        "Traveler (Anemo)",
+        "Xiangling",
+        "Xingqiu",
+        "Sucrose",
+        "Lisa"
       ]
     }
   }

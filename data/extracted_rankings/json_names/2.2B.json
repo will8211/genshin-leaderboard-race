@@ -120,6 +120,53 @@
         "Ningguang",
         "Lisa"
       ]
+    },
+    "Exploration": {
+      "SS": [
+        "Venti",
+        "Mona",
+        "Yanfei",
+        "Klee",
+        "Xiao",
+        "Albedo",
+        "Kazuha"
+      ],
+      "S": [
+        "Sayu",
+        "Kaeya",
+        "Razor",
+        "Amber",
+        "Keqing",
+        "Qiqi",
+        "Ningguang",
+        "Zhongli"
+      ],
+      "A": [
+        "Traveler (Geo)",
+        "Rosaria",
+        "Diluc",
+        "Chongyun",
+        "Beidou",
+        "Xinyan",
+        "Noelle"
+      ],
+      "B": [
+        "Ganyu",
+        "Diona",
+        "Fischl",
+        "Bennett",
+        "Barbara",
+        "Jean"
+      ],
+      "C": [
+        "Tartaglia",
+        "Traveler (Anemo)",
+        "Xiangling",
+        "Hu Tao",
+        "Xingqiu",
+        "Sucrose",
+        "Lisa"
+      ]
     }
   }
 }

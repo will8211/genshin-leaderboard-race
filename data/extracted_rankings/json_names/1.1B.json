@@ -67,6 +67,43 @@
         "Chongyun",
         "Ningguang"
       ]
+    },
+    "Exploration": {
+      "SS": [
+        "Venti",
+        "Mona",
+        "Klee"
+      ],
+      "S": [
+        "Kaeya",
+        "Razor",
+        "Amber",
+        "Keqing",
+        "Qiqi",
+        "Ningguang"
+      ],
+      "A": [
+        "Diluc",
+        "Chongyun",
+        "Beidou",
+        "Traveler (Geo)",
+        "Noelle"
+      ],
+      "B": [
+        "Diona",
+        "Fischl",
+        "Bennett",
+        "Barbara",
+        "Jean"
+      ],
+      "C": [
+        "Tartaglia",
+        "Traveler (Anemo)",
+        "Xiangling",
+        "Xingqiu",
+        "Sucrose",
+        "Lisa"
+      ]
     }
   }
 }

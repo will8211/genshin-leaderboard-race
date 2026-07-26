@@ -115,6 +115,66 @@
         "Ningguang",
         "Noelle"
       ]
+    },
+    "Exploration": {
+      "SS": [
+        "Ayaka",
+        "Venti",
+        "Mona",
+        "Yanfei",
+        "Klee",
+        "Xiao",
+        "Albedo",
+        "Kazuha"
+      ],
+      "S": [
+        "Sayu",
+        "Gorou",
+        "Kaeya",
+        "Razor",
+        "Amber",
+        "Keqing",
+        "Qiqi",
+        "Ningguang",
+        "Zhongli"
+      ],
+      "A": [
+        "Yoimiya",
+        "Kokomi",
+        "Itto",
+        "Traveler (Geo)",
+        "Rosaria",
+        "Diluc",
+        "Chongyun",
+        "Beidou",
+        "Xinyan",
+        "Noelle"
+      ],
+      "B": [
+        "Sara",
+        "Thoma",
+        "Traveler (Electro)",
+        "Aloy",
+        "Ganyu",
+        "Diona",
+        "Fischl",
+        "Bennett",
+        "Barbara",
+        "Jean"
+      ],
+      "C": [
+        "Yun Jin",
+        "Raiden",
+        "Eula",
+        "Shenhe",
+        "Tartaglia",
+        "Traveler (Anemo)",
+        "Xiangling",
+        "Hu Tao",
+        "Xingqiu",
+        "Sucrose",
+        "Lisa"
+      ]
     }
   }
 }

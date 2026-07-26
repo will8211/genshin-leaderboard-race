@@ -157,6 +157,88 @@
         "Ningguang",
         "Yanfei"
       ]
+    },
+    "Exploration": {
+      "SS": [
+        "Ayaka",
+        "Nahida",
+        "Wanderer",
+        "Venti",
+        "Mona",
+        "Yanfei",
+        "Klee",
+        "Xiao",
+        "Albedo",
+        "Kazuha"
+      ],
+      "S": [
+        "Baizhu",
+        "Sayu",
+        "Yelan",
+        "Alhaitham",
+        "Yaoyao",
+        "Mika",
+        "Tighnari",
+        "Gorou",
+        "Kaeya",
+        "Razor",
+        "Amber",
+        "Keqing",
+        "Qiqi",
+        "Ningguang",
+        "Zhongli"
+      ],
+      "A": [
+        "Yoimiya",
+        "Candace",
+        "Kokomi",
+        "Yae Miko",
+        "Collei",
+        "Dehya",
+        "Itto",
+        "Traveler (Geo)",
+        "Rosaria",
+        "Diluc",
+        "Chongyun",
+        "Beidou",
+        "Xinyan",
+        "Noelle"
+      ],
+      "B": [
+        "Sara",
+        "Thoma",
+        "Traveler (Electro)",
+        "Traveler (Dendro)",
+        "Layla",
+        "Aloy",
+        "Ganyu",
+        "Diona",
+        "Fischl",
+        "Bennett",
+        "Barbara",
+        "Jean"
+      ],
+      "C": [
+        "Kaveh",
+        "Yun Jin",
+        "Raiden",
+        "Cyno",
+        "Nilou",
+        "Shinobu",
+        "Dori",
+        "Faruzan",
+        "Ayato",
+        "Heizou",
+        "Eula",
+        "Shenhe",
+        "Tartaglia",
+        "Traveler (Anemo)",
+        "Xiangling",
+        "Hu Tao",
+        "Xingqiu",
+        "Sucrose",
+        "Lisa"
+      ]
     }
   }
 }

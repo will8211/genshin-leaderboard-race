@@ -69,6 +69,41 @@
         "Razor",
         "Traveler (Geo)"
       ]
+    },
+    "Exploration": {
+      "SS": [
+        "Klee",
+        "Venti",
+        "Mona"
+      ],
+      "S": [
+        "Kaeya",
+        "Razor",
+        "Amber",
+        "Keqing",
+        "Ningguang",
+        "Qiqi"
+      ],
+      "A": [
+        "Diluc",
+        "Chongyun",
+        "Traveler (Geo)",
+        "Beidou",
+        "Noelle"
+      ],
+      "B": [
+        "Fischl",
+        "Bennett",
+        "Barbara",
+        "Jean"
+      ],
+      "C": [
+        "Xiangling",
+        "Traveler (Anemo)",
+        "Sucrose",
+        "Lisa",
+        "Xingqiu"
+      ]
     }
   }
 }

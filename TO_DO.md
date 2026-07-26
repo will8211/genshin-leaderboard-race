@@ -1,47 +1,27 @@
 # TO_DO
 
-## Current state
-- Milestone achieved: release ticks, snapshot manifest, canonical HTML cache, structure inspection, and completed-work validation/reporting are in place.
-- Primary unknowns are in extraction strategy design for historical layout drift.
+We currently have three invocation styles in one pipeline:
 
-## Remaining work (high level)
-1. Implement phase-4 extraction core.
-2. Replan downstream transformation/validation steps after extraction spikes establish realistic parser boundaries.
+```sh
+uv run extract-rankings ...
+uv run python extract_rankings/html_to_json.py ...
+uv run python -m generate_csv.cli ...
+```
 
-## Extraction options under consideration
-### Option A: Single hardcoded parser, iterate on breakage
-- Build one BeautifulSoup parser around first working version.
-- Run across versions until it breaks, then patch or fork parser.
-- Repeat by era.
+The clean endpoint would be four consistent console scripts:
+```sh
+uv run extract-rankings --all --force
+uv run extract-rankings-json
+uv run extract-rankings-json-names
+uv run generate-rankings-csv
+```
 
-Pros
-- Fastest initial progress.
-- Low design overhead.
+The exact pyproject.toml goal:
 
-Risks
-- Parser sprawl and brittle maintenance.
-- Harder to test and reason about confidence over time.
-
-### Option B: Minimal section extraction + version-aware conditions
-- Use BeautifulSoup to isolate small relevant sections from each page.
-- Keep explicit version-range conditionals for extraction behavior.
-- Add new era rules without deleting previous ones.
-- Optionally apply LLM post-processing to extracted candidates into structured JSON.
-
-Pros
-- Better long-term maintainability.
-- Easier diagnostics and selective reruns.
-
-Risks
-- More upfront design effort.
-- LLM path needs strict schema and guardrails if used.
-
-## Decision questions before replanning
-1. What is the smallest stable table/section signature that works across at least two eras?
-2. Should LLM be restricted to normalization only (never row discovery)?
-3. What confidence/failure taxonomy is required for parser outputs?
-4. Which two versions should be the first golden fixtures for the new extraction baseline?
-
-## Exit signal for next planning cycle
-- Complete exploratory spikes and return with verified extraction findings.
-- Then produce a fresh implementation plan based on evidence from those spikes.
+```toml
+[project.scripts]
+extract-rankings = "extract_rankings.cli:main"
+extract-rankings-json = "extract_rankings.html_to_json:main"
+extract-rankings-json-names = "..."
+generate-rankings-csv = "generate_csv.cli:main"
+```

@@ -12,6 +12,7 @@ ROLE_TO_OUTPUT = {
     "Main DPS": "main_dps.csv",
     "Sub-DPS": "sub_dps.csv",
     "Support": "support.csv",
+    "Exploration": "exploration.csv",
 }
 TIER_ORDER = ("SSS", "SS", "S", "A", "B", "C")
 

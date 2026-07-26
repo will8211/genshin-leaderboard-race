@@ -9,6 +9,7 @@ uv run python -m generate_csv.cli ...
 ```
 
 The clean endpoint would be four consistent console scripts:
+
 ```sh
 uv run extract-rankings --all --force
 uv run extract-rankings-json

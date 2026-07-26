@@ -28,81 +28,99 @@
 
 "1.2B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(6)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(20)"
 
 "1.3A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(5)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(20)"
 
 "1.3B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(7)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(28)"
 
 "1.4B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(6)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(27)"
 
 "1.5A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(7)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(28)"
 
 "1.5B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(7)"
+    "Exploration": "table:nth-of-type(28)"
 
 "1.6B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(6)"
+    "Exploration": "table:nth-of-type(30)"
 
 "2.0A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(6)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(30)"
+
 "2.0B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(8)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(32)"
+
 "2.1A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(31)"
+
 "2.1B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(32)"
+
 "2.2B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(30)"
+
 "2.3B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "2.4A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(32)"
+
 "2.5A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(34)"
+
 "2.6A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(35)"
+
 "2.7A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "2.7B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(35)"
+
 "2.8A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "3.0A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "3.0B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "3.1A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "3.1B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "3.2A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
 
 "3.2B":
   - "Main DPS, Sub-DPS, Support": null
@@ -110,124 +128,164 @@
 
 "3.3A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(33)"
+
 "3.4A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "3.5A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "3.5B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "3.6B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "3.7A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "4.0A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "4.0B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(36)"
+
 "4.1A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "4.1B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "4.2A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "4.3A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "4.3B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "4.4A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "4.5A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "4.6A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "4.7A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "4.7B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "4.8B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.0A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.0B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.1A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.2A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.3A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.3B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "5.4A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "5.5A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "5.6A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(37)"
+
 "5.7A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "5.8A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "6.0A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(37)"
+
 "6.0B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
+
 "6.1A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "6.2A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "6.3A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "6.3B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(40)"
+
 "6.4A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "6.5A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(40)"
+
 "6.6A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(39)"
+
 "6.6B":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(4)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(40)"
+
 "6.7A":
   - "Main DPS, Sub-DPS, Support": "table:nth-of-type(3)"
-    "Exploration": ""
+    "Exploration": "table:nth-of-type(38)"
